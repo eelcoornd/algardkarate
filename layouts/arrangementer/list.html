@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>Arrangementer</h1>
+{{ range .Site.Data.spond_events }}
+  {{ if not .cancelled }}
+  <div class="arrangement">
+    <h2>{{ .title }}</h2>
+    <p>📅 {{ .start | time.Format "02.01.2006 15:04" }}</p>
+    <p>📍 {{ .location }}</p>
+    <p>{{ .description }}</p>
+  </div>
+  {{ end }}
+{{ end }}
+{{ end }}
