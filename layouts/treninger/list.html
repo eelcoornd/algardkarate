@@ -6,25 +6,192 @@
   <title>{{ .Title }} - {{ .Site.Title }}</title>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f5f5; }
+
+    .top-header { background: #1b5e20; color: white; display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; }
+    .top-header a { color: white; text-decoration: none; font-size: 18px; }
+    .top-header .site-title { font-size: 17px; font-weight: 600; }
+
+    .page-hero { background: #c0174c; padding: 20px 16px; color: white; display: flex; align-items: center; gap: 14px; }
+    .page-hero .icon-wrap { background: rgba(255,255,255,0.2); border-radius: 50%; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; }
+
+    .calendar-container { background: #c0174c; margin: 16px; border-radius: 12px; padding: 16px; color: white; }
+    .calendar-header { display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 1.05rem; margin-bottom: 12px; }
+    .calendar-header button { background: none; border: none; color: white; font-size: 2rem; cursor: pointer; line-height: 1; padding: 0 8px; }
+    .calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+    .day-label { text-align: center; font-size: 0.72rem; opacity: 0.8; padding-bottom: 6px; font-weight: 600; }
+    .day-cell { text-align: center; padding: 7px 2px; border-radius: 50%; cursor: pointer; font-size: 0.92rem; position: relative; }
+    .day-cell:not(.empty):hover { background: rgba(255,255,255,0.25); }
+    .day-cell.empty { cursor: default; }
+    .day-cell.today { border: 2px solid white; font-weight: bold; }
+    .day-cell.has-event::after { content: ""; position: absolute; bottom: 1px; left: 50%; transform: translateX(-50%); width: 5px; height: 5px; background: white; border-radius: 50%; }
+    .day-cell.selected { background: white !important; color: #c0174c !important; font-weight: bold; }
+
+    .event-list { padding: 0 16px 80px; }
+    .event-date-heading { font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin: 16px 0 8px; }
+    .event-card { background: white; border-radius: 12px; padding: 16px; margin-bottom: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+    .event-card.cancelled { opacity: 0.55; }
+    .event-card-top { display: flex; justify-content: space-between; align-items: flex-start; }
+    .event-time-badge { background: #c0174c; color: white; font-size: 0.78rem; font-weight: 700; padding: 3px 9px; border-radius: 20px; white-space: nowrap; margin-left: 8px; }
+    .event-title { font-size: 1rem; font-weight: 700; color: #1a1a1a; margin-bottom: 4px; }
+    .event-meta { font-size: 0.82rem; color: #666; margin-top: 4px; }
+    .cancelled-badge { display: inline-block; background: #e53e3e; color: white; font-size: 0.68rem; padding: 1px 7px; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
+    .event-desc { font-size: 0.8rem; color: #555; margin-top: 10px; padding-top: 10px; border-top: 1px solid #f0f0f0; line-height: 1.5; }
+    .no-events { text-align: center; color: #aaa; padding: 30px 0; font-size: 0.9rem; }
+
+    .bottom-nav { position: fixed; bottom: 0; left: 0; right: 0; background: white; border-top: 1px solid #eee; display: flex; justify-content: space-around; padding: 8px 0 12px; z-index: 100; }
+    .bottom-nav a { display: flex; flex-direction: column; align-items: center; font-size: 0.65rem; color: #999; text-decoration: none; gap: 3px; }
+    .bottom-nav a.active, .bottom-nav a:hover { color: #c0174c; }
+    .bottom-nav i { font-size: 1.2rem; }
+  </style>
 </head>
 <body>
-  <header class="top-header">
-    <a href="/" style="color:white;text-decoration:none"><i class="fas fa-arrow-left"></i></a>
-    <span class="site-title">Algard Karate</span>
-    <div style="width:20px"></div>
-  </header>
-  <div style="padding:16px;">
-    <p style="color:#666;font-size:13px;margin-bottom:16px;">Velg en kategori</p>
-    <div class="belt-list">
-      {{ range sort .Pages "Params.weight" "asc" }}
-      <a href="{{ .Permalink }}" class="belt-card">
-        <div class="cat-icon" style="background:{{ .Params.icon_bg | default `#f0f0f0` }}"><i class="fas {{ .Params.icon | default `fa-file` }}" style="color:{{ .Params.icon_color | default `#555` }}"></i></div>
-        <div class="belt-info"><span class="belt-title">{{ .Title }}</span></div>
-        <i class="fas fa-chevron-right" style="color:#ccc"></i>
-      </a>
-      {{ end }}
-    </div>
+
+<header class="top-header">
+  <a href="/"><i class="fas fa-arrow-left"></i></a>
+  <span class="site-title">Treninger</span>
+  <div style="width:28px"></div>
+</header>
+
+<div class="page-hero">
+  <div class="icon-wrap"><i class="fas fa-calendar-alt fa-xl"></i></div>
+  <div>
+    <h2 style="font-size:20px;font-weight:700;">Treninger</h2>
+    <p style="opacity:0.85;font-size:13px;">Algard Karateklubb</p>
   </div>
-  {{ partial "bottom-nav.html" . }}
+</div>
+
+<div class="calendar-container">
+  <div class="calendar-header">
+    <button id="prev-month">&#8249;</button>
+    <span id="month-year"></span>
+    <button id="next-month">&#8250;</button>
+  </div>
+  <div class="calendar-grid">
+    <div class="day-label">SU</div><div class="day-label">MO</div>
+    <div class="day-label">TI</div><div class="day-label">ON</div>
+    <div class="day-label">TO</div><div class="day-label">FR</div>
+    <div class="day-label">LO</div>
+    <div id="calendar-days" style="display:contents"></div>
+  </div>
+</div>
+
+<div class="event-list" id="event-list">
+  <p class="no-events">Laster treninger...</p>
+</div>
+
+<nav class="bottom-nav">
+  <a href="/"><i class="fas fa-home"></i>Hjem</a>
+  <a href="/nyheter/"><i class="fas fa-newspaper"></i>Nyheter</a>
+  <a href="/treninger/" class="active"><i class="fas fa-calendar-alt"></i>Treninger</a>
+  <a href="/syllabus/"><i class="fas fa-book"></i>Syllabus</a>
+  <a href="/mer/"><i class="fas fa-ellipsis-h"></i>Mer</a>
+</nav>
+
+{{ $events := slice }}
+{{ if fileExists "data/spond_events.json" }}
+  {{ $events = getJSON "data/spond_events.json" }}
+{{ end }}
+
+<script>
+const EVENTS = {{ $events | jsonify }};
+
+let currentDate = new Date();
+let selectedDate = null;
+
+const monthNames = ["JANUAR","FEBRUAR","MARS","APRIL","MAI","JUNI",
+                    "JULI","AUGUST","SEPTEMBER","OKTOBER","NOVEMBER","DESEMBER"];
+const norDays = ["SU","MO","TI","ON","TO","FR","LO"];
+
+function pad(n) { return String(n).padStart(2, "0"); }
+function toDateStr(d) { return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; }
+function todayStr() { return toDateStr(new Date()); }
+
+function buildCalendar(year, month) {
+  document.getElementById("month-year").textContent = monthNames[month] + " " + year;
+  const grid = document.getElementById("calendar-days");
+  grid.innerHTML = "";
+
+  const eventDates = new Set(EVENTS.map(e => e.start.slice(0, 10)));
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const today = todayStr();
+
+  for (let i = 0; i < firstDay; i++) {
+    const b = document.createElement("div");
+    b.className = "day-cell empty";
+    grid.appendChild(b);
+  }
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const ds = `${year}-${pad(month+1)}-${pad(d)}`;
+    const cell = document.createElement("div");
+    cell.className = "day-cell";
+    cell.textContent = d;
+    if (ds === today) cell.classList.add("today");
+    if (eventDates.has(ds)) cell.classList.add("has-event");
+    if (ds === selectedDate) cell.classList.add("selected");
+    cell.addEventListener("click", () => {
+      selectedDate = ds;
+      buildCalendar(year, month);
+      showEvents(ds);
+    });
+    grid.appendChild(cell);
+  }
+}
+
+function showEvents(dateStr) {
+  const list = document.getElementById("event-list");
+  const dayEvents = EVENTS.filter(e => e.start.slice(0, 10) === dateStr);
+
+  // Format heading date
+  const dt = new Date(dateStr + "T12:00:00");
+  const heading = dt.toLocaleDateString("no-NO", { weekday: "long", day: "numeric", month: "long" });
+  const capHeading = heading.charAt(0).toUpperCase() + heading.slice(1);
+
+  if (dayEvents.length === 0) {
+    list.innerHTML = `<p class="event-date-heading">${capHeading}</p><p class="no-events">Ingen treninger denne dagen.</p>`;
+    return;
+  }
+
+  list.innerHTML = `<p class="event-date-heading">${capHeading}</p>` + dayEvents.map(e => {
+    const start = new Date(e.start);
+    const end = new Date(e.end);
+    const timeStr = start.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"})
+                  + "\u2013"
+                  + end.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"});
+    const cancelBadge = e.cancelled ? '<span class="cancelled-badge">Avlyst</span>' : "";
+    const loc = e.location ? `<div class="event-meta"><i class="fas fa-map-marker-alt" style="color:#c0174c;margin-right:4px"></i>${e.location}</div>` : "";
+    const desc = e.description ? `<div class="event-desc">${e.description}</div>` : "";
+    return `
+      <div class="event-card ${e.cancelled ? "cancelled" : ""}">
+        <div class="event-card-top">
+          <div class="event-title">${e.title}${cancelBadge}</div>
+          <span class="event-time-badge">${timeStr}</span>
+        </div>
+        ${loc}${desc}
+      </div>`;
+  }).join("");
+}
+
+document.getElementById("prev-month").addEventListener("click", () => {
+  currentDate.setMonth(currentDate.getMonth() - 1);
+  buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
+  if (selectedDate) showEvents(selectedDate);
+});
+document.getElementById("next-month").addEventListener("click", () => {
+  currentDate.setMonth(currentDate.getMonth() + 1);
+  buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
+  if (selectedDate) showEvents(selectedDate);
+});
+
+// Init: vis dagens events
+selectedDate = todayStr();
+buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
+showEvents(selectedDate);
+</script>
+
 </body>
 </html>
