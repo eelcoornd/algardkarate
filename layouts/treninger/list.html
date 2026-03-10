@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treninger – {{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .treninger-page { max-width: 420px; margin: 0 auto; font-family: sans-serif; }
+    .kalender-header { background: #c0175d; border-radius: 12px 12px 0 0; padding: 16px; color: white; }
+    .kal-nav { display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 1.1em; margin-bottom: 12px; }
+    .kal-nav button { background: none; border: none; color: white; font-size: 1.5em; cursor: pointer; }
+    .kal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; text-align: center; }
+    .kal-day-header { font-size: 0.75em; opacity: 0.8; padding-bottom: 4px; }
+    .kal-dag { padding: 6px 4px; border-radius: 6px; cursor: pointer; font-size: 0.9em; }
+    .kal-dag:hover { background: rgba(255,255,255,0.2); }
+    .kal-dag.har-event { background: #4caf50; color: white; border-radius: 50%; }
+    .kal-dag.i-dag { border: 2px solid white; border-radius: 50%; }
+    .event-liste { background: white; border-radius: 0 0 12px 12px; padding: 8px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .event-item { display: flex; justify-content: space-between; align-items: flex-start; padding: 12px 16px; border-bottom: 1px solid #f0f0f0; }
+    .event-item:last-child { border-bottom: none; }
+    .event-info strong { display: block; font-size: 1em; }
+    .event-info p { margin: 2px 0 0; font-size: 0.8em; color: #888; }
+    .event-tid { text-align: right; }
+    .start-tid { color: #4caf50; font-weight: bold; display: block; }
+    .slutt-tid { font-size: 0.8em; color: #aaa; }
+  </style>
+</head>
+<body>
+
+  <header class="top-header">
+    <a href="/" style="color:white;text-decoration:none"><i class="fas fa-arrow-left"></i></a>
+    <span class="site-title">Treninger</span>
+    <i class="fas fa-user profile-icon"></i>
+  </header>
+
+  <div style="padding: 16px;">
+  <div class="treninger-page">
+    <div class="kalender-header">
+      <div id="kalender"></div>
+    </div>
+    <div class="event-liste" id="event-liste">
+      {{ range .Site.Data.spond_events }}
+        {{ if not .cancelled }}
+        <div class="event-item" data-date="{{ .start | time.Format "2006-01-02" }}">
+          <div class="event-info">
+            <strong>{{ .title }}</strong>
+            <p>{{ .description }}</p>
+          </div>
+          <div class="event-tid">
+            <span class="start-tid">{{ .start | time.Format "15:04" }}</span>
+            <span class="slutt-tid">– {{ .end | time.Format "15:04" }}</span>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  </div>
+
+  <div style="height:80px"></div>
+
+  <nav class="bottom-nav">
+    <a href="/" class="nav-item">
+      <i class="fas fa-home"></i><span>Hjem</span>
+    </a>
+    <a href="/nyheter/" class="nav-item">
+      <i class="fas fa-newspaper"></i><span>Nyheter</span>
+    </a>
+    <a href="/treninger/" class="nav-item active">
+      <i class="fas fa-calendar"></i><span>Treninger</span>
+    </a>
+    <a href="/syllabus/" class="nav-item">
+      <i class="fas fa-book-open"></i><span>Syllabus</span>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="fas fa-th"></i><span>Mer</span>
+    </a>
+  </nav>
+
+<script>
+const events = [
+  {{ range .Site.Data.spond_events }}{{ if not .cancelled }}
+  { date: "{{ .start | time.Format "2006-01-02" }}", title: "{{ .title }}" },
+  {{ end }}{{ end }}
+];
+
+function buildCalendar(year, month) {
+  const months = ["JANUAR","FEBRUAR","MARS","APRIL","MAI","JUNI","JULI","AUGUST","SEPTEMBER","OKTOBER","NOVEMBER","DESEMBER"];
+  const days = ["SU","MO","TI","ON","TO","FR","LØ"];
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const today = new Date();
+  let html = `<div class="kal-nav">
+    <button onclick="changeMonth(-1)">&#8249;</button>
+    <span>${months[month]} ${year}</span>
+    <button onclick="changeMonth(1)">&#8250;</button>
+  </div><div class="kal-grid">`;
+  days.forEach(d => html += `<div class="kal-day-header">${d}</div>`);
+  for (let i = 0; i < firstDay; i++) html += `<div></div>`;
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dateStr = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const hasEvent = events.some(e => e.date === dateStr);
+    const isToday = today.getDate() === d && today.getMonth() === month && today.getFullYear() === year;
+    html += `<div class="kal-dag ${hasEvent ? 'har-event' : ''} ${isToday ? 'i-dag' : ''}" onclick="filtrerDato('${dateStr}')">${d}</div>`;
+  }
+  html += `</div>`;
+  document.getElementById('kalender').innerHTML = html;
+}
+
+let currentYear = new Date().getFullYear();
+let currentMonth = new Date().getMonth();
+
+function changeMonth(dir) {
+  currentMonth += dir;
+  if (currentMonth > 11) { currentMonth = 0; currentYear++; }
+  if (currentMonth < 0) { currentMonth = 11; currentYear--; }
+  buildCalendar(currentYear, currentMonth);
+}
+
+function filtrerDato(dato) {
+  document.querySelectorAll('.event-item').forEach(el => {
+    el.style.display = el.dataset.date === dato ? 'flex' : 'none';
+  });
+}
+
+buildCalendar(currentYear, currentMonth);
+</script>
+</body>
+</html>
