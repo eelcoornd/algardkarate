@@ -16,18 +16,49 @@ jobs:
           submodules: true
 
       - name: Set up Python
+        uses: actions/setup-python@vPerfekt! Jeg ser strukturen. Vi legger Google Photos-stegene inn i den eksisterende filen og sletter `deploy.yml`:
+
+## Oppdater eksisterende workflow
+
+```bash
+cat > /Users/eelco.orn-dijkstra/projects/github-websites/website/.github/workflows/azure-static-web-apps-proud-rock-0b05ead03.yml << 'EOF'
+name: Azure Static Web Apps CI/CD
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+jobs:
+  build_and_deploy_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Install Spond library
-        run: pip install spond
+      - name: Install dependencies
+        run: pip install spond requests
 
       - name: Fetch Spond events
         env:
           SPOND_USERNAME: ${{ secrets.SPOND_USERNAME }}
           SPOND_PASSWORD: ${{ secrets.SPOND_PASSWORD }}
         run: python scripts/fetch_spond_events.py
+
+      - name: Fetch Google Photos albums
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: python scripts/fetch_albums.py
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
