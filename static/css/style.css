@@ -139,3 +139,15 @@ body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; max-width: 480p
 .syllabus-content h1, .syllabus-content h2 { font-size: 17px; margin: 16px 0 8px; color: #111; }
 .syllabus-content ol, .syllabus-content ul { padding-left: 20px; margin-bottom: 12px; }
 .syllabus-content li { margin-bottom: 6px; }
+
+.belt-list { display:flex; flex-direction:column; gap:10px; }
+.belt-card { background:white; border-radius:14px; display:flex; align-items:center; gap:14px; padding:14px 16px; text-decoration:none; color:#222; box-shadow:0 2px 8px rgba(0,0,0,0.07); }
+.belt-stripe { width:8px; height:48px; border-radius:4px; flex-shrink:0; }
+.belt-info { flex:1; display:flex; flex-direction:column; gap:3px; }
+.belt-level { font-size:11px; font-weight:700; color:#888; text-transform:uppercase; }
+.belt-title { font-size:15px; font-weight:600; }
+.syllabus-content { font-size:15px; line-height:1.8; color:#333; }
+.syllabus-content h2 { font-size:16px; font-weight:700; margin:16px 0 8px; color:#111; border-bottom:1px solid #eee; padding-bottom:4px; }
+.syllabus-content ol, .syllabus-content ul { padding-left:20px; margin-bottom:12px; }
+.syllabus-content li { margin-bottom:6px; }
+.syllabus-content strong { color:#111; }
