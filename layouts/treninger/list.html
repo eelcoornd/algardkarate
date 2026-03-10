@@ -80,7 +80,7 @@
 {{ $events = . | transform.Unmarshal }}
 {{ end }}
 <script>
-const EVENTS = {{ $events | jsonify }};
+const EVENTS = {{ $events | jsonify | safeJS }};
 
 let currentDate = new Date();
 let selectedDate = null;
