@@ -13,7 +13,7 @@ if not USERNAME or not PASSWORD:
     sys.exit(1)
 
 # Titles å ekskludere (ikke relevante for treningsoversikt)
-EXCLUDE_TITLES = {"påskeferie", "Påskeferie veke 14", "2.pinsedag", "Himmelfartsdag", "siste skuledag for elevane"}
+EXCLUDE_TITLES = {"påskeferie", "Påskeferie veke 14", "2.pinsedag", "Himmelfartsdag", "siste skuledag for elevane", "Hjelpetrener", "Gradering øvelse"}
 
 print(f"Logging in as {USERNAME[:3]}***", flush=True)
 

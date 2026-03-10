@@ -1,28 +1,10 @@
 [
   {
-    "id": "DD17EC5AEA2B450C977A8B0CF89169A1",
-    "title": "Gradering \u00f8velse",
-    "start": "2026-03-11T17:00:00Z",
-    "end": "2026-03-11T20:30:00Z",
-    "description": "",
-    "location": "",
-    "cancelled": false
-  },
-  {
     "id": "DC3F061AA2294680B7FEA51EEDD55F62",
     "title": "Karatetrening Nybegynnere + 10kyu",
     "start": "2026-03-11T17:00:00Z",
     "end": "2026-03-11T18:00:00Z",
     "description": "Velkommen til karatetrening for nybegynnere og 10kyu\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko. \n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "2FB9D0396E6F44F0968179BA01C9611E",
-    "title": "Hjelpetrener",
-    "start": "2026-03-11T17:00:00Z",
-    "end": "2026-03-11T18:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -54,15 +36,6 @@
     "cancelled": false
   },
   {
-    "id": "69065418BA554C368B82B7AC08B7BC8D",
-    "title": "Hjelpetrener",
-    "start": "2026-03-16T17:00:00Z",
-    "end": "2026-03-16T18:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "1C5E9840F71F4473A37B41A0F42EA26E",
     "title": "Slag + stilling",
     "start": "2026-03-16T17:00:00Z",
@@ -77,15 +50,6 @@
     "start": "2026-03-16T18:00:00Z",
     "end": "2026-03-16T19:30:00Z",
     "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "C5ACD81867AB4807814AE4F75618E23F",
-    "title": "Hjelpetrener",
-    "start": "2026-03-18T17:00:00Z",
-    "end": "2026-03-18T18:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -135,15 +99,6 @@
     "cancelled": false
   },
   {
-    "id": "658C4098A38A4C5BA80E24552A96216F",
-    "title": "Hjelpetrener",
-    "start": "2026-03-23T17:00:00Z",
-    "end": "2026-03-23T18:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "1D2AEA88B9F74442A1C87152983D1037",
     "title": "Karatetrening Nybegynnere + 10kyu",
     "start": "2026-03-23T17:00:00Z",
@@ -168,15 +123,6 @@
     "end": "2026-03-25T20:30:00Z",
     "description": "",
     "location": "",
-    "cancelled": false
-  },
-  {
-    "id": "B81D780494014DB1A96BDE08E3031F71",
-    "title": "Hjelpetrener",
-    "start": "2026-03-25T17:00:00Z",
-    "end": "2026-03-25T18:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
     "cancelled": false
   },
   {
@@ -216,15 +162,6 @@
     "cancelled": false
   },
   {
-    "id": "805906FDC4774D8C90BE65FA5B6E2DFA",
-    "title": "Hjelpetrener",
-    "start": "2026-03-30T16:00:00Z",
-    "end": "2026-03-30T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": true
-  },
-  {
     "id": "38789B345DE24F4A91708BBC8B59704E",
     "title": "Karatetrening graderte",
     "start": "2026-03-30T17:00:00Z",
@@ -232,15 +169,6 @@
     "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
     "location": "B\u00e6rland skole",
     "cancelled": false
-  },
-  {
-    "id": "0988BB7A7C6340B09BFCB88418C355D4",
-    "title": "Hjelpetrener",
-    "start": "2026-04-01T16:00:00Z",
-    "end": "2026-04-01T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": true
   },
   {
     "id": "004AA2AAB3C34C90AE31F6BBBDD14489",
@@ -279,15 +207,6 @@
     "cancelled": false
   },
   {
-    "id": "05570AEC4D6B4901A7C3F2F966BD4C33",
-    "title": "Hjelpetrener",
-    "start": "2026-04-06T16:00:00Z",
-    "end": "2026-04-06T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": true
-  },
-  {
     "id": "33F06FBB73114BFC9A67562F3E9373B9",
     "title": "Karatetrening graderte",
     "start": "2026-04-06T17:00:00Z",
@@ -311,15 +230,6 @@
     "start": "2026-04-08T16:00:00Z",
     "end": "2026-04-08T17:00:00Z",
     "description": "Velkommen til karatetrening for nybegynnere og 10kyu\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko. \n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "1E1EDB30AFA64617B0510070CAE61569",
-    "title": "Hjelpetrener",
-    "start": "2026-04-08T16:00:00Z",
-    "end": "2026-04-08T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -360,15 +270,6 @@
     "cancelled": false
   },
   {
-    "id": "37840B7D88424042B59B8AC715A07F7C",
-    "title": "Hjelpetrener",
-    "start": "2026-04-13T16:00:00Z",
-    "end": "2026-04-13T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "1768059C73724EDC9C53F352DB26F347",
     "title": "Karatetrening graderte",
     "start": "2026-04-13T17:00:00Z",
@@ -392,15 +293,6 @@
     "start": "2026-04-15T16:00:00Z",
     "end": "2026-04-15T17:00:00Z",
     "description": "Velkommen til karatetrening for nybegynnere og 10kyu\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko. \n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "21277FD9DD164630B5B9E6EE41A55318",
-    "title": "Hjelpetrener",
-    "start": "2026-04-15T16:00:00Z",
-    "end": "2026-04-15T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -441,29 +333,11 @@
     "cancelled": false
   },
   {
-    "id": "1D86A005141B44D3BE714414D8B7B7AA",
-    "title": "Hjelpetrener",
-    "start": "2026-04-20T16:00:00Z",
-    "end": "2026-04-20T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "4D77A6AFEA5146E7A711D9750F363FA0",
     "title": "Karatetrening graderte",
     "start": "2026-04-20T17:00:00Z",
     "end": "2026-04-20T18:30:00Z",
     "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "4FC86C3D1F934E579F03216EAB464113",
-    "title": "Hjelpetrener",
-    "start": "2026-04-22T16:00:00Z",
-    "end": "2026-04-22T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -513,15 +387,6 @@
     "cancelled": false
   },
   {
-    "id": "92C9F5A1C5404A7D8FA5A2D37475702F",
-    "title": "Hjelpetrener",
-    "start": "2026-04-27T16:00:00Z",
-    "end": "2026-04-27T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "1CCBE53F4DE24E339F40ADFE415913D8",
     "title": "Karatetrening Nybegynnere + 10kyu",
     "start": "2026-04-27T16:00:00Z",
@@ -536,15 +401,6 @@
     "start": "2026-04-27T17:00:00Z",
     "end": "2026-04-27T18:30:00Z",
     "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "D336EF31A83A43E68C89A79E778DA684",
-    "title": "Hjelpetrener",
-    "start": "2026-04-29T16:00:00Z",
-    "end": "2026-04-29T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -585,30 +441,12 @@
     "cancelled": false
   },
   {
-    "id": "D1A33140946A4F45A6AC3B58727C4D28",
-    "title": "Hjelpetrener",
-    "start": "2026-05-04T16:00:00Z",
-    "end": "2026-05-04T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "C107D51C195B411E8202E74ECE3DF1A9",
     "title": "Karatetrening Nybegynnere + 10kyu",
     "start": "2026-05-04T16:00:00Z",
     "end": "2026-05-04T17:00:00Z",
     "description": "Velkommen til karatetrening for nybegynnere og 10kyu\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko. \n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
     "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "97A15B3EDAEB43ADB26A932D8D7A7290",
-    "title": "Gradering \u00f8velse",
-    "start": "2026-05-04T16:00:00Z",
-    "end": "2026-05-04T19:30:00Z",
-    "description": "",
-    "location": "",
     "cancelled": false
   },
   {
@@ -621,29 +459,11 @@
     "cancelled": false
   },
   {
-    "id": "E5A37E32E4D94D949504CE508D94CAD5",
-    "title": "Gradering \u00f8velse",
-    "start": "2026-05-06T16:00:00Z",
-    "end": "2026-05-06T19:30:00Z",
-    "description": "",
-    "location": "",
-    "cancelled": false
-  },
-  {
     "id": "9D23893FEBB64286A0480F6E6D135E9B",
     "title": "Karatetrening Nybegynnere + 10kyu",
     "start": "2026-05-06T16:00:00Z",
     "end": "2026-05-06T17:00:00Z",
     "description": "Velkommen til karatetrening for nybegynnere og 10kyu\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko. \n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "5C87D6CB660E44A5A8060AE19393F51C",
-    "title": "Hjelpetrener",
-    "start": "2026-05-06T16:00:00Z",
-    "end": "2026-05-06T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -662,15 +482,6 @@
     "start": "2026-05-07T17:00:00Z",
     "end": "2026-05-07T18:00:00Z",
     "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "95A9904B70DD4003804033F704DC24A3",
-    "title": "Hjelpetrener",
-    "start": "2026-05-11T16:00:00Z",
-    "end": "2026-05-11T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -711,15 +522,6 @@
     "cancelled": false
   },
   {
-    "id": "45B65181868C4084900C46F7D4E04ED7",
-    "title": "Hjelpetrener",
-    "start": "2026-05-13T16:00:00Z",
-    "end": "2026-05-13T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "198F9258946E47AA8F74610631585F71",
     "title": "Slag + stilling",
     "start": "2026-05-13T16:00:00Z",
@@ -747,15 +549,6 @@
     "cancelled": false
   },
   {
-    "id": "EBBF07D3CBED46ABB271516D86D39853",
-    "title": "Hjelpetrener",
-    "start": "2026-05-18T16:00:00Z",
-    "end": "2026-05-18T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "14DEBAFBE5E245B9A3BC6B251FB2CCE9",
     "title": "Block + stilling",
     "start": "2026-05-18T16:00:00Z",
@@ -779,15 +572,6 @@
     "start": "2026-05-18T17:00:00Z",
     "end": "2026-05-18T18:30:00Z",
     "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "35BF81D6932E496D9CD2CB0305E0C5BE",
-    "title": "Hjelpetrener",
-    "start": "2026-05-20T16:00:00Z",
-    "end": "2026-05-20T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -826,15 +610,6 @@
     "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
     "location": "B\u00e6rland skole",
     "cancelled": false
-  },
-  {
-    "id": "985240B667774BEEB178FE6D34E9A5C7",
-    "title": "Hjelpetrener",
-    "start": "2026-05-25T16:00:00Z",
-    "end": "2026-05-25T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": true
   },
   {
     "id": "270A3C7F18BB4E39983FBC06B5D21A9D",
@@ -882,15 +657,6 @@
     "cancelled": false
   },
   {
-    "id": "13C1330FDB2C41C3BAEF33423A6D27ED",
-    "title": "Hjelpetrener",
-    "start": "2026-05-27T16:00:00Z",
-    "end": "2026-05-27T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
     "id": "3FB7F4250B45419DA65B512A1945E6C9",
     "title": "Karatetrening graderte",
     "start": "2026-05-27T17:00:00Z",
@@ -905,15 +671,6 @@
     "start": "2026-05-28T17:00:00Z",
     "end": "2026-05-28T18:00:00Z",
     "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "7DB6E45C672849AABAA6E1B0C7222A35",
-    "title": "Hjelpetrener",
-    "start": "2026-06-01T16:00:00Z",
-    "end": "2026-06-01T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },
@@ -950,15 +707,6 @@
     "start": "2026-06-03T16:00:00Z",
     "end": "2026-06-03T17:00:00Z",
     "description": "Velkommen til karatetrening for nybegynnere og 10kyu\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko. \n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
-    "location": "B\u00e6rland skole",
-    "cancelled": false
-  },
-  {
-    "id": "502934084A774B3389167858F10FC20D",
-    "title": "Hjelpetrener",
-    "start": "2026-06-03T16:00:00Z",
-    "end": "2026-06-03T17:00:00Z",
-    "description": "Hvilken oppgaver kan dere jobbe med:\n- starte med oppvarming\n- utt\u00f8ying p\u00e5 slutten\n- kata til 10 kyu\n- korrigere stilling\n- holde orden /disiplin i rekkene",
     "location": "B\u00e6rland skole",
     "cancelled": false
   },

@@ -76,8 +76,11 @@
 {{ partial "bottom-nav.html" . }}
 
 {{ $events := slice }}
-{{ with os.ReadFile "data/spond_events.json" }}
-{{ $events = . | transform.Unmarshal }}
+{{ if fileExists "data/spond_events.json" }}
+  {{ $raw := os.ReadFile "data/spond_events.json" }}
+  {{ if $raw }}
+    {{ $events = $raw | transform.Unmarshal }}
+  {{ end }}
 {{ end }}
 <script>
 const EVENTS = {{ $events | jsonify | safeJS }};
