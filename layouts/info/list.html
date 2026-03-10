@@ -14,8 +14,12 @@
 
   <main class="menu-list">
     {{ range .Pages }}
+    {{ $bg := .Params.icon_bg | default "#eeeeee" }}
+    {{ $color := .Params.icon_color | default "#333333" }}
     <a href="{{ .RelPermalink }}" class="menu-item">
-      {{ with .Params.icon }}<span class="menu-icon" style="background:{{ $.Params.icon_bg | default "#eee" }}"><i class="fas {{ . }}"></i></span>{{ end }}
+      <span class="menu-icon" style="background:{{ $bg }};color:{{ $color }};">
+        <i class="fas {{ .Params.icon | default "fa-file" }}"></i>
+      </span>
       <span class="menu-label">{{ .Title }}</span>
       <i class="fas fa-chevron-right menu-arrow"></i>
     </a>
