@@ -14,29 +14,11 @@
   <div style="background:#1a73e8;padding:24px 16px;color:white;display:flex;align-items:center;gap:14px;">
     <a href="/info/" style="color:white;text-decoration:none;margin-right:8px;"><i class="fas fa-arrow-left fa-lg"></i></a>
     <div style="background:rgba(255,255,255,0.2);border-radius:50%;width:52px;height:52px;display:flex;align-items:center;justify-content:center;"><i class="fas fa-images fa-xl"></i></div>
-    <div><h2 style="font-size:20px;font-weight:700;">{{ .Title }}</h2><p style="opacity:0.85;font-size:13px;">Algård Karateklubb</p></div>
+    <div><h2 style="font-size:20px;font-weight:700;">Bilder</h2><p style="opacity:0.85;font-size:13px;">Algård Karateklubb</p></div>
   </div>
 
   <div style="padding:20px 16px;">
-    {{ $albums := (index .Site.Data.albums "albums") }}
-    <div class="google-albums-grid">
-      {{ range $albums }}
-      <a class="google-album-card" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-        <div class="google-album-thumb">
-          {{ if .cover }}
-            <img src="{{ .cover }}" alt="{{ .title }}" loading="lazy" />
-          {{ else }}
-            <div class="google-album-placeholder">📷</div>
-          {{ end }}
-        </div>
-        <div class="google-album-info">
-          <span class="google-album-title">{{ .title }}</span>
-          <span class="google-album-count">{{ .count }} bilder</span>
-          <span class="google-album-link">Åpne i Google Photos ↗</span>
-        </div>
-      </a>
-      {{ end }}
-    </div>
+    {{ .Content }}
   </div>
 
   {{ partial "bottom-nav.html" . }}
