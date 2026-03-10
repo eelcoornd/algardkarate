@@ -16,30 +16,6 @@ jobs:
           submodules: true
 
       - name: Set up Python
-        uses: actions/setup-python@vPerfekt! Jeg ser strukturen. Vi legger Google Photos-stegene inn i den eksisterende filen og sletter `deploy.yml`:
-
-## Oppdater eksisterende workflow
-
-```bash
-cat > /Users/eelco.orn-dijkstra/projects/github-websites/website/.github/workflows/azure-static-web-apps-proud-rock-0b05ead03.yml << 'EOF'
-name: Azure Static Web Apps CI/CD
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-  schedule:
-    - cron: '0 6 * * *'
-
-jobs:
-  build_and_deploy_job:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true
-
-      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
