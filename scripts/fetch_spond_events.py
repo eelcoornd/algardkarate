@@ -1,5 +1,6 @@
 import asyncio
 import json
+from zoneinfo import ZoneInfo
 import os
 import sys
 from datetime import datetime, timezone
@@ -65,11 +66,18 @@ async def main():
         except:
             pass
 
+        oslo = ZoneInfo("Europe/Oslo")
+        def to_oslo(ts):
+            if not ts:
+                return ts
+            dt = datetime.fromisoformat(ts.replace("Z", "+00:00"))
+            return dt.astimezone(oslo).strftime("%Y-%m-%dT%H:%M:%S")
+
         output.append({
             "id": event.get("id", ""),
             "title": title,
-            "start": start,
-            "end": event.get("endTimestamp", ""),
+            "start": to_oslo(start),
+            "end": to_oslo(event.get("endTimestamp", "")),
             "description": event.get("description", ""),
             "location": event.get("location", {}).get("feature", "") if event.get("location") else "",
             "cancelled": event.get("cancelled") or False,

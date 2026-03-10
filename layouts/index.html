@@ -113,7 +113,7 @@
         </div>
         <div class="product-info">
           <span class="product-name">{{ $title }}</span>
-          {{ $oslo := time.LoadLocation "Europe/Oslo" }}{{ $start := (time .start).In $oslo }}<span class="product-desc">{{ $start.Format "Mon 02.01" }} {{ $start.Format "15:04" }}</span>
+          <span class="product-desc">{{ (time .start).Format "Mon 02.01" }} {{ (time .start).Format "15:04" }}</span>
           <span class="product-price">{{ with .location }}{{ . }}{{ else }}&nbsp;{{ end }}</span>
         </div>
         <button class="add-btn"><i class="fas fa-plus"></i></button>
