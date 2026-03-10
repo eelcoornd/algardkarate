@@ -1,135 +1,23 @@
-{{ define "main" }}
-<div class="treninger-page">
-
-  <div class="calendar-container">
-    <div class="calendar-header">
-      <button id="prev-month">&#8249;</button>
-      <span id="month-year"></span>
-      <button id="next-month">&#8250;</button>
-    </div>
-    <div class="calendar-grid">
-      <div class="day-label">SU</div><div class="day-label">MO</div>
-      <div class="day-label">TI</div><div class="day-label">ON</div>
-      <div class="day-label">TO</div><div class="day-label">FR</div>
-      <div class="day-label">LO</div>
-      <div id="calendar-days"></div>
-    </div>
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="top-header">
+    <a href="/nyheter/" style="color:white;text-decoration:none"><i class="fas fa-arrow-left"></i></a>
+    <span class="site-title">{{ .Title }}</span>
+    <div style="width:20px"></div>
+  </header>
+  <div style="background:{{ .Params.icon_color | default `#2e7d32` }};padding:24px 16px;color:white;display:flex;align-items:center;gap:14px;">
+    <div style="background:rgba(255,255,255,0.2);border-radius:50%;width:52px;height:52px;display:flex;align-items:center;justify-content:center;"><i class="fas {{ .Params.icon | default `fa-file` }} fa-xl"></i></div>
+    <div><h2 style="font-size:20px;font-weight:700;">{{ .Title }}</h2><p style="opacity:0.85;font-size:13px;">Algard Karateklubb</p></div>
   </div>
-
-  <div id="event-list" class="event-list">
-    <p class="no-events">Velg en dato for å se treninger.</p>
-  </div>
-
-</div>
-
-{{ $events := slice }}
-{{ if fileExists "data/spond_events.json" }}
-  {{ $events = getJSON "data/spond_events.json" }}
-{{ end }}
-
-<script>
-const EVENTS = {{ $events | jsonify }};
-
-let currentDate = new Date();
-let selectedDate = null;
-
-function formatDate(d) {
-  return d.toISOString().slice(0, 10);
-}
-
-function sameDay(a, b) {
-  return a.slice(0, 10) === b.slice(0, 10);
-}
-
-function buildCalendar(year, month) {
-  const monthNames = ["JANUAR","FEBRUAR","MARS","APRIL","MAI","JUNI",
-                      "JULI","AUGUST","SEPTEMBER","OKTOBER","NOVEMBER","DESEMBER"];
-  document.getElementById("month-year").textContent = monthNames[month] + " " + year;
-
-  const grid = document.getElementById("calendar-days");
-  grid.innerHTML = "";
-
-  const firstDay = new Date(year, month, 1).getDay();
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
-  const today = formatDate(new Date());
-
-  // Event dates set for quick lookup
-  const eventDates = new Set(EVENTS.map(e => e.start.slice(0, 10)));
-
-  // Empty cells before first day
-  for (let i = 0; i < firstDay; i++) {
-    const blank = document.createElement("div");
-    blank.className = "day-cell empty";
-    grid.appendChild(blank);
-  }
-
-  for (let d = 1; d <= daysInMonth; d++) {
-    const dateStr = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
-    const cell = document.createElement("div");
-    cell.className = "day-cell";
-    cell.textContent = d;
-
-    if (dateStr === today) cell.classList.add("today");
-    if (eventDates.has(dateStr)) cell.classList.add("has-event");
-    if (selectedDate && dateStr === selectedDate) cell.classList.add("selected");
-
-    cell.addEventListener("click", () => {
-      selectedDate = dateStr;
-      buildCalendar(year, month);
-      showEvents(dateStr);
-    });
-
-    grid.appendChild(cell);
-  }
-}
-
-function showEvents(dateStr) {
-  const list = document.getElementById("event-list");
-  const dayEvents = EVENTS.filter(e => e.start.slice(0, 10) === dateStr);
-
-  if (dayEvents.length === 0) {
-    list.innerHTML = `<p class="no-events">Ingen treninger denne dagen.</p>`;
-    return;
-  }
-
-  list.innerHTML = dayEvents.map(e => {
-    const start = new Date(e.start);
-    const end = new Date(e.end);
-    const timeStr = start.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"})
-                  + " \u2013 "
-                  + end.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"});
-    const cancelled = e.cancelled ? '<span class="cancelled-badge">Avlyst</span>' : '';
-    const loc = e.location ? `<div class="event-location">&#128205; ${e.location}</div>` : '';
-    const desc = e.description ? `<div class="event-desc">${e.description}</div>` : '';
-
-    return `
-      <div class="event-card ${e.cancelled ? 'cancelled' : ''}">
-        <div class="event-header">
-          <strong class="event-title">${e.title}</strong>
-          ${cancelled}
-        </div>
-        <div class="event-time">&#128337; ${timeStr}</div>
-        ${loc}
-        ${desc}
-      </div>`;
-  }).join("");
-}
-
-document.getElementById("prev-month").addEventListener("click", () => {
-  currentDate.setMonth(currentDate.getMonth() - 1);
-  buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
-  if (selectedDate) showEvents(selectedDate);
-});
-
-document.getElementById("next-month").addEventListener("click", () => {
-  currentDate.setMonth(currentDate.getMonth() + 1);
-  buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
-  if (selectedDate) showEvents(selectedDate);
-});
-
-// Init: show today's events automatically
-selectedDate = formatDate(new Date());
-buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
-showEvents(selectedDate);
-</script>
-{{ end }}
+  <div style="padding:20px 16px;"><div class="syllabus-content">{{ .Content }}</div></div>
+  {{ partial "bottom-nav.html" . }}
+</body>
+</html>
