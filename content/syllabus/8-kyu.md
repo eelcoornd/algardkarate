@@ -11,35 +11,35 @@ weight: 8
 
 | Teknikk | |
 |---|---|
-| Kiba Dachi | |
-| **Tsuru Ashi Dachi** | |
+| Kiba Dachi | <img src="/images/syllabus/kiba-dachi.png" style="height:80px;"> |
+| **Tsuru Ashi Dachi** | <img src="/images/syllabus/tsuru-ashi-dachi.png" style="height:80px;"> |
 | Kumite No Kamae | Dachi Waza - 立伎 |
 
 ### 2. Tsuki (Slag)
 
-| Teknikk | Beskrivelse |
-|---|---|
-| **Uraken Ganmen Uchi** | Back Fist to Front of Face |
-| **Uraken Sayu Ganmen Uchi** | Back Fist to Side of Face |
-| **Uraken Hizo Uchi** | Back Fist to Spleen |
-| **Uraken Mawashi Uchi** | Back Fist Strike to the Side of the Head |
-| **Uraken Oroshi Ganmen Uchi** | Back Fist Descending to Face |
+| Teknikk | Beskrivelse | |
+|---|---|---|
+| **Uraken Ganmen Uchi** | Back Fist to Front of Face | <img src="/images/syllabus/uraken-ganmen-uchi.png" style="height:80px;"> |
+| **Uraken Sayu Ganmen Uchi** | Back Fist to Side of Face | <img src="/images/syllabus/uraken-sayu-ganmen-uchi.png" style="height:80px;"> |
+| **Uraken Hizo Uchi** | Back Fist to Spleen | <img src="/images/syllabus/uraken-hizo-uchi.png" style="height:80px;"> |
+| **Uraken Mawashi Uchi** | Back Fist Strike to the Side of the Head | <img src="/images/syllabus/uraken-mawashi-uchi.png" style="height:80px;"> |
+| **Uraken Oroshi Ganmen Uchi** | Back Fist Descending to Face | <img src="/images/syllabus/uraken-oroshi-ganmen-uchi.png" style="height:80px;"> |
 
 ### 3. Uke (Blokkeringer)
 
-| Teknikk | Beskrivelse | Referanse |
+| Teknikk | Beskrivelse | |
 |---|---|---|
 | **Uchi Uke** Gedan Barai **Seiken/Shuto** | med begge hender samtidig | Kankū - 観空 - Jaap Kooman |
-| **Morote Chudan Uchi Uke** | Assisted Outside to Inside Block | |
+| **Morote Chudan Uchi Uke** | Assisted Outside to Inside Block | <img src="/images/syllabus/morote-chudan-uchi-uke.png" style="height:80px;"> |
 
 ### 4. Keri (Spark)
 
-| Teknikk | Referanse |
-|---|---|
-| Kansetsu Geri | Sokugi Taikyoku - Jaap Kooman |
-| Yoko Geri (Jodan, Chudan) | Sokugi Taikyoku - Jaap Kooman |
-| Mawashi Geri Chusoku (Jodan, Chudan, Gedan) | Kyokushin Kumite 極真本组手 - Jaap Kooman |
-| Mawashi Geri Haisoku (Jodan, Chudan, Gedan) | Garyu - 臥竜 - Jaap Kooman |
+| Teknikk | | Referanse |
+|---|---|---|
+| Kansetsu Geri | <img src="/images/syllabus/kansetsu-geri.png" style="height:80px;"> | Sokugi Taikyoku - Jaap Kooman |
+| Yoko Geri (Jodan, Chudan) | <img src="/images/syllabus/yoko-geri.png" style="height:80px;"> | Sokugi Taikyoku - Jaap Kooman |
+| Mawashi Geri Chusoku (Jodan, Chudan, Gedan) | <img src="/images/syllabus/mawashi-geri.png" style="height:80px;"> | Kyokushin Kumite 極真本组手 - Jaap Kooman |
+| Mawashi Geri Haisoku (Jodan, Chudan, Gedan) | | Garyu - 臥竜 - Jaap Kooman |
 
 ### Ido (Grunnleggende bevegelser)
 
@@ -72,14 +72,14 @@ weight: 8
 
 ## B. Fysiske øvelser
 
-| Øvelse | Krav | |
-|---|---|---|
-| Fleksibilitet | Hodet berører gulvet fra sittende posisjon med spredte ben | |
-| Armhevinger | 30 | |
-| Mageøvelser | 50 | fitness test |
-| Spensthopp | 30 | |
-| Heving til hake | 5 | |
-| Hopp (Tobi Geri) | Egen høyde + 10cm | |
+| Øvelse | Krav |
+|---|---|
+| Fleksibilitet | Hodet berører gulvet fra sittende posisjon med spredte ben |
+| Armhevinger | 30 |
+| Mageøvelser | 50 |
+| Spensthopp | 30 |
+| Heving til hake | 5 |
+| Hopp (Tobi Geri) | Egen høyde + 10cm |
 
 ---
 
