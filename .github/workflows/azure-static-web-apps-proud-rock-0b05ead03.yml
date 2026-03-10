@@ -21,20 +21,13 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install spond requests
+        run: pip install spond
 
       - name: Fetch Spond events
         env:
           SPOND_USERNAME: ${{ secrets.SPOND_USERNAME }}
           SPOND_PASSWORD: ${{ secrets.SPOND_PASSWORD }}
         run: python scripts/fetch_spond_events.py
-
-      - name: Fetch Google Photos albums
-        env:
-          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
-          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
-          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-        run: python scripts/fetch_albums.py
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
