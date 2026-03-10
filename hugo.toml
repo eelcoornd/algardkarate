@@ -6,3 +6,8 @@ title = "Algård Karate"
   name = "Treninger"
   url = "/treninger/"
   weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
