@@ -90,9 +90,10 @@
   <a href="/mer/"><i class="fas fa-ellipsis-h"></i>Mer</a>
 </nav>
 
-{{ $events := slice }}
-{{ if fileExists "data/spond_events.json" }}
-  {{ $events = getJSON "data/spond_events.json" }}
+{{  := slice }}
+{{  := "data/spond_events.json" }}
+{{ if fileExists  }}
+  {{  =  | os.ReadFile | transform.Unmarshal }}
 {{ end }}
 
 <script>
