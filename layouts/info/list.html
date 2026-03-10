@@ -15,7 +15,7 @@
   <main class="menu-list">
     {{ range .Pages }}
     <a href="{{ .RelPermalink }}" class="menu-item">
-      {{ with .Params.icon }}<span class="menu-icon" style="background:{{ $.Params.icon_bg | default "#eee" }}"><i class="{{ . }}"></i></span>{{ end }}
+      {{ with .Params.icon }}<span class="menu-icon" style="background:{{ $.Params.icon_bg | default "#eee" }}"><i class="fas {{ . }}"></i></span>{{ end }}
       <span class="menu-label">{{ .Title }}</span>
       <i class="fas fa-chevron-right menu-arrow"></i>
     </a>
