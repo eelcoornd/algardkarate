@@ -1,10 +1,11 @@
 import asyncio
 import json
+import os
 from datetime import datetime, timezone
 from spond import spond
 
-USERNAME = "algard.karate@gmail.com"
-PASSWORD = "careen-were-waiter01"
+USERNAME = os.environ["SPOND_USERNAME"]
+PASSWORD = os.environ["SPOND_PASSWORD"]
 
 async def main():
     s = spond.Spond(username=USERNAME, password=PASSWORD)
