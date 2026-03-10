@@ -12,8 +12,8 @@ if not USERNAME or not PASSWORD:
     print("ERROR: credentials not set!", flush=True)
     sys.exit(1)
 
-# Titles å ekskludere (ikke relevante for treningsoversikt)
-EXCLUDE_TITLES = {"påskeferie", "Påskeferie veke 14", "2.pinsedag", "Himmelfartsdag", "siste skuledag for elevane", "Hjelpetrener", "Gradering øvelse"}
+# Subgrupper som IKKE skal vises (kun admin/trener-interne events)
+EXCLUDE_ONLY_SUBGROUPS = {"Admin", "Trenere", "Kamptrening"}
 
 print(f"Logging in as {USERNAME[:3]}***", flush=True)
 
@@ -37,8 +37,10 @@ async def main():
         title = event.get("heading", "")
         start = event.get("startTimestamp", "")
 
-        # Ekskluder ikke-relevante events
-        if title in EXCLUDE_TITLES:
+        # Ekskluder events som KUN har Admin/Trenere/Kamptrening subgrupper
+        group = event.get("recipients", {}).get("group", {})
+        subgroups = {sg.get("name") for sg in group.get("subGroups", [])}
+        if subgroups.issubset(EXCLUDE_ONLY_SUBGROUPS):
             continue
 
         # Ekskluder events som allerede er ferdig (mer enn 2 timer siden)
