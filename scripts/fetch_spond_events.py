@@ -20,6 +20,7 @@ async def main():
             "location": event.get("location", {}).get("feature", ""),
             "cancelled": event.get("cancelled", False)
         })
+    os.makedirs("data", exist_ok=True)
     with open("data/spond_events.json", "w") as f:
         json.dump(output, f, indent=2, default=str)
     await s.clientsession.close()
