@@ -1,0 +1,83 @@
+{{ define "main" }}
+<div class="treninger-page">
+
+  <!-- Kalender -->
+  <div class="kalender-header">
+    <div id="kalender"></div>
+  </div>
+
+  <!-- Event-liste -->
+  <div class="event-liste" id="event-liste">
+    {{ range .Site.Data.spond_events }}
+      {{ if not .cancelled }}
+      <div class="event-item" data-date="{{ .start | time.Format "2006-01-02" }}">
+        <div class="event-info">
+          <strong>{{ .title }}</strong>
+          <p>{{ .description }}</p>
+        </div>
+        <div class="event-tid">
+          <span class="start-tid">{{ .start | time.Format "15:04" }}</span>
+          <span class="slutt-tid">– {{ .end | time.Format "15:04" }}</span>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+
+</div>
+
+<!-- Bygg kalender med JS -->
+<script>
+const events = [
+  {{ range .Site.Data.spond_events }}{{ if not .cancelled }}
+  { date: "{{ .start | time.Format "2006-01-02" }}", title: "{{ .title }}" },
+  {{ end }}{{ end }}
+];
+
+function buildCalendar(year, month) {
+  const months = ["JANUAR","FEBRUAR","MARS","APRIL","MAI","JUNI","JULI","AUGUST","SEPTEMBER","OKTOBER","NOVEMBER","DESEMBER"];
+  const days = ["SU","MO","TI","ON","TO","FR","LØ"];
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const today = new Date();
+
+  let html = `<div class="kal-nav">
+    <button onclick="changeMonth(-1)">&#8249;</button>
+    <span>${months[month]} ${year}</span>
+    <button onclick="changeMonth(1)">&#8250;</button>
+  </div><div class="kal-grid">`;
+
+  days.forEach(d => html += `<div class="kal-day-header">${d}</div>`);
+
+  for (let i = 0; i < firstDay; i++) html += `<div></div>`;
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dateStr = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const hasEvent = events.some(e => e.date === dateStr);
+    const isToday = today.getDate() === d && today.getMonth() === month && today.getFullYear() === year;
+    html += `<div class="kal-dag ${hasEvent ? 'har-event' : ''} ${isToday ? 'i-dag' : ''}" onclick="filtrerDato('${dateStr}')">${d}</div>`;
+  }
+
+  html += `</div>`;
+  document.getElementById('kalender').innerHTML = html;
+}
+
+let currentYear = new Date().getFullYear();
+let currentMonth = new Date().getMonth();
+
+function changeMonth(dir) {
+  currentMonth += dir;
+  if (currentMonth > 11) { currentMonth = 0; currentYear++; }
+  if (currentMonth < 0) { currentMonth = 11; currentYear--; }
+  buildCalendar(currentYear, currentMonth);
+}
+
+function filtrerDato(dato) {
+  document.querySelectorAll('.event-item').forEach(el => {
+    el.style.display = el.dataset.date === dato ? 'flex' : 'none';
+  });
+}
+
+buildCalendar(currentYear, currentMonth);
+</script>
+{{ end }}

@@ -1,3 +1,8 @@
 baseURL = "https://proud-rock-0b05ead03.2.azurestaticapps.net/"
 languageCode = "nb-NO"
 title = "Algård Karate"
+
+[[menus.main]]
+  name = "Treninger"
+  url = "/treninger/"
+  weight = 10
