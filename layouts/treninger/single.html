@@ -1,0 +1,135 @@
+{{ define "main" }}
+<div class="treninger-page">
+
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <button id="prev-month">&#8249;</button>
+      <span id="month-year"></span>
+      <button id="next-month">&#8250;</button>
+    </div>
+    <div class="calendar-grid">
+      <div class="day-label">SU</div><div class="day-label">MO</div>
+      <div class="day-label">TI</div><div class="day-label">ON</div>
+      <div class="day-label">TO</div><div class="day-label">FR</div>
+      <div class="day-label">LO</div>
+      <div id="calendar-days"></div>
+    </div>
+  </div>
+
+  <div id="event-list" class="event-list">
+    <p class="no-events">Velg en dato for å se treninger.</p>
+  </div>
+
+</div>
+
+{{ $events := slice }}
+{{ if fileExists "data/spond_events.json" }}
+  {{ $events = getJSON "data/spond_events.json" }}
+{{ end }}
+
+<script>
+const EVENTS = {{ $events | jsonify }};
+
+let currentDate = new Date();
+let selectedDate = null;
+
+function formatDate(d) {
+  return d.toISOString().slice(0, 10);
+}
+
+function sameDay(a, b) {
+  return a.slice(0, 10) === b.slice(0, 10);
+}
+
+function buildCalendar(year, month) {
+  const monthNames = ["JANUAR","FEBRUAR","MARS","APRIL","MAI","JUNI",
+                      "JULI","AUGUST","SEPTEMBER","OKTOBER","NOVEMBER","DESEMBER"];
+  document.getElementById("month-year").textContent = monthNames[month] + " " + year;
+
+  const grid = document.getElementById("calendar-days");
+  grid.innerHTML = "";
+
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const today = formatDate(new Date());
+
+  // Event dates set for quick lookup
+  const eventDates = new Set(EVENTS.map(e => e.start.slice(0, 10)));
+
+  // Empty cells before first day
+  for (let i = 0; i < firstDay; i++) {
+    const blank = document.createElement("div");
+    blank.className = "day-cell empty";
+    grid.appendChild(blank);
+  }
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dateStr = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const cell = document.createElement("div");
+    cell.className = "day-cell";
+    cell.textContent = d;
+
+    if (dateStr === today) cell.classList.add("today");
+    if (eventDates.has(dateStr)) cell.classList.add("has-event");
+    if (selectedDate && dateStr === selectedDate) cell.classList.add("selected");
+
+    cell.addEventListener("click", () => {
+      selectedDate = dateStr;
+      buildCalendar(year, month);
+      showEvents(dateStr);
+    });
+
+    grid.appendChild(cell);
+  }
+}
+
+function showEvents(dateStr) {
+  const list = document.getElementById("event-list");
+  const dayEvents = EVENTS.filter(e => e.start.slice(0, 10) === dateStr);
+
+  if (dayEvents.length === 0) {
+    list.innerHTML = `<p class="no-events">Ingen treninger denne dagen.</p>`;
+    return;
+  }
+
+  list.innerHTML = dayEvents.map(e => {
+    const start = new Date(e.start);
+    const end = new Date(e.end);
+    const timeStr = start.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"})
+                  + " \u2013 "
+                  + end.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"});
+    const cancelled = e.cancelled ? '<span class="cancelled-badge">Avlyst</span>' : '';
+    const loc = e.location ? `<div class="event-location">&#128205; ${e.location}</div>` : '';
+    const desc = e.description ? `<div class="event-desc">${e.description}</div>` : '';
+
+    return `
+      <div class="event-card ${e.cancelled ? 'cancelled' : ''}">
+        <div class="event-header">
+          <strong class="event-title">${e.title}</strong>
+          ${cancelled}
+        </div>
+        <div class="event-time">&#128337; ${timeStr}</div>
+        ${loc}
+        ${desc}
+      </div>`;
+  }).join("");
+}
+
+document.getElementById("prev-month").addEventListener("click", () => {
+  currentDate.setMonth(currentDate.getMonth() - 1);
+  buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
+  if (selectedDate) showEvents(selectedDate);
+});
+
+document.getElementById("next-month").addEventListener("click", () => {
+  currentDate.setMonth(currentDate.getMonth() + 1);
+  buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
+  if (selectedDate) showEvents(selectedDate);
+});
+
+// Init: show today's events automatically
+selectedDate = formatDate(new Date());
+buildCalendar(currentDate.getFullYear(), currentDate.getMonth());
+showEvents(selectedDate);
+</script>
+{{ end }}

@@ -3,41 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nyheter – {{ .Site.Title }}</title>
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header class="top-header">
     <a href="/" style="color:white;text-decoration:none"><i class="fas fa-arrow-left"></i></a>
-    <span class="site-title">Algård Karate</span>
+    <span class="site-title">Algard Karate</span>
     <div style="width:20px"></div>
   </header>
-
   <div style="padding:16px;">
     <p style="color:#666;font-size:13px;margin-bottom:16px;">Velg en kategori</p>
     <div class="belt-list">
       {{ range sort .Pages "Params.weight" "asc" }}
       <a href="{{ .Permalink }}" class="belt-card">
-        <div class="cat-icon" style="background:{{ .Params.icon_bg }}">
-          <i class="fas {{ .Params.icon }}" style="color:{{ .Params.icon_color }}"></i>
-        </div>
-        <div class="belt-info">
-          <span class="belt-title">{{ .Title }}</span>
-        </div>
+        <div class="cat-icon" style="background:{{ .Params.icon_bg | default `#f0f0f0` }}"><i class="fas {{ .Params.icon | default `fa-file` }}" style="color:{{ .Params.icon_color | default `#555` }}"></i></div>
+        <div class="belt-info"><span class="belt-title">{{ .Title }}</span></div>
         <i class="fas fa-chevron-right" style="color:#ccc"></i>
       </a>
       {{ end }}
     </div>
   </div>
-
-  <div style="height:80px"></div>
-  <nav class="bottom-nav">
-    <a href="/" class="nav-item"><i class="fas fa-home"></i><span>Hjem</span></a>
-    <a href="/nyheter/" class="nav-item active"><i class="fas fa-newspaper"></i><span>Nyheter</span></a>
-    <a href="#" class="nav-item"><i class="fas fa-calendar"></i><span>Treninger</span></a>
-    <a href="/syllabus/" class="nav-item"><i class="fas fa-book-open"></i><span>Syllabus</span></a>
-    <a href="#" class="nav-item"><i class="fas fa-th"></i><span>Mer</span></a>
-  </nav>
+  {{ partial "bottom-nav.html" . }}
 </body>
 </html>
