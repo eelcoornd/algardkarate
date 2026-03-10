@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/1-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/1-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/nyheter/om-oss/</loc>
+    <loc>http://localhost:1313/nyheter/om-oss/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/2-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/2-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/nyheter/personvern/</loc>
+    <loc>http://localhost:1313/nyheter/personvern/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/3-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/3-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/nyheter/kontakt/</loc>
+    <loc>http://localhost:1313/nyheter/kontakt/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/4-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/4-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/nyheter/kontigent/</loc>
+    <loc>http://localhost:1313/nyheter/kontigent/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/5-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/5-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/nyheter/instruktorer/</loc>
+    <loc>http://localhost:1313/nyheter/instruktorer/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/6-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/6-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/nyheter/styre/</loc>
+    <loc>http://localhost:1313/nyheter/styre/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/nyheter/bilder/</loc>
+    <loc>http://localhost:1313/nyheter/bilder/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/7-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/7-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/8-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/8-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/9-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/9-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/10-kyu/</loc>
+    <loc>http://localhost:1313/syllabus/10-kyu/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-10T10:51:58+00:00</lastmod>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-03-10T10:51:58+00:00</lastmod>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/treninger/</loc>
+    <loc>http://localhost:1313/treninger/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/nyheter/</loc>
+    <loc>http://localhost:1313/nyheter/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/1-dan/</loc>
+    <loc>http://localhost:1313/syllabus/1-dan/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/</loc>
+    <loc>http://localhost:1313/syllabus/</loc>
   </url><url>
-    <loc>https://proud-rock-0b05ead03.2.azurestaticapps.net/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
