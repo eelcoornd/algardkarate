@@ -6,18 +6,6 @@ from datetime import datetime, timezone
 from spond import spond
 
 USERNAME = os.environ.get("SPOND_USERNAME", "")
-PASSWORD = os.environSecret-navnene matcher. Problemet er at scriptet feiler stille fordi `.env`-filen din ikke hadde ekte credentials – men i GitHub Actions skal secrets fungere. La oss sjekke om scriptet faktisk kjører og om det er autentiseringsfeil som svelges:
-
-```bash
-cat > scripts/fetch_spond_events.py << 'EOF'
-import asyncio
-import json
-import os
-import sys
-from datetime import datetime, timezone
-from spond import spond
-
-USERNAME = os.environ.get("SPOND_USERNAME", "")
 PASSWORD = os.environ.get("SPOND_PASSWORD", "")
 
 if not USERNAME or not PASSWORD:
