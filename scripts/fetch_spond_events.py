@@ -15,6 +15,14 @@ if not USERNAME or not PASSWORD:
 # Subgrupper som IKKE skal vises (kun admin/trener-interne events)
 EXCLUDE_ONLY_SUBGROUPS = {"Admin", "Trenere", "Kamptrening"}
 
+# Titler som alltid skal vises uansett subgruppe
+ALWAYS_INCLUDE_TITLES = {
+    "Gradering", "Gradering + ny belte", "Nybegynner gradering",
+    "Sesongavslutning", "Kamptrening graderte", "Vinterleir ETNE -oppdatert-",
+    "Åpen Fight Camp Bryne Karateklubb 09.01.26-11.01.26",
+    "Publikum til NM Fullkontakt 2026 på Bryne"
+}
+
 print(f"Logging in as {USERNAME[:3]}***", flush=True)
 
 async def main():
@@ -40,10 +48,14 @@ async def main():
         # Ekskluder events som KUN har Admin/Trenere/Kamptrening subgrupper
         group = event.get("recipients", {}).get("group", {})
         subgroups = {sg.get("name") for sg in group.get("subGroups", [])}
-        # Krev minst én belt-subgruppe (ikke bare Admin/Trenere/tom)
-        allowed = subgroups - EXCLUDE_ONLY_SUBGROUPS
-        if not allowed:
-            continue
+        # Alltid inkluder spesielle events
+        if title in ALWAYS_INCLUDE_TITLES:
+            pass
+        else:
+            # Krev minst én belt-subgruppe (ikke bare Admin/Trenere/tom)
+            allowed = subgroups - EXCLUDE_ONLY_SUBGROUPS
+            if not allowed:
+                continue
 
         # Ekskluder events som allerede er ferdig (mer enn 2 timer siden)
         try:
