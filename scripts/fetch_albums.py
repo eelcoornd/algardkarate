@@ -30,11 +30,6 @@ ALBUM_IDS = [
     "AF1QipOmXfrM3q_TLItrea7iv2_Atmxi0INQdRAxhDA",
 ]
 
-SHARED_TOKENS = [
-    "AF1QipMU6Xz9mDXKwE4f935tFujGb-ivVVeRr6VIXJO9C7fxU3dDUcJXqxdvY_bLMOoAQQ",
-    "AF1QipOK-KSc5hfjSCGxvQ9DeaeVQqcflwo2Bf3OvZwiI2dMhnja1OYKaZ5nGXMvRdHbSw",
-]
-
 def get_access_token():
     r = requests.post("https://oauth2.googleapis.com/token", data={
         "client_id": CLIENT_ID,
@@ -42,7 +37,10 @@ def get_access_token():
         "refresh_token": REFRESH_TOKEN,
         "grant_type": "refresh_token"
     })
-    return r.json()["access_token"]
+    data = r.json()
+    if "access_token" not in data:
+        raise Exception(f"Token feil: {data}")
+    return data["access_token"]
 
 def fetch_album(token, album_id):
     headers = {"Authorization": f"Bearer {token}"}
@@ -52,34 +50,14 @@ def fetch_album(token, album_id):
     )
     data = r.json()
     if "error" in data:
-        print(f"⚠️  Feil for {album_id}: {data['error']['message']}")
+        print(f"⚠️  {album_id[:20]}: {data['error']['message']}")
         return None
     return {
         "id": album_id,
         "title": data.get("title", "Uten tittel"),
         "url": data.get("productUrl", ""),
         "cover": data.get("coverPhotoBaseUrl", "") + "=w600-h400-c",
-        "count": data.get("mediaItemsCount", 0)
-    }
-
-def fetch_shared_album(token, share_token):
-    headers = {"Authorization": f"Bearer {token}"}
-    r = requests.post(
-        "https://photoslibrary.googleapis.com/v1/sharedAlbums:join",
-        headers=headers,
-        json={"shareToken": share_token}
-    )
-    data = r.json()
-    album = data.get("album", {})
-    if not album:
-        print(f"⚠️  Feil for shared {share_token[:20]}...: {data}")
-        return None
-    return {
-        "id": share_token,
-        "title": album.get("title", "Delt album"),
-        "url": album.get("productUrl", ""),
-        "cover": album.get("coverPhotoBaseUrl", "") + "=w600-h400-c",
-        "count": album.get("mediaItemsCount", 0)
+        "count": int(data.get("mediaItemsCount", 0))
     }
 
 os.makedirs("data", exist_ok=True)
@@ -91,13 +69,26 @@ for aid in ALBUM_IDS:
     result = fetch_album(token, aid)
     if result:
         albums.append(result)
-        print(f"✅ {result['title']}")
+        print(f"✅ {result['title']} ({result['count']} bilder)")
 
-for st in SHARED_TOKENS:
-    result = fetch_shared_album(token, st)
-    if result:
-        albums.append(result)
-        print(f"✅ {result['title']} (delt)")
+# Delte album via list i stedet for join
+print("\nHenter delte album via liste...")
+headers = {"Authorization": f"Bearer {token}"}
+r = requests.get(
+    "https://photoslibrary.googleapis.com/v1/sharedAlbums",
+    headers=headers
+)
+shared_data = r.json()
+for album in shared_data.get("sharedAlbums", []):
+    entry = {
+        "id": album.get("id", ""),
+        "title": album.get("title", "Delt album"),
+        "url": album.get("productUrl", ""),
+        "cover": album.get("coverPhotoBaseUrl", "") + "=w600-h400-c",
+        "count": int(album.get("mediaItemsCount", 0))
+    }
+    albums.append(entry)
+    print(f"✅ {entry['title']} (delt, {entry['count']} bilder)")
 
 with open("data/albums.json", "w") as f:
     json.dump({"albums": albums}, f, indent=2, ensure_ascii=False)
