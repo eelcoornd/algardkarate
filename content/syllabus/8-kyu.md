@@ -54,13 +54,16 @@ weight: 8
 ## Kata
 
 ### Sokugi Taikyoku Sono Ichi
-<a href="https://www.youtube.com/watch?v=KKCaYZ8NA20" target="_blank" style="display:block;position:relative;margin-bottom:16px;"><img src="https://img.youtube.com/vi/KKCaYZ8NA20/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
+<div style="overflow:hidden;clear:both;"></div>
+<a href="https://www.youtube.com/watch?v=KKCaYZ8NA20" target="_blank" style="display:block;position:relative;margin-bottom:16px;max-width:100%;clear:both;"><img src="https://img.youtube.com/vi/KKCaYZ8NA20/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
 
 ### Sokugi Taikyoku Sono Ni
-<a href="https://www.youtube.com/watch?v=bZbfOVKxnDI" target="_blank" style="display:block;position:relative;margin-bottom:16px;"><img src="https://img.youtube.com/vi/bZbfOVKxnDI/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
+<div style="overflow:hidden;clear:both;"></div>
+<a href="https://www.youtube.com/watch?v=bZbfOVKxnDI" target="_blank" style="display:block;position:relative;margin-bottom:16px;max-width:100%;clear:both;"><img src="https://img.youtube.com/vi/bZbfOVKxnDI/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
 
 ### Sokugi Taikyoku Sono San
-<a href="https://www.youtube.com/watch?v=Czgo71PO2Ko" target="_blank" style="display:block;position:relative;margin-bottom:16px;"><img src="https://img.youtube.com/vi/Czgo71PO2Ko/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
+<div style="overflow:hidden;clear:both;"></div>
+<a href="https://www.youtube.com/watch?v=Czgo71PO2Ko" target="_blank" style="display:block;position:relative;margin-bottom:16px;max-width:100%;clear:both;"><img src="https://img.youtube.com/vi/Czgo71PO2Ko/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
 
 ---
 
