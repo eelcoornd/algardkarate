@@ -145,7 +145,7 @@ function showEvents(dateStr) {
                   + end.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"});
     const cancelBadge = e.cancelled ? "<span class=\"cancelled-badge\">Avlyst</span>" : "";
     const loc = e.location ? "<div class=\"event-meta\"><i class=\"fas fa-map-marker-alt\" style=\"color:#c0174c;margin-right:4px\"></i>" + e.location + "</div>" : "";
-    const desc = e.description ? "<div class=\"event-desc\">" + e.description + "</div>" : "";
+    const desc = "";
     return "<div class=\"event-card" + (e.cancelled ? " cancelled" : "") + "\">"
          + "<div class=\"event-card-top\">"
          + "<div class=\"event-title\">" + e.title + cancelBadge + "</div>"

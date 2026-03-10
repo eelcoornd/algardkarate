@@ -40,7 +40,9 @@ async def main():
         # Ekskluder events som KUN har Admin/Trenere/Kamptrening subgrupper
         group = event.get("recipients", {}).get("group", {})
         subgroups = {sg.get("name") for sg in group.get("subGroups", [])}
-        if subgroups.issubset(EXCLUDE_ONLY_SUBGROUPS):
+        # Krev minst én belt-subgruppe (ikke bare Admin/Trenere/tom)
+        allowed = subgroups - EXCLUDE_ONLY_SUBGROUPS
+        if not allowed:
             continue
 
         # Ekskluder events som allerede er ferdig (mer enn 2 timer siden)
