@@ -54,19 +54,13 @@ weight: 8
 ## Kata
 
 ### Sokugi Taikyoku Sono Ichi
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:16px;">
-<iframe src="https://www.youtube.com/embed/KKCaYZ8NA20" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
-</div>
+<a href="https://www.youtube.com/watch?v=KKCaYZ8NA20" target="_blank" style="display:block;position:relative;margin-bottom:16px;"><img src="https://img.youtube.com/vi/KKCaYZ8NA20/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
 
 ### Sokugi Taikyoku Sono Ni
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:16px;">
-<iframe src="https://www.youtube.com/embed/bZbfOVKxnDI" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
-</div>
+<a href="https://www.youtube.com/watch?v=bZbfOVKxnDI" target="_blank" style="display:block;position:relative;margin-bottom:16px;"><img src="https://img.youtube.com/vi/bZbfOVKxnDI/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
 
 ### Sokugi Taikyoku Sono San
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:16px;">
-<iframe src="https://www.youtube.com/embed/Czgo71PO2Ko" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
-</div>
+<a href="https://www.youtube.com/watch?v=Czgo71PO2Ko" target="_blank" style="display:block;position:relative;margin-bottom:16px;"><img src="https://img.youtube.com/vi/Czgo71PO2Ko/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
 
 ---
 
