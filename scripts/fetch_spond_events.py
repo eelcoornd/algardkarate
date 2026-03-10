@@ -12,57 +12,51 @@ if not USERNAME or not PASSWORD:
     print("ERROR: credentials not set!", flush=True)
     sys.exit(1)
 
-ALLOWED_SUBGROUPS = {
-    "0D59F1E8010048C194198CB81DA394B2",
-    "0FBFF193CDC448589B6BB8BDA7789138",
-    "203AA68374B14D358E79FEF640E3E3DC",
-    "3ED49243F50A4908BC165187DB4BF063",
-    "40F6D9142C2D4DDA8144590098A8ED3C",
-    "513BAED6579B40A3BF3A0FDAC67F7D9C",
-    "54FC45F0DE8F41E9BB3ABBD746718FAE",
-    "6B3C0257AFA44DBE957A04C6A3FD49E0",
-    "8221E1EEFA8E418BBA0C1A8D476E27E5",
-    "913A9D4055234D5BB176EE1322814E69",
-    "9A4CDEF198AD4B84870BF8734B829F27",
-    "A6D986AC386A49529980AE1E9FDF7574",
-    "AADD692B10724378962738D87C9ACC9E",
-    "D3E912AB523E43DE8841DCAB752C513E",
-    "E8DAE1A23B264567A6503204A6E52EF1",
-}
+# Titles å ekskludere (ikke relevante for treningsoversikt)
+EXCLUDE_TITLES = {"påskeferie", "Påskeferie veke 14", "2.pinsedag", "Himmelfartsdag", "siste skuledag for elevane"}
 
 print(f"Logging in as {USERNAME[:3]}***", flush=True)
 
 async def main():
     s = spond.Spond(username=USERNAME, password=PASSWORD)
-    now = datetime.now(tz=timezone.utc)
+
+    min_start = datetime(2026, 1, 1, tzinfo=timezone.utc)
+    max_end   = datetime(2026, 12, 31, tzinfo=timezone.utc)
 
     all_events = await s.get_events(
-        min_start=now,
-        max_end=None,
+        min_start=min_start,
+        max_end=max_end,
         include_scheduled=True,
         max_events=500
     )
     print(f"Fetched {len(all_events)} total events", flush=True)
 
+    now = datetime.now(tz=timezone.utc)
     output = []
     for event in all_events:
-        # Sjekk om event tilhører en av de tillatte subgruppene
-        recipients = event.get("recipients", {})
-        subgroups = recipients.get("subGroups", []) if recipients else []
-        subgroup_ids = {sg.get("id", "") for sg in subgroups}
+        title = event.get("heading", "")
+        start = event.get("startTimestamp", "")
 
-        if not subgroup_ids.intersection(ALLOWED_SUBGROUPS):
+        # Ekskluder ikke-relevante events
+        if title in EXCLUDE_TITLES:
             continue
+
+        # Ekskluder events som allerede er ferdig (mer enn 2 timer siden)
+        try:
+            end_dt = datetime.fromisoformat(event.get("endTimestamp", start).replace("Z", "+00:00"))
+            if end_dt < now:
+                continue
+        except:
+            pass
 
         output.append({
             "id": event.get("id", ""),
-            "title": event.get("heading", ""),
-            "start": event.get("startTimestamp", ""),
+            "title": title,
+            "start": start,
             "end": event.get("endTimestamp", ""),
             "description": event.get("description", ""),
             "location": event.get("location", {}).get("feature", "") if event.get("location") else "",
-            "cancelled": event.get("cancelled", False),
-            "subgroups": list(subgroup_ids.intersection(ALLOWED_SUBGROUPS))
+            "cancelled": event.get("cancelled") or False,
         })
 
     output.sort(key=lambda e: e["start"])
@@ -70,7 +64,7 @@ async def main():
     os.makedirs("data", exist_ok=True)
     with open("data/spond_events.json", "w") as f:
         json.dump(output, f, indent=2, default=str)
-    print(f"Saved {len(output)} filtered events to data/spond_events.json", flush=True)
+    print(f"Saved {len(output)} events to data/spond_events.json", flush=True)
     await s.clientsession.close()
 
 asyncio.run(main())
