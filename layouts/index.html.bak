@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="top-header">
+    <i class="fas fa-bars menu-icon"></i>
+    <span class="site-title">Algård Karate</span>
+    <i class="fas fa-user profile-icon"></i>
+  </header>
+
+  <!-- SEARCH BAR -->
+  <div class="search-bar">
+    <i class="fas fa-search"></i>
+    <input type="text" placeholder="Søk...">
+  </div>
+
+  <!-- HERO BANNER -->
+  <div class="hero-banner">
+    <img src="/images/hero.jpg" alt="Algård Karate" onerror="this.style.background='#1a7a3c';this.style.height='180px';this.removeAttribute('src')">
+    <div class="hero-text">
+      <h2>Velkommen til Algård Karate</h2>
+      <p>Kyokushinkai • Sandnes</p>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+    <h3>Kategorier</h3>
+    <div class="category-list">
+      <div class="category-item">
+        <div class="cat-icon" style="background:#e8f5e9"><i class="fas fa-newspaper" style="color:#2e7d32"></i></div>
+        <span>Nyheter</span>
+      </div>
+      <div class="category-item">
+        <div class="cat-icon" style="background:#e3f2fd"><i class="fas fa-calendar-alt" style="color:#1565c0"></i></div>
+        <span>Treninger</span>
+      </div>
+      <div class="category-item">
+        <div class="cat-icon" style="background:#fce4ec"><i class="fas fa-users" style="color:#c62828"></i></div>
+        <span>Medlemmer</span>
+      </div>
+      <div class="category-item">
+        <div class="cat-icon" style="background:#fff8e1"><i class="fas fa-trophy" style="color:#f57f17"></i></div>
+        <span>Resultater</span>
+      </div>
+      <div class="category-item">
+        <div class="cat-icon" style="background:#f3e5f5"><i class="fas fa-tshirt" style="color:#6a1b9a"></i></div>
+        <span>Utstyr</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPCOMING EVENTS -->
+  <section class="products">
+    <h3>Kommende arrangementer</h3>
+    <div class="product-list">
+      <div class="product-card">
+        <div class="product-img" style="background:#c8e6c9"><i class="fas fa-fist-raised fa-2x" style="color:#2e7d32"></i></div>
+        <div class="product-info">
+          <span class="product-name">Kveldsstrening</span>
+          <span class="product-desc">Mandag 18:00</span>
+          <span class="product-price">Alle nivåer</span>
+        </div>
+        <button class="add-btn"><i class="fas fa-plus"></i></button>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:#bbdefb"><i class="fas fa-medal fa-2x" style="color:#1565c0"></i></div>
+        <div class="product-info">
+          <span class="product-name">Graderingsprøve</span>
+          <span class="product-desc">Lørdag 10:00</span>
+          <span class="product-price">Inviterte</span>
+        </div>
+        <button class="add-btn"><i class="fas fa-plus"></i></button>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:#ffe0b2"><i class="fas fa-child fa-2x" style="color:#e65100"></i></div>
+        <div class="product-info">
+          <span class="product-name">Juniortrening</span>
+          <span class="product-desc">Onsdag 17:00</span>
+          <span class="product-price">6-12 år</span>
+        </div>
+        <button class="add-btn"><i class="fas fa-plus"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPACER so content isn't hidden behind bottom nav -->
+  <div style="height:80px"></div>
+
+  <!-- FIXED BOTTOM NAV -->
+  <nav class="bottom-nav">
+    <a href="/" class="nav-item active">
+      <i class="fas fa-home"></i>
+      <span>Hjem</span>
+    </a>
+    <a href="/nyheter/" class="nav-item">
+      <i class="fas fa-newspaper"></i>
+      <span>Nyheter</span>
+    </a>
+    <a href="/treninger/" class="nav-item">
+      <i class="fas fa-calendar"></i>
+      <span>Treninger</span>
+    </a>
+    <a href="/syllabus/" class="nav-item">
+      <i class="fas fa-book-open"></i>
+      <span>Syllabus</span>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="fas fa-th"></i>
+      <span>Mer</span>
+    </a>
+  </nav>
+
+</body>
+</html>

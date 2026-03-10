@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="top-header" style="padding:0;background:#2d2d2d;overflow:hidden;">
+    <img src="/images/top-logo.png" alt="Ålgård Karate Klubb" style="width:100%;height:70px;object-fit:contain;object-position:left center;display:block;">
+  </header>
+
+  <!-- SEARCH BAR -->
+  <div class="search-bar">
+    <i class="fas fa-search"></i>
+    <input type="text" placeholder="Søk...">
+  </div>
+
+  <!-- HERO BANNER -->
+  <div class="hero-banner">
+    <img src="/images/hero.jpg" alt="Algård Karate" onerror="this.style.background='#1a7a3c';this.style.height='180px';this.removeAttribute('src')">
+    <div class="hero-text">
+      <h2>Velkommen til Algård Karate</h2>
+      <p>Kyokushinkai • Sandnes</p>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+    <h3>Kategorier</h3>
+    <div class="category-list">
+      <div class="category-item">
+        <div class="cat-icon" style="background:#e8f5e9"><i class="fas fa-newspaper" style="color:#2e7d32"></i></div>
+        <span>Info</span>
+      </div>
+      <div class="category-item">
+        <div class="cat-icon" style="background:#e3f2fd"><i class="fas fa-calendar-alt" style="color:#1565c0"></i></div>
+        <span>Treninger</span>
+      </div>
+      <div class="category-item">
+        <div class="cat-icon" style="background:#fce4ec"><i class="fas fa-users" style="color:#c62828"></i></div>
+        <span>Medlemmer</span>
+      </div>
+      <div class="category-item">
+        <div class="cat-icon" style="background:#fff8e1"><i class="fas fa-trophy" style="color:#f57f17"></i></div>
+        <span>Resultater</span>
+      </div>
+      <div class="category-item">
+        <div class="cat-icon" style="background:#f3e5f5"><i class="fas fa-tshirt" style="color:#6a1b9a"></i></div>
+        <span>Utstyr</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- KOMMENDE ARRANGEMENTER fra Spond -->
+  {{ $eventsJSON := dict }}
+  {{ $eventsFile := "data/spond_events.json" }}
+  {{ if fileExists $eventsFile }}
+    {{ $eventsJSON = $eventsFile | readFile | transform.Unmarshal }}
+  {{ end }}
+  {{ $now := now }}
+  {{ $upcoming := slice }}
+  {{ range $eventsJSON }}
+    {{ if gt (time .start) $now }}
+      {{ $upcoming = $upcoming | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $upcoming = first 6 $upcoming }}
+
+  {{ if $upcoming }}
+  <section class="products">
+    <h3>Kommende arrangementer</h3>
+    <div class="product-list">
+      {{ range $upcoming }}
+      {{ $title := .title }}
+      {{ $icon := "fas fa-star" }}
+      {{ $bg := "#f1f8e9" }}
+      {{ $color := "#33691e" }}
+      {{ if in $title "Karatetrening graderte" }}
+        {{ $icon = "fas fa-fist-raised" }}
+        {{ $bg = "#c8e6c9" }}
+        {{ $color = "#2e7d32" }}
+      {{ else if or (in $title "Nybegynnere") (in $title "10kyu") }}
+        {{ $icon = "fas fa-child" }}
+        {{ $bg = "#ffe0b2" }}
+        {{ $color = "#e65100" }}
+      {{ else if or (in $title "Gradering") (in $title "gradering") }}
+        {{ $icon = "fas fa-medal" }}
+        {{ $bg = "#bbdefb" }}
+        {{ $color = "#1565c0" }}
+      {{ else if in $title "Sesongavslutning" }}
+        {{ $icon = "fas fa-award" }}
+        {{ $bg = "#f3e5f5" }}
+        {{ $color = "#6a1b9a" }}
+      {{ else if or (in $title "Kamptrening") (in $title "kamptrening") }}
+        {{ $icon = "fas fa-fist-raised" }}
+        {{ $bg = "#ffcdd2" }}
+        {{ $color = "#b71c1c" }}
+      {{ else if or (in $title "NM") (in $title "Publikum") }}
+        {{ $icon = "fas fa-trophy" }}
+        {{ $bg = "#fff8e1" }}
+        {{ $color = "#f57f17" }}
+      {{ end }}
+      <div class="product-card">
+        <div class="product-img" style="background:{{ $bg }}">
+          <i class="{{ $icon }} fa-2x" style="color:{{ $color }}"></i>
+        </div>
+        <div class="product-info">
+          <span class="product-name">{{ $title }}</span>
+          <span class="product-desc">{{ (time .start).Format "Mon 02.01" }} {{ (time .start).Format "15:04" }}</span>
+          <span class="product-price">{{ with .location }}{{ . }}{{ else }}&nbsp;{{ end }}</span>
+        </div>
+        <button class="add-btn"><i class="fas fa-plus"></i></button>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- SPACER -->
+  <div style="height:80px"></div>
+
+  <!-- FIXED BOTTOM NAV -->
+  <nav class="bottom-nav">
+    <a href="/" class="nav-item active">
+      <i class="fas fa-home"></i>
+      <span>Hjem</span>
+    </a>
+    <a href="/nyheter/" class="nav-item">
+      <i class="fas fa-newspaper"></i>
+      <span>Info</span>
+    </a>
+    <a href="/treninger/" class="nav-item">
+      <i class="fas fa-calendar"></i>
+      <span>Treninger</span>
+    </a>
+    <a href="/syllabus/" class="nav-item">
+      <i class="fas fa-book-open"></i>
+      <span>Syllabus</span>
+    </a>
+    <a href="https://www.algardkarate.net/algardkarate/shop/" class="nav-item" target="_blank">
+      <i class="fas fa-shopping-bag"></i>
+      <span>Shop</span>
+    </a>
+  </nav>
+
+</body>
+</html>

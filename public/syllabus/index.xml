@@ -1,88 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Syllabus on Algård Karate</title>
-    <link>http://localhost:1313/syllabus/</link>
-    <description>Recent content in Syllabus on Algård Karate</description>
-    <generator>Hugo</generator>
-    <language>nb-NO</language>
-    <atom:link href="http://localhost:1313/syllabus/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Brunt belte – 1. Kyu</title>
-      <link>http://localhost:1313/syllabus/1-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/1-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker&#34;&gt;A. Teknikker&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tachikata&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tsuki&lt;/strong&gt; – Keiko Uchi, Haito Uchi (Jodan/Chudan/Gedan), Morote Haito Uchi (Jodan/Chudan)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Uke&lt;/strong&gt; – Chudan Haito Uchi Uke, Osae Uke&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keri&lt;/strong&gt; – Yoko Tobi Geri, Mawashi Tobi Geri, Ushiro Tobi Geri, Ushiro Mawashi Tobi Geri&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;ido-kata&#34;&gt;Ido Kata&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Geki Sai Sho&lt;/li&gt;&#xA;&lt;li&gt;Yantsu&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Brunt belte – 2. Kyu</title>
-      <link>http://localhost:1313/syllabus/2-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/2-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker&#34;&gt;A. Teknikker&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tachikata&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tsuki&lt;/strong&gt; – Ryuto Ken Tsuki (Jodan/Chudan), Naka Yubi Ippon Ken (Jodan/Chudan) (Langfingerknoke), Oya Yubi Ippon Ken (Jodan/Chudan) (Tommelknoke), Hitosashi Yubi Ippon Ken (Jodan/Chudan) (Pekefingerknoke), Yama Tsuki&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Uke&lt;/strong&gt; – Kake Uke, Morote Kake Uke&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keri&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Grønt belte – 3. Kyu</title>
-      <link>http://localhost:1313/syllabus/3-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/3-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker-kihon&#34;&gt;A. Teknikker Kihon&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tsuki&lt;/strong&gt; – Hira Ken Tsuki (Jodan/Chudan), Hira Ken Oroshi Uchi, Hira Ken Mawashi Uchi&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Uke&lt;/strong&gt; – Gedan Shotei Morote Uke, Gedan Shuto Morote Uke&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keri&lt;/strong&gt; – Mae Kakato Geri (Jodan/Chudan/Gedan), Age Kakato Ushiro Geri&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;ido&#34;&gt;Ido&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Yon Ju Go Ido (45 graders bevegelse)&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Grønt belte – 4. Kyu</title>
-      <link>http://localhost:1313/syllabus/4-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/4-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker-kihon&#34;&gt;A. Teknikker Kihon&lt;/h2&gt;&#xA;&lt;p&gt;Teknikker for 4. Kyu grønt belte.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gult belte – 5. Kyu</title>
-      <link>http://localhost:1313/syllabus/5-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/5-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker-kihon&#34;&gt;A. Teknikker Kihon&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tachikata&lt;/strong&gt; – Moro Ashi Dachi&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tsuki&lt;/strong&gt; – Shotei Uchi (Jodan, Chudan, Gedan), Age Hiji Ate (Jodan, Chudan), Oroshi Hiji Ate, Jun Tsuki (Jodan/Chudan/Gedan)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Uke&lt;/strong&gt; – Seiken Juji Uke (Jodan/Gedan), Shuto Juji Uke, Shotei Uke (Jodan/Chudan/Gedan)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keri&lt;/strong&gt; – Oroshi Kakato Geri&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Gult belte – 6. Kyu</title>
-      <link>http://localhost:1313/syllabus/6-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/6-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker-grunnleggende-øvelser-kihon&#34;&gt;A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2&gt;&#xA;&lt;p&gt;Grunnleggende teknikker for 6. Kyu.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Blått belte – 7. Kyu</title>
-      <link>http://localhost:1313/syllabus/7-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/7-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker-grunnleggende-øvelser-kihon&#34;&gt;A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2&gt;&#xA;&lt;p&gt;Grunnleggende teknikker for 7. Kyu.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Blått belte – 8. Kyu</title>
-      <link>http://localhost:1313/syllabus/8-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/8-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker-grunnleggende-øvelser-kihon&#34;&gt;A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2&gt;&#xA;&lt;p&gt;Grunnleggende teknikker for 8. Kyu.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Oransje belte – 9. Kyu</title>
-      <link>http://localhost:1313/syllabus/9-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/9-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker-grunnleggende-øvelser-kihon&#34;&gt;A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2&gt;&#xA;&lt;p&gt;Grunnleggende teknikker for 9. Kyu.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Oransje belte – 10. Kyu</title>
-      <link>http://localhost:1313/syllabus/10-kyu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/10-kyu/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker-grunnleggende-øvelser-kihon&#34;&gt;A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2&gt;&#xA;&lt;p&gt;Grunnleggende teknikker for nybegynnere.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sort belte – 1. DAN</title>
-      <link>http://localhost:1313/syllabus/1-dan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/syllabus/1-dan/</guid>
-      <description>&lt;h2 id=&#34;a-teknikker&#34;&gt;A. Teknikker&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tachikata&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tsuki&lt;/strong&gt; – Toho Uchi, Age Jodan Tsuki&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Uke&lt;/strong&gt; – Morote Haito Uchi Uke&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keri&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;ido-kata&#34;&gt;Ido Kata&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Saifa&lt;/li&gt;&#xA;&lt;li&gt;Pinan Sono Ichi til Go i Ura&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;b-fysiske-øvelser&#34;&gt;B. Fysiske øvelser&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fleksibilitet:&lt;/strong&gt; Berøre gulvet med brystkassen fra sittende stilling med spredte bein&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Armhevning:&lt;/strong&gt; 75&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mageøvelser:&lt;/strong&gt; 150&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Syllabus on Algård Karate</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/</link><description>Recent content in Syllabus on Algård Karate</description><generator>Hugo</generator><language>nb-NO</language><atom:link href="https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/index.xml" rel="self" type="application/rss+xml"/><item><title>Brunt belte – 1. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/1-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/1-kyu/</guid><description>&lt;h2 id="a-teknikker">A. Teknikker&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Tachikata&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Tsuki&lt;/strong> – Keiko Uchi, Haito Uchi (Jodan/Chudan/Gedan), Morote Haito Uchi (Jodan/Chudan)&lt;/li>
+&lt;li>&lt;strong>Uke&lt;/strong> – Chudan Haito Uchi Uke, Osae Uke&lt;/li>
+&lt;li>&lt;strong>Keri&lt;/strong> – Yoko Tobi Geri, Mawashi Tobi Geri, Ushiro Tobi Geri, Ushiro Mawashi Tobi Geri&lt;/li>
+&lt;/ol>
+&lt;h2 id="ido-kata">Ido Kata&lt;/h2>
+&lt;ul>
+&lt;li>Geki Sai Sho&lt;/li>
+&lt;li>Yantsu&lt;/li>
+&lt;/ul></description></item><item><title>Brunt belte – 2. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/2-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/2-kyu/</guid><description>&lt;h2 id="a-teknikker">A. Teknikker&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Tachikata&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Tsuki&lt;/strong> – Ryuto Ken Tsuki (Jodan/Chudan), Naka Yubi Ippon Ken (Jodan/Chudan) (Langfingerknoke), Oya Yubi Ippon Ken (Jodan/Chudan) (Tommelknoke), Hitosashi Yubi Ippon Ken (Jodan/Chudan) (Pekefingerknoke), Yama Tsuki&lt;/li>
+&lt;li>&lt;strong>Uke&lt;/strong> – Kake Uke, Morote Kake Uke&lt;/li>
+&lt;li>&lt;strong>Keri&lt;/strong>&lt;/li>
+&lt;/ol></description></item><item><title>Grønt belte – 3. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/3-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/3-kyu/</guid><description>&lt;h2 id="a-teknikker-kihon">A. Teknikker Kihon&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Tsuki&lt;/strong> – Hira Ken Tsuki (Jodan/Chudan), Hira Ken Oroshi Uchi, Hira Ken Mawashi Uchi&lt;/li>
+&lt;li>&lt;strong>Uke&lt;/strong> – Gedan Shotei Morote Uke, Gedan Shuto Morote Uke&lt;/li>
+&lt;li>&lt;strong>Keri&lt;/strong> – Mae Kakato Geri (Jodan/Chudan/Gedan), Age Kakato Ushiro Geri&lt;/li>
+&lt;/ol>
+&lt;h2 id="ido">Ido&lt;/h2>
+&lt;ol>
+&lt;li>Yon Ju Go Ido (45 graders bevegelse)&lt;/li>
+&lt;/ol></description></item><item><title>Grønt belte – 4. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/4-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/4-kyu/</guid><description>&lt;h2 id="a-teknikker-kihon">A. Teknikker Kihon&lt;/h2>
+&lt;p>Teknikker for 4. Kyu grønt belte.&lt;/p></description></item><item><title>Gult belte – 5. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/5-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/5-kyu/</guid><description>&lt;h2 id="a-teknikker-kihon">A. Teknikker Kihon&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Tachikata&lt;/strong> – Moro Ashi Dachi&lt;/li>
+&lt;li>&lt;strong>Tsuki&lt;/strong> – Shotei Uchi (Jodan, Chudan, Gedan), Age Hiji Ate (Jodan, Chudan), Oroshi Hiji Ate, Jun Tsuki (Jodan/Chudan/Gedan)&lt;/li>
+&lt;li>&lt;strong>Uke&lt;/strong> – Seiken Juji Uke (Jodan/Gedan), Shuto Juji Uke, Shotei Uke (Jodan/Chudan/Gedan)&lt;/li>
+&lt;li>&lt;strong>Keri&lt;/strong> – Oroshi Kakato Geri&lt;/li>
+&lt;/ol></description></item><item><title>Gult belte – 6. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/6-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/6-kyu/</guid><description>&lt;h2 id="a-teknikker-grunnleggende-øvelser-kihon">A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2>
+&lt;p>Grunnleggende teknikker for 6. Kyu.&lt;/p></description></item><item><title>Blått belte – 7. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/7-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/7-kyu/</guid><description>&lt;h2 id="a-teknikker-grunnleggende-øvelser-kihon">A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2>
+&lt;p>Grunnleggende teknikker for 7. Kyu.&lt;/p></description></item><item><title>Blått belte – 8. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/8-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/8-kyu/</guid><description>&lt;h2 id="a-teknikker-grunnleggende-øvelser-kihon">A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2>
+&lt;p>Grunnleggende teknikker for 8. Kyu.&lt;/p></description></item><item><title>Oransje belte – 9. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/9-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/9-kyu/</guid><description>&lt;h2 id="a-teknikker-grunnleggende-øvelser-kihon">A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2>
+&lt;p>Grunnleggende teknikker for 9. Kyu.&lt;/p></description></item><item><title>Oransje belte – 10. Kyu</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/10-kyu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/10-kyu/</guid><description>&lt;h2 id="a-teknikker-grunnleggende-øvelser-kihon">A. Teknikker (Grunnleggende øvelser) Kihon&lt;/h2>
+&lt;p>Grunnleggende teknikker for nybegynnere.&lt;/p></description></item><item><title>Sort belte – 1. DAN</title><link>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/1-dan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://proud-rock-0b05ead03.2.azurestaticapps.net/syllabus/1-dan/</guid><description>&lt;h2 id="a-teknikker">A. Teknikker&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Tachikata&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Tsuki&lt;/strong> – Toho Uchi, Age Jodan Tsuki&lt;/li>
+&lt;li>&lt;strong>Uke&lt;/strong> – Morote Haito Uchi Uke&lt;/li>
+&lt;li>&lt;strong>Keri&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="ido-kata">Ido Kata&lt;/h2>
+&lt;ul>
+&lt;li>Saifa&lt;/li>
+&lt;li>Pinan Sono Ichi til Go i Ura&lt;/li>
+&lt;/ul>
+&lt;h2 id="b-fysiske-øvelser">B. Fysiske øvelser&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Fleksibilitet:&lt;/strong> Berøre gulvet med brystkassen fra sittende stilling med spredte bein&lt;/li>
+&lt;li>&lt;strong>Armhevning:&lt;/strong> 75&lt;/li>
+&lt;li>&lt;strong>Mageøvelser:&lt;/strong> 150&lt;/li>
+&lt;/ul></description></item></channel></rss>
