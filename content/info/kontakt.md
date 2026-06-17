@@ -7,7 +7,7 @@ weight: 3
 ---
 ## Kontaktinformasjon
 
-**Algård Karateklubb**
+**Ålgård Karateklubb**
 Sandnes, Rogaland
 
 ## Trening

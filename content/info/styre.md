@@ -5,7 +5,7 @@ icon_color: "#f57f17"
 icon_bg: "#fff8e1"
 weight: 6
 ---
-## Styret i Algård Karateklubb
+## Styret i Ålgård Karateklubb
 
 Klubben ledes av et valgt styre som møtes jevnlig for å planlegge og drifte klubbens aktiviteter.
 

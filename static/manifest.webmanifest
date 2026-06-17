@@ -1,0 +1,21 @@
+{
+  "name": "Ålgård Karate",
+  "short_name": "Ålgård Karate",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a7a3c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/top-logo.png",
+      "sizes": "618x148",
+      "type": "image/png"
+    }
+  ]
+}

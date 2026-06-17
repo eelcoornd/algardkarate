@@ -4,9 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ .Site.Params.ogImage | absURL }}">
+  <meta property="og:locale" content="nb_NO">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#1a7a3c">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/images/top-logo.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -25,9 +43,9 @@
 
   <!-- HERO BANNER -->
   <div class="hero-banner">
-    <img src="/images/home.jpg" alt="Algård Karate" onerror="this.style.background='#1a7a3c';this.style.height='180px';this.removeAttribute('src')">
+    <img src="/images/home.jpg" alt="Ålgård Karate" onerror="this.style.background='#1a7a3c';this.style.height='180px';this.removeAttribute('src')">
     <div class="hero-text">
-      <h2>Velkommen til Algård Karate</h2>
+      <h2>Velkommen til Ålgård Karate</h2>
       <p>Kyokushinkai • Sandnes</p>
     </div>
   </div>
@@ -40,10 +58,10 @@
         <div class="cat-icon" style="background:#e8f5e9"><i class="fas fa-newspaper" style="color:#2e7d32"></i></div>
         <span>Info</span>
       </a>
-      <div class="category-item">
+      <a href="/treninger/" class="category-item" style="text-decoration:none;color:inherit;">
         <div class="cat-icon" style="background:#e3f2fd"><i class="fas fa-calendar-alt" style="color:#1565c0"></i></div>
         <span>Treninger</span>
-      </div>
+      </a>
       <a href="/info/pamelding/" class="category-item" style="text-decoration:none;color:inherit;">
         <div class="cat-icon" style="background:#e3f2fd"><i class="fas fa-user-plus" style="color:#1565c0"></i></div>
         <span>Påmelding</span>
@@ -117,6 +135,11 @@
       </div>
       {{ end }}
     </div>
+  </section>
+  {{ else }}
+  <section class="products">
+    <h3>Kommende arrangementer</h3>
+    <p style="padding:0 16px;opacity:0.7;font-size:14px;">Ingen planlagte arrangementer akkurat nå. Følg med – ny sesong starter snart!</p>
   </section>
   {{ end }}
 

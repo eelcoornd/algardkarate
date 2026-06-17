@@ -1,6 +1,10 @@
-baseURL = "https://proud-rock-0b05ead03.2.azurestaticapps.net/"
+baseURL = "https://lively-bay-039f41403.7.azurestaticapps.net/"
 languageCode = "nb-NO"
-title = "Algård Karate"
+title = "Ålgård Karate"
+
+[params]
+  description = "Ålgård Karateklubb – Kyokushinkai karate i Sandnes. Treninger, gradering, stevner og påmelding."
+  ogImage = "/images/top-logo.png"
 
 [[menus.main]]
   name = "Treninger"

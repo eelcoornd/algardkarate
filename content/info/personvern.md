@@ -7,7 +7,7 @@ weight: 2
 ---
 ## Personvernerklæring
 
-Algård Karateklubb behandler personopplysninger i henhold til GDPR og norsk personvernlovgivning.
+Ålgård Karateklubb behandler personopplysninger i henhold til GDPR og norsk personvernlovgivning.
 
 ## Hvilke data samler vi inn?
 
