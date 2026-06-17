@@ -60,11 +60,7 @@
   </section>
 
   <!-- KOMMENDE ARRANGEMENTER fra Spond -->
-  {{ $eventsJSON := dict }}
-  {{ $eventsFile := "data/spond_events.json" }}
-  {{ if fileExists $eventsFile }}
-    {{ $eventsJSON = $eventsFile | readFile | transform.Unmarshal }}
-  {{ end }}
+  {{ $eventsJSON := site.Data.spond_events | default slice }}
   {{ $now := now }}
   {{ $upcoming := slice }}
   {{ range $eventsJSON }}
