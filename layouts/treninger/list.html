@@ -75,13 +75,7 @@
 
 {{ partial "bottom-nav.html" . }}
 
-{{ $events := slice }}
-{{ if fileExists "data/spond_events.json" }}
-  {{ $raw := os.ReadFile "data/spond_events.json" }}
-  {{ if $raw }}
-    {{ $events = $raw | transform.Unmarshal }}
-  {{ end }}
-{{ end }}
+{{ $events := site.Data.spond_events | default slice }}
 <script>
 const EVENTS = {{ $events | jsonify | safeJS }};
 
