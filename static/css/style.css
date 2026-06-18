@@ -314,3 +314,28 @@ body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; max-width: 480p
   width: auto;
   display: block;
 }
+
+/* Generic content-page hero image (used by om-oss etc.) */
+.page-hero { margin: -20px -16px 16px; }
+.page-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0 0 12px 12px;
+}
+.lead-em {
+  font-size: 17px;
+  text-align: center;
+  color: #444;
+  margin: 14px 0 18px;
+}
+.info-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 14px 18px;
+  margin: 20px 0 8px;
+}
+.info-card h3 { margin: 0 0 8px; font-size: 16px; color: #6a1b9a; }
+.info-card ul { list-style: none; padding: 0; margin: 0; }
+.info-card li { padding: 4px 0; font-size: 15px; }
