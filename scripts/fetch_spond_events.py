@@ -24,6 +24,12 @@ ALWAYS_INCLUDE_TITLES = {
     "Publikum til NM Fullkontakt 2026 på Bryne"
 }
 
+# Tittel-substringer som alltid skal inkluderes (uansett subgruppe-oppsett)
+ALWAYS_INCLUDE_KEYWORDS = (
+    "sommerleir", "vinterleir", "leir", "gradering",
+    "sesongavslutning", "fight camp", "nm",
+)
+
 print(f"Logging in as {USERNAME[:3]}***", flush=True)
 
 async def main():
@@ -49,8 +55,12 @@ async def main():
         # Ekskluder events som KUN har Admin/Trenere/Kamptrening subgrupper
         group = event.get("recipients", {}).get("group", {})
         subgroups = {sg.get("name") for sg in group.get("subGroups", [])}
+        title_lower = (title or "").lower()
         # Alltid inkluder spesielle events
-        if title in ALWAYS_INCLUDE_TITLES:
+        if title in ALWAYS_INCLUDE_TITLES or any(kw in title_lower for kw in ALWAYS_INCLUDE_KEYWORDS):
+            pass
+        elif not subgroups:
+            # Klubb-wide event uten subgruppe-filter — inkluder
             pass
         else:
             # Krev minst én belt-subgruppe (ikke bare Admin/Trenere/tom)

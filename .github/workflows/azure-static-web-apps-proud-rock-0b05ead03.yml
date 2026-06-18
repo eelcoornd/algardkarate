@@ -31,9 +31,11 @@ jobs:
 
       - name: Fetch Shop products
         run: python scripts/fetch_shop_products.py
+        continue-on-error: true
 
       - name: Fetch Photo albums
         run: python scripts/fetch_photo_albums.py
+        continue-on-error: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
