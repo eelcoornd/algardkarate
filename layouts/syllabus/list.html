@@ -1,30 +1,17 @@
-<!DOCTYPE html>
-<html lang="nb">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Syllabus - {{ .Site.Title }}</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
-  <header class="top-header">
-    <a href="/" style="color:white;text-decoration:none"><i class="fas fa-arrow-left"></i></a>
-    <span class="site-title">Syllabus</span>
-    <div style="width:20px"></div>
-  </header>
-  <div style="padding:16px;">
-    <p style="color:#666;font-size:13px;margin-bottom:16px;">Kyokushinkai pensum</p>
-    <div class="belt-list">
-      {{ range sort .Pages "Params.weight" "asc" }}
-      <a href="{{ .Permalink }}" class="belt-card">
-        <div class="belt-stripe" style="background:{{ .Params.belt_color }}"></div>
-        <div class="belt-info"><span class="belt-level">{{ .Params.belt_level }}</span><span class="belt-title">{{ .Title }}</span></div>
-        <i class="fas fa-chevron-right" style="color:#ccc"></i>
-      </a>
-      {{ end }}
-    </div>
+{{ define "main" }}
+<div style="background:#1b5e20;color:white;padding:16px;display:flex;align-items:center;gap:14px;">
+  <div style="background:rgba(255,255,255,0.2);border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;"><i class="fas fa-book-open fa-lg"></i></div>
+  <div><h2 style="font-size:20px;font-weight:700;">Syllabus</h2><p style="opacity:0.85;font-size:13px;">Kyokushinkai pensum</p></div>
+</div>
+<div style="padding:16px;">
+  <div class="belt-list">
+    {{ range sort .Pages "Params.weight" "asc" }}
+    <a href="{{ .Permalink }}" class="belt-card">
+      <div class="belt-stripe" style="background:{{ .Params.belt_color }}"></div>
+      <div class="belt-info"><span class="belt-level">{{ .Params.belt_level }}</span><span class="belt-title">{{ .Title }}</span></div>
+      <i class="fas fa-chevron-right" style="color:#ccc"></i>
+    </a>
+    {{ end }}
   </div>
-  {{ partial "bottom-nav.html" . }}
-</body>
-</html>
+</div>
+{{ end }}
