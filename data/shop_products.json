@@ -54,19 +54,6 @@
     "categories": []
   },
   {
-    "id": 1962,
-    "name": "EHF gebyr",
-    "slug": "ehf-gebyr",
-    "permalink": "https://www.algardkarate.net/algardkarate/shop/ehf-gebyr/",
-    "type": "simple",
-    "price": 10.0,
-    "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2023/02/ehf_faktura_3.0.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2023/02/ehf_faktura_3.0-230x70.jpg",
-    "on_sale": false,
-    "categories": []
-  },
-  {
     "id": 1168,
     "name": "ESSENTIALS MMA HANSKER",
     "slug": "hansker-til-trening",

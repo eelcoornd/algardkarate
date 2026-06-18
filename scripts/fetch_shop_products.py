@@ -11,6 +11,7 @@ import urllib.request
 
 API = "https://www.algardkarate.net/algardkarate/wp-json/wc/store/v1/products?per_page=100"
 EXCLUDED_CATEGORY_SLUGS = {"intern", "kontigent"}
+EXCLUDED_SLUGS = {"ehf-gebyr"}
 OUTPUT = "data/shop_products.json"
 
 
@@ -26,6 +27,8 @@ def main() -> int:
     for p in products:
         cat_slugs = {c.get("slug", "").lower() for c in p.get("categories", [])}
         if cat_slugs & EXCLUDED_CATEGORY_SLUGS:
+            continue
+        if p.get("slug", "").lower() in EXCLUDED_SLUGS:
             continue
 
         prices = p.get("prices") or {}
