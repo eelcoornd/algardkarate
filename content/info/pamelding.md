@@ -14,9 +14,7 @@ Vi setter stor pris på nye medlemmer, og tar godt imot nye utøvere.
 <strong>Nye medlemmer kan melde seg på i starten av hvert halvår.</strong> Bruk lenken under og velg oppstart. Last også ned Spond-appen for å få oppdatert informasjon om treningen.
 </div>
 
-### [👉 PÅMELDING GJØR DU HER](https://club.spond.com/landing/signup/dmala)
-
-<p style="text-align:center;margin:18px 0;">
+<p style="text-align:center;margin:24px 0;">
   <a class="cta-button" href="https://club.spond.com/landing/signup/dmala" target="_blank" rel="noopener">Påmelding</a>
 </p>
 
