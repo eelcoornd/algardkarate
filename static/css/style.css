@@ -447,3 +447,15 @@ body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; max-width: 480p
   padding: 12px; border-radius: 12px; font-weight: 600;
   margin-bottom: 8px;
 }
+
+/* Syllabus tables with images: tighter padding on mobile */
+.syllabus-content td img {
+  display: block; max-width: 100%; height: auto;
+}
+.syllabus-content table td:last-child:has(img) {
+  padding: 6px; text-align: center; width: 1%;
+}
+@media (max-width: 380px) {
+  .syllabus-content table { font-size: 13px; }
+  .syllabus-content td { padding: 6px 8px; }
+}
