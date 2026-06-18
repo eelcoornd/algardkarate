@@ -7,10 +7,11 @@
     "type": "variable",
     "price": 350.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/1521830202342_e021-w-2_1024x1024.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/1521830202342_e021-w-2_1024x1024-230x230.jpg",
+    "image": "/shop-images/896.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/1521830202342_e021-w-2_1024x1024.jpg",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 263,
@@ -20,12 +21,13 @@
     "type": "variable",
     "price": 100.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/03/Kyokushin-Karate-Belts1.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/03/Kyokushin-Karate-Belts1-230x140.jpg",
+    "image": "/shop-images/263.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/03/Kyokushin-Karate-Belts1.jpg",
     "on_sale": false,
     "categories": [
       "belte"
-    ]
+    ],
+    "category_slug": "belte"
   },
   {
     "id": 1877,
@@ -35,10 +37,11 @@
     "type": "variable",
     "price": 600.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2022/09/Screen-Shot-2022-09-07-at-19.53.00.png",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2022/09/Screen-Shot-2022-09-07-at-19.53.00-230x230.png",
+    "image": "/shop-images/1877.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2022/09/Screen-Shot-2022-09-07-at-19.53.00.png",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 2112,
@@ -48,10 +51,11 @@
     "type": "simple",
     "price": 100.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2024/01/Screenshot-2024-01-30-at-21.14.32.png",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2024/01/Screenshot-2024-01-30-at-21.14.32-230x357.png",
+    "image": "/shop-images/2112.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2024/01/Screenshot-2024-01-30-at-21.14.32.png",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 1168,
@@ -61,12 +65,13 @@
     "type": "variable",
     "price": 500.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2021/02/b045-001_1000x.webp",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2021/02/b045-001_1000x-230x230.webp",
+    "image": "/shop-images/1168.webp",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2021/02/b045-001_1000x.webp",
     "on_sale": false,
     "categories": [
       "hansker"
-    ]
+    ],
+    "category_slug": "hansker"
   },
   {
     "id": 1146,
@@ -76,12 +81,13 @@
     "type": "variable",
     "price": 500.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/07/Fighter-handsker.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/07/Fighter-handsker-230x230.jpg",
+    "image": "/shop-images/1146.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/07/Fighter-handsker.jpg",
     "on_sale": false,
     "categories": [
       "hansker"
-    ]
+    ],
+    "category_slug": "hansker"
   },
   {
     "id": 2116,
@@ -91,10 +97,11 @@
     "type": "simple",
     "price": 950.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2024/01/Screenshot-2024-01-30-at-21.15.55.png",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2024/01/Screenshot-2024-01-30-at-21.15.55-230x175.png",
+    "image": "/shop-images/2116.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2024/01/Screenshot-2024-01-30-at-21.15.55.png",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 223,
@@ -104,12 +111,13 @@
     "type": "variable",
     "price": 450.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/03/Screenshot-2020-03-10-at-19.34.40-e1583868032615.png",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/03/Screenshot-2020-03-10-at-19.34.40-486x1024.png",
+    "image": "/shop-images/223.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/03/Screenshot-2020-03-10-at-19.34.40-e1583868032615.png",
     "on_sale": false,
     "categories": [
       "drakt"
-    ]
+    ],
+    "category_slug": "drakt"
   },
   {
     "id": 761,
@@ -119,10 +127,11 @@
     "type": "simple",
     "price": 100.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/04/IMG_4663-scaled.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/04/IMG_4663-scaled-230x329.jpg",
+    "image": "/shop-images/761.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/04/IMG_4663-scaled.jpg",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 1005,
@@ -132,12 +141,13 @@
     "type": "variable",
     "price": 799.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-12.15.02.png",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-12.15.02-230x100.png",
+    "image": "/shop-images/1005.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-12.15.02.png",
     "on_sale": false,
     "categories": [
       "Klubbartikler"
-    ]
+    ],
+    "category_slug": "klubbartikler"
   },
   {
     "id": 895,
@@ -147,10 +157,11 @@
     "type": "simple",
     "price": 100.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/IMG_4664.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/IMG_4664-230x145.jpg",
+    "image": "/shop-images/895.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/IMG_4664.jpg",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 942,
@@ -160,10 +171,11 @@
     "type": "variable",
     "price": 400.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/E027-002_600x_e9de7848-a155-4daf-bafa-c033537be6f1_1000x.webp",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/E027-002_600x_e9de7848-a155-4daf-bafa-c033537be6f1_1000x-230x230.webp",
+    "image": "/shop-images/942.webp",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/E027-002_600x_e9de7848-a155-4daf-bafa-c033537be6f1_1000x.webp",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 1152,
@@ -173,12 +185,13 @@
     "type": "variable",
     "price": 450.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/1595569940234_smid802-2_1024x1024.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/1595569940234_smid802-2_1024x1024-230x230.jpg",
+    "image": "/shop-images/1152.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/1595569940234_smid802-2_1024x1024.jpg",
     "on_sale": false,
     "categories": [
       "hansker"
-    ]
+    ],
+    "category_slug": "hansker"
   },
   {
     "id": 939,
@@ -188,10 +201,11 @@
     "type": "variable",
     "price": 250.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/SUSP.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/SUSP-230x230.jpg",
+    "image": "/shop-images/939.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/SUSP.jpg",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 759,
@@ -201,10 +215,11 @@
     "type": "simple",
     "price": 100.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/04/Syllabus.jpg",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/04/Syllabus-230x326.jpg",
+    "image": "/shop-images/759.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/04/Syllabus.jpg",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   },
   {
     "id": 2228,
@@ -214,9 +229,10 @@
     "type": "variable",
     "price": 100.0,
     "currency": "NOK",
-    "image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2025/05/Mouthguard-SMAI_1000x_18896169-e4c9-4211-9437-8283ef4b1349_1000x.webp",
-    "thumbnail": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2025/05/Mouthguard-SMAI_1000x_18896169-e4c9-4211-9437-8283ef4b1349_1000x-230x230.webp",
+    "image": "/shop-images/2228.webp",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2025/05/Mouthguard-SMAI_1000x_18896169-e4c9-4211-9437-8283ef4b1349_1000x.webp",
     "on_sale": false,
-    "categories": []
+    "categories": [],
+    "category_slug": "annet"
   }
 ]

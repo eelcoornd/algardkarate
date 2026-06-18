@@ -2,8 +2,19 @@
 <style>
   .shop-hero { background: linear-gradient(135deg,#6a1b9a,#4a148c); color:#fff; padding:20px 16px; display:flex; align-items:center; gap:14px; }
   .shop-hero .icon-wrap { background: rgba(255,255,255,0.2); border-radius: 50%; width: 52px; height: 52px; display:flex; align-items:center; justify-content:center; }
+
+  .shop-controls { padding:12px 14px 0; }
+  .shop-search { position:relative; }
+  .shop-search input { width:100%; padding:10px 12px 10px 36px; border:1px solid #ddd; border-radius:10px; font-size:14px; background:#fff; }
+  .shop-search input:focus { outline:none; border-color:#6a1b9a; }
+  .shop-search i { position:absolute; left:12px; top:50%; transform:translateY(-50%); color:#aaa; font-size:14px; }
+  .shop-chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+  .shop-chip { background:#f3e5f5; color:#6a1b9a; border:none; padding:6px 12px; border-radius:16px; font-size:12px; font-weight:600; cursor:pointer; }
+  .shop-chip.active { background:#6a1b9a; color:#fff; }
+
   .shop-grid { display:grid; grid-template-columns: repeat(2, 1fr); gap:12px; padding:14px; }
   .shop-card { background:#fff; border-radius:14px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08); display:flex; flex-direction:column; }
+  .shop-card.hidden { display:none; }
   .shop-card a.shop-link { color:inherit; text-decoration:none; display:flex; flex-direction:column; flex:1; }
   .shop-card .shop-img-wrap { width:100%; aspect-ratio:1/1; background:#f5f5f5; display:flex; align-items:center; justify-content:center; overflow:hidden; }
   .shop-card .shop-img-wrap img { width:100%; height:100%; object-fit:cover; }
@@ -15,7 +26,7 @@
   .shop-card .shop-btn { display:block; background:#6a1b9a; color:#fff; text-align:center; padding:10px; font-size:13px; font-weight:600; text-decoration:none; }
   .shop-card .shop-btn:hover { background:#4a148c; }
   .shop-card .shop-btn i { margin-right:6px; }
-  .shop-note { padding:10px 16px 0; font-size:11px; color:#888; text-align:center; }
+  .shop-empty { padding:24px 16px; text-align:center; color:#888; }
 </style>
 {{ end }}
 
@@ -28,33 +39,108 @@
   </div>
 </div>
 
-<p class="shop-note">Klikk på et produkt for å se detaljer og legge i handlekurv hos algardkarate.net.</p>
+{{ $pages := where .Pages "Section" "shop" }}
+{{ $pages = $pages.ByTitle }}
 
-{{ $products := site.Data.shop_products | default slice }}
-{{ if $products }}
-<div class="shop-grid">
-  {{ range $products }}
-  <div class="shop-card">
-    <a class="shop-link" href="{{ .permalink }}" target="_blank" rel="noopener">
-      {{ if .image }}
-      <div class="shop-img-wrap"><img src="{{ .image }}" alt="{{ .name }}" loading="lazy"></div>
+{{/* Collect categories for filter chips */}}
+{{ $catSet := dict }}
+{{ range $pages }}
+  {{ with .Params.category_slug }}
+    {{ if not (index $catSet .) }}
+      {{ $catSet = merge $catSet (dict . (index $.Params.categories 0 | default (title .))) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $pages }}
+<div class="shop-controls">
+  <div class="shop-search">
+    <i class="fas fa-search"></i>
+    <input id="shop-search-input" type="search" placeholder="Søk i shop..." aria-label="Søk i shop">
+  </div>
+  <div class="shop-chips" id="shop-chips">
+    <button class="shop-chip active" data-cat="all">Alle</button>
+    {{ range $slug, $name := $catSet }}
+    <button class="shop-chip" data-cat="{{ $slug }}">{{ $name }}</button>
+    {{ end }}
+  </div>
+</div>
+
+<div class="shop-grid" id="shop-grid">
+  {{ range $pages }}
+  {{ $isSimple := eq .Params.product_type "simple" }}
+  {{ $cartUrl := .Params.wp_add_to_cart }}
+  <div class="shop-card"
+       data-name="{{ lower .Title }}"
+       data-cat="{{ .Params.category_slug | default "annet" }}">
+    <a class="shop-link" href="{{ .RelPermalink }}">
+      {{ if .Params.image }}
+      <div class="shop-img-wrap"><img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy"></div>
       {{ else }}
       <div class="shop-img-wrap placeholder"><i class="fas fa-image"></i></div>
       {{ end }}
       <div class="shop-info">
-        <span class="shop-name">{{ .name }}</span>
-        <span class="shop-price">kr {{ printf "%.0f" .price }},-</span>
-        {{ if eq .type "variable" }}<span class="shop-meta">Flere varianter</span>{{ end }}
+        <span class="shop-name">{{ .Title }}</span>
+        <span class="shop-price">kr {{ printf "%.0f" .Params.price }},-</span>
+        {{ if not $isSimple }}<span class="shop-meta">Flere varianter</span>{{ end }}
       </div>
     </a>
-    <a class="shop-btn" href="{{ .permalink }}" target="_blank" rel="noopener">
-      <i class="fas fa-{{ if eq .type "variable" }}sliders-h{{ else }}shopping-cart{{ end }}"></i>
-      {{ if eq .type "variable" }}Velg variant{{ else }}Kjøp{{ end }}
+    {{ if and $isSimple $cartUrl }}
+    <a class="shop-btn" href="{{ $cartUrl }}" target="_blank" rel="noopener" aria-label="Legg {{ .Title }} i handlekurv">
+      <i class="fas fa-cart-plus"></i> Legg i kurv
     </a>
+    {{ else }}
+    <a class="shop-btn" href="{{ .RelPermalink }}" aria-label="Se varianter for {{ .Title }}">
+      <i class="fas fa-sliders-h"></i> Velg variant
+    </a>
+    {{ end }}
   </div>
   {{ end }}
 </div>
+<p class="shop-empty" id="shop-empty" hidden>Ingen produkter matcher søket.</p>
 {{ else }}
-<p style="padding:24px 16px;text-align:center;color:#888;">Ingen produkter tilgjengelig akkurat nå.</p>
+<p class="shop-empty">Ingen produkter tilgjengelig akkurat nå.</p>
 {{ end }}
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(function() {
+  const search = document.getElementById("shop-search-input");
+  const chips = document.querySelectorAll("#shop-chips .shop-chip");
+  const cards = document.querySelectorAll("#shop-grid .shop-card");
+  const empty = document.getElementById("shop-empty");
+  if (!search || !cards.length) return;
+
+  let activeCat = "all";
+  let query = "";
+
+  function apply() {
+    let visible = 0;
+    cards.forEach(c => {
+      const name = c.dataset.name || "";
+      const cat = c.dataset.cat || "";
+      const matchesCat = activeCat === "all" || cat === activeCat;
+      const matchesQuery = !query || name.includes(query);
+      const show = matchesCat && matchesQuery;
+      c.classList.toggle("hidden", !show);
+      if (show) visible++;
+    });
+    if (empty) empty.hidden = visible > 0;
+  }
+
+  search.addEventListener("input", e => {
+    query = e.target.value.trim().toLowerCase();
+    apply();
+  });
+  chips.forEach(chip => {
+    chip.addEventListener("click", () => {
+      chips.forEach(c => c.classList.remove("active"));
+      chip.classList.add("active");
+      activeCat = chip.dataset.cat;
+      apply();
+    });
+  });
+})();
+</script>
 {{ end }}
