@@ -29,6 +29,9 @@ jobs:
           SPOND_PASSWORD: ${{ secrets.SPOND_PASSWORD }}
         run: python scripts/fetch_spond_events.py
 
+      - name: Fetch Shop products
+        run: python scripts/fetch_shop_products.py
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
