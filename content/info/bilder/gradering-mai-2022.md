@@ -2,6 +2,7 @@
 title: "Gradering Mai 2022"
 album_url: "https://photos.app.goo.gl/8U3GqsP6MJxgtcBc8"
 order: 27
+year: 2022
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczNjjlH3nwrTAJKuSHEWbhBNribLcQjaTCFLw-klhdm1fYGeVmdklo23x5rsY725SyzFX46nz41tpSoi8iIR_7adFyQwkhduJT54-DkQG5qFdXvvMg"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczNjjlH3nwrTAJKuSHEWbhBNribLcQjaTCFLw-klhdm1fYGeVmdklo23x5rsY725SyzFX46nz41tpSoi8iIR_7adFyQwkhduJT54-DkQG5qFdXvvMg=w1200-h630-no-c"

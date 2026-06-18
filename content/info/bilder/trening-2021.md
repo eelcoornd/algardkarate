@@ -2,6 +2,7 @@
 title: "Trening 2021"
 album_url: "https://photos.app.goo.gl/SArLUjjHLaqaas8s5"
 order: 14
+year: 2021
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMsj8LgXQbUhH-l6rl2tBre08aw51_DO-docMSSErhBLTZRMXzQMEY_3SHpv1L28Opj8BbUjnB9h4GWlXt3_EaZDDiOUjwlL1woVpwP4s4XuvnOqQ"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMsj8LgXQbUhH-l6rl2tBre08aw51_DO-docMSSErhBLTZRMXzQMEY_3SHpv1L28Opj8BbUjnB9h4GWlXt3_EaZDDiOUjwlL1woVpwP4s4XuvnOqQ=w1200-h630-no-c"

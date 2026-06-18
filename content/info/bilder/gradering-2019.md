@@ -2,6 +2,7 @@
 title: "Gradering 2019"
 album_url: "https://photos.app.goo.gl/pCnzhGrgj77v6ZXj9"
 order: 25
+year: 2019
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMGm6DwAdFtobokhhAFZLdNPfyW26KZGUPYYGhpbz0aAJxQy7a3iY6BGsX00Fan72R36-Mz4NByMecvRq-XGWtWqrFYyig-ybjSvWShpoQkgFTVnw"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMGm6DwAdFtobokhhAFZLdNPfyW26KZGUPYYGhpbz0aAJxQy7a3iY6BGsX00Fan72R36-Mz4NByMecvRq-XGWtWqrFYyig-ybjSvWShpoQkgFTVnw=w1200-h630-no-c"

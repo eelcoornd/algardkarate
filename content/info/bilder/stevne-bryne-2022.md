@@ -2,17 +2,18 @@
 title: "Stevne Bryne 2022"
 album_url: "https://photos.google.com/share/AF1QipOK-KSc5hfjSCGxvQ9DeaeVQqcflwo2Bf3OvZwiI2dMhnja1OYKaZ5nGXMvRdHbSw?key=RDVwMld1SUc2ZVlURW9VRHlRaDRPZHZLWWFmWnpR"
 order: 1
+year: 2022
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczNSlLWVPdyynav6fGpojRMpG5SE55VnwDocFZxNjib0nenDfDXsdnEIYuvCI4381cRXM-uX56ND4EP5QpVE9b3iuSKilFX133xr-MEZhiFLJ3-EdA"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczNSlLWVPdyynav6fGpojRMpG5SE55VnwDocFZxNjib0nenDfDXsdnEIYuvCI4381cRXM-uX56ND4EP5QpVE9b3iuSKilFX133xr-MEZhiFLJ3-EdA=w1200-h630-no-c"
 photo_count: 39
 photos:
   - "https://lh3.googleusercontent.com/pw/AP1GczNSlLWVPdyynav6fGpojRMpG5SE55VnwDocFZxNjib0nenDfDXsdnEIYuvCI4381cRXM-uX56ND4EP5QpVE9b3iuSKilFX133xr-MEZhiFLJ3-EdA"
+  - "https://lh3.googleusercontent.com/pw/AP1GczMlEHcPClGgcgXlUlGfuF5sIMmWop40I0sL4zEl3DZvaav4HHer66Ga_AJZrUjuBjxQ_oU8O3gp7_JpUur8WY0FpC6jNdqoqtKQngn_ugM4B3dVL0c"
   - "https://lh3.googleusercontent.com/pw/AP1GczNWG1z-gq_7UaTrzQSTCdIy12pmYK5Lc-IY6ctD7DSAARJMjwkfCXoSQQxjsWd9Wk4-4Zcso9duM3JJByegt-XMBPCMy6orqtqfLpoeu5P99vwE-Bs"
   - "https://lh3.googleusercontent.com/pw/AP1GczNNzcAiPFpvtTMOLflpOzF9th0zWR4woPSY9PWoUc7Rmab1OyPLQgwa-styQoPi26-ccDALDwOb0JXRJE7DbOk2ONxs22SMA6_tgdOQR6K1Du-4zEQ"
   - "https://lh3.googleusercontent.com/pw/AP1GczOqSCIVWs5nfyo_rzSoUq6LMpio3TByGcSsjHeXqtlSh2CU_RQTlcQberfpytz0rceo4baTa8r7L9lrEKq7SCnYnCegYWHDcyRyyLRDtqxQu___tJU"
   - "https://lh3.googleusercontent.com/pw/AP1GczP3apuwk9QVw0lf02QrRgzed2yEwOXwXTJGMRGgxLPJmYUzqUgt52wd_VDvDwIwLahAVMLKulpC6ukPRR7nFg5fqPAd0OX9FMo3kM4KnMfwNtd_X6I"
-  - "https://lh3.googleusercontent.com/pw/AP1GczMlEHcPClGgcgXlUlGfuF5sIMmWop40I0sL4zEl3DZvaav4HHer66Ga_AJZrUjuBjxQ_oU8O3gp7_JpUur8WY0FpC6jNdqoqtKQngn_ugM4B3dVL0c"
   - "https://lh3.googleusercontent.com/pw/AP1GczPvjTn_4fBhxv0t-gRneZpgZ2ADVIClvvcDIhmRZMSXeKKZBql635puDkzxpxL-SHJdIgVQ021tmUi5toVmWvEUIpvMKd0DON176PGZoJA7kvEUNfQ"
   - "https://lh3.googleusercontent.com/pw/AP1GczM4YXyq354yMCB79p5OZtEfY3rA1qxsNAUCVrxMPA_7RKE0001fPqi5i6Ujx8ySkvc4UnWZTbBPcPea716amOOJP8008LCUAoFAf9XIKHxnSLjAVAk"
   - "https://lh3.googleusercontent.com/pw/AP1GczP-AaanRQHMxdH4JvLWGlyY8IRefZIbTOzJe6tpkjmdzrz-cUJt49e9X2CofXsRPgT_3rA_lesZtxDoDrLx_ghciCfwb62SSVZ9M2ZXrpD45KocpC4"

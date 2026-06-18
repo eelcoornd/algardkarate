@@ -2,14 +2,15 @@
 title: "Vinterleir Etne 2019"
 album_url: "https://photos.app.goo.gl/LwPj56PjHf5kHMhTA"
 order: 24
+year: 2019
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczOC4QwMmj86bptZXkBtCCGpc1Q0nKP_lTbJ2tvYAaM85rUlZ4OmrU2wptWzt4wWXWdGu0wuGdiC0lA2ae2z9GhjhMDj08zWDjpaOIgPCEcE3YgxZQ"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczOC4QwMmj86bptZXkBtCCGpc1Q0nKP_lTbJ2tvYAaM85rUlZ4OmrU2wptWzt4wWXWdGu0wuGdiC0lA2ae2z9GhjhMDj08zWDjpaOIgPCEcE3YgxZQ=w1200-h630-no-c"
 photo_count: 12
 photos:
   - "https://lh3.googleusercontent.com/pw/AP1GczOC4QwMmj86bptZXkBtCCGpc1Q0nKP_lTbJ2tvYAaM85rUlZ4OmrU2wptWzt4wWXWdGu0wuGdiC0lA2ae2z9GhjhMDj08zWDjpaOIgPCEcE3YgxZQ"
-  - "https://lh3.googleusercontent.com/pw/AP1GczPlOQI0_jZIjllyo7kDkEvba_2ip8mTqSG7kJHDEw71TyJk7Uo9hBRO4TzxMLMEGYkwydcZs2WgNsjxEhuIF0sTIqei7tXLNBFdhCaiTYT3MPgyVw"
   - "https://lh3.googleusercontent.com/pw/AP1GczP5SLmb2BGTMnwfRhaoEhAQ41cFfhJBq0Bwdu78c6gfDT_wYvGYGnxAfw2F79Pi2xm2Py6f9PuJ3WZAdo-UXiyCSNy57OIhqOt7hoSSmK4BDoRB7w"
+  - "https://lh3.googleusercontent.com/pw/AP1GczPlOQI0_jZIjllyo7kDkEvba_2ip8mTqSG7kJHDEw71TyJk7Uo9hBRO4TzxMLMEGYkwydcZs2WgNsjxEhuIF0sTIqei7tXLNBFdhCaiTYT3MPgyVw"
   - "https://lh3.googleusercontent.com/pw/AP1GczNzIe1k4l8M8KlQjPn67-QUkjbQxg6FG7aUtCDXtjF5oAQNtHTazScOiKA-2bYF4CRIakuz8Vb79yT_RM5f7qpVBfWfCioGAd0M-h5UHA-ljxHlVg"
   - "https://lh3.googleusercontent.com/pw/AP1GczPBBoM85a1vZim1fGi-DAIajLTZFzu_ZByYQMGlWkhlwmQ-7qo6iy2T68UvdPZ2t_KrPTSDWWmgWYxKRx0DiKiFgxnYUnwbSHtdsH1_bfHB0MMTLA"
   - "https://lh3.googleusercontent.com/pw/AP1GczNnIOIOW4Dc_a2jgsl7DhKp7rP2qNUuwr_Rh3ohw_AdEcSwkvlErTvuNMG3wjD0jDpNRj6L98QIHOxzDiHTDNf8B77UgXZd9yhDDFU3rkeIzDTInQ"

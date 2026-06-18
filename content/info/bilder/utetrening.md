@@ -2,6 +2,7 @@
 title: "Utetrening"
 album_url: "https://photos.app.goo.gl/6SbEjeqwnm8xSB6r8"
 order: 12
+year: 0
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMXgHuBJxOCihsAR3W_664LSg06R1USu2DiNDYSddNJlzPvav0i14nNBAvVOYkjA0zRFmMcfoV7HI6Za5mVL4zL_5wHd1ToQW7K2fi8m1a7xe2scg"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMXgHuBJxOCihsAR3W_664LSg06R1USu2DiNDYSddNJlzPvav0i14nNBAvVOYkjA0zRFmMcfoV7HI6Za5mVL4zL_5wHd1ToQW7K2fi8m1a7xe2scg=w1200-h630-no-c"

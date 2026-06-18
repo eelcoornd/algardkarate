@@ -2,6 +2,7 @@
 title: "Vinterleir Etne 2020"
 album_url: "https://photos.app.goo.gl/xrpi4PgLb89vZ7Le8"
 order: 21
+year: 2020
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczP4ze-El73am3ZBV4_TRaeKZi0ipSel4MwHjA6WTAcjGHYMmSXIE3S51cSMdiv0a8NNqUkk0yxtxPqchHCVMm39DaxO7JauUIuwQih9vipmrdjO4A"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczP4ze-El73am3ZBV4_TRaeKZi0ipSel4MwHjA6WTAcjGHYMmSXIE3S51cSMdiv0a8NNqUkk0yxtxPqchHCVMm39DaxO7JauUIuwQih9vipmrdjO4A=w1200-h630-no-c"

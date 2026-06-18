@@ -2,6 +2,7 @@
 title: "Gradering Dec 2021"
 album_url: "https://photos.app.goo.gl/L4CKkEcVSCacV3Ez9"
 order: 13
+year: 2021
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMcirx0j3oQX2X7Jp6Tb1tBCUkuu9V8ZtRGBBrAoosVKKLooODDqRqavsodH96E9A7MSfNLQsCsPnTpcE5Muf8v_ZeRgag0Mh_JSSOqPDTbYF4rPw"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMcirx0j3oQX2X7Jp6Tb1tBCUkuu9V8ZtRGBBrAoosVKKLooODDqRqavsodH96E9A7MSfNLQsCsPnTpcE5Muf8v_ZeRgag0Mh_JSSOqPDTbYF4rPw=w1200-h630-no-c"

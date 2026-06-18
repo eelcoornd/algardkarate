@@ -2,6 +2,7 @@
 title: "Stevne Bryne 2012"
 album_url: "https://photos.app.goo.gl/SHHt86UcFKURyAo46"
 order: 26
+year: 2012
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczOm1A_fCWiwrsxlQC2YHKFTGCK22_SSbkITCa9NDTGpsIs3mXuH6hLlbCNFW2S5qxz2nOYWvGMwrz7rPYR2LE8wgjManGscT90gNajkrGEUH0TR7A"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczOm1A_fCWiwrsxlQC2YHKFTGCK22_SSbkITCa9NDTGpsIs3mXuH6hLlbCNFW2S5qxz2nOYWvGMwrz7rPYR2LE8wgjManGscT90gNajkrGEUH0TR7A=w1200-h630-no-c"

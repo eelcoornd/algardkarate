@@ -2,6 +2,7 @@
 title: "Gradering desember 2022"
 album_url: "https://photos.app.goo.gl/soFLhQhXewzfQwNi9"
 order: 10
+year: 2022
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMH8rYa7aS-oqaLlnqYBfPymjyLCISURM_sQQF9oZic_zXHujtZydV-UesYZQ_E-uFNT4xteDkgll0eKaDC_tYml208tkPqwmcYp0j4GG82rito5w"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMH8rYa7aS-oqaLlnqYBfPymjyLCISURM_sQQF9oZic_zXHujtZydV-UesYZQ_E-uFNT4xteDkgll0eKaDC_tYml208tkPqwmcYp0j4GG82rito5w=w1200-h630-no-c"

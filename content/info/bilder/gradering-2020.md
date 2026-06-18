@@ -2,6 +2,7 @@
 title: "Gradering 2020"
 album_url: "https://photos.app.goo.gl/QrcJNRtJhCw2X5DY6"
 order: 20
+year: 2020
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczOrAUgxwKIYtS8XE6V08GPY2sEbGa1w1LW1Zz1txzHfNMuBAOmCwQzKfYzQ9c4d_C33lMMXktFNU-WqaGglQ2ewstHZBZ_EgfYe8x6H5RLl2cEuUw"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczOrAUgxwKIYtS8XE6V08GPY2sEbGa1w1LW1Zz1txzHfNMuBAOmCwQzKfYzQ9c4d_C33lMMXktFNU-WqaGglQ2ewstHZBZ_EgfYe8x6H5RLl2cEuUw=w1200-h630-no-c"

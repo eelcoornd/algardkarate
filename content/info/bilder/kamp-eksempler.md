@@ -2,6 +2,7 @@
 title: "Kamp eksempler"
 album_url: "https://photos.app.goo.gl/HvVT2imTnPGGZ9K5A"
 order: 16
+year: 0
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMqXQ-QVhpcfneqQZwL_P-SbeUI-RRKJ4xom8xclBOJ1xkhAtz4s41Oimecc5dnhwxBzAsoAEU1DQPCq7Y_r_gAujr-gyAIZkXLI9_MN3q54fKNpQ"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMqXQ-QVhpcfneqQZwL_P-SbeUI-RRKJ4xom8xclBOJ1xkhAtz4s41Oimecc5dnhwxBzAsoAEU1DQPCq7Y_r_gAujr-gyAIZkXLI9_MN3q54fKNpQ=w1200-h630-no-c"

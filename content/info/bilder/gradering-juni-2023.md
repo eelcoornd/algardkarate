@@ -2,6 +2,7 @@
 title: "Gradering Juni 2023"
 album_url: "https://photos.app.goo.gl/6AyypvHz9uVykwFQ6"
 order: 7
+year: 2023
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMqAbpPsTeGhIRXlAZSbQlzETlltVW4yGcSQyUj3bOv1nP_e4eFTKdgxZ_qx-IBB_95l3iVWPHsCzJhw8j58Uv_Kr60MhKSUBoBX6lHJa_NcKJM3w"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMqAbpPsTeGhIRXlAZSbQlzETlltVW4yGcSQyUj3bOv1nP_e4eFTKdgxZ_qx-IBB_95l3iVWPHsCzJhw8j58Uv_Kr60MhKSUBoBX6lHJa_NcKJM3w=w1200-h630-no-c"

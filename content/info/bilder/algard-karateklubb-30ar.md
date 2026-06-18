@@ -2,6 +2,7 @@
 title: "Ålgård Karateklubb 30år"
 album_url: "https://photos.app.goo.gl/Z1k5LrNPAumB8Qo17"
 order: 5
+year: 0
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczM5EOU_6ycDg5jSewFX0Tod0rRfXEwkEYIiZrzkNh0qJQPFEFW0hv5QCxbsx6VpmbxtIAPNIrAO8aTwxlogEpSkbGWQ0rfgdOBiHt6FsdZi0FS9Aw"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczM5EOU_6ycDg5jSewFX0Tod0rRfXEwkEYIiZrzkNh0qJQPFEFW0hv5QCxbsx6VpmbxtIAPNIrAO8aTwxlogEpSkbGWQ0rfgdOBiHt6FsdZi0FS9Aw=w1200-h630-no-c"

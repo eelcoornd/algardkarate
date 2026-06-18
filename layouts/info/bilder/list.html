@@ -12,7 +12,7 @@
 
 <div style="padding:16px;">
   <div class="album-grid">
-    {{ range (sort .Pages "Params.order") }}
+    {{ range (sort (sort .Pages "Title" "asc") "Params.year" "desc") }}
       {{ $cover := .Params.cover }}
       {{ $thumb := "" }}
       {{ if $cover }}{{ $thumb = printf "%s=w600-h600-no-c" $cover }}{{ end }}

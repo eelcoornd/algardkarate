@@ -2,6 +2,7 @@
 title: "Ålgård Karateklubb."
 album_url: "https://photos.app.goo.gl/gLLmurNhM3MtNtoB9"
 order: 19
+year: 0
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczPzTRKOoYpS2u9pkCF7GtWog3Hktl6ZsULzxhWpn6dJ_c_UwL6ZXwJFol5AOKkhmUEpuVL8R7IRSbCqdrgrYy3iELR4lBIqZYvmf49vbPMx3zkihA"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczPzTRKOoYpS2u9pkCF7GtWog3Hktl6ZsULzxhWpn6dJ_c_UwL6ZXwJFol5AOKkhmUEpuVL8R7IRSbCqdrgrYy3iELR4lBIqZYvmf49vbPMx3zkihA=w1200-h630-no-c"

@@ -2,6 +2,7 @@
 title: "Vinterleir Etne 2023"
 album_url: "https://photos.app.goo.gl/5x1A7aSbMb6dNdiW9"
 order: 9
+year: 2023
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczNEqCUCgKLgC5OljlUcxyP3G5Q88VPbUpHSum0OdXN8gJYRL9W61FbwKfM0gDFNpSijGIlVa-Gh7YzsrAchIsfLWTtsAK8uEGgoQrduqAfbFI3WrQ"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczNEqCUCgKLgC5OljlUcxyP3G5Q88VPbUpHSum0OdXN8gJYRL9W61FbwKfM0gDFNpSijGIlVa-Gh7YzsrAchIsfLWTtsAK8uEGgoQrduqAfbFI3WrQ=w1200-h630-no-c"

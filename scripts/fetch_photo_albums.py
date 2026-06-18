@@ -42,6 +42,15 @@ OG_IMAGE_RE = re.compile(
 )
 
 
+YEAR_RE = re.compile(r"\b(19[5-9]\d|20\d{2})\b")
+
+
+def extract_year(title: str) -> int:
+    """Return the latest 4-digit year found in the title, or 0 if none."""
+    years = [int(m.group(1)) for m in YEAR_RE.finditer(title or "")]
+    return max(years) if years else 0
+
+
 def slugify(text: str) -> str:
     text = unicodedata.normalize("NFKD", text)
     text = text.encode("ascii", "ignore").decode("ascii")
@@ -191,6 +200,7 @@ def main() -> int:
             "title": data["title"],
             "album_url": url,
             "order": order,
+            "year": extract_year(data["title"]),
             "embedded": bool(data["photos"]),
             "cover": data["cover"],
             "ogImage": (data["cover"] + "=w1200-h630-no-c") if data["cover"] else None,

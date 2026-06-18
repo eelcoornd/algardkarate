@@ -2,6 +2,7 @@
 title: "Stevne Bryne 2019"
 album_url: "https://photos.app.goo.gl/PE4KgHDbBv4iNM6a6"
 order: 22
+year: 2019
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMlIAZ-93y-vWXTPTaM9-Dp3BrAHPbbTjVoSdSCL___V0FjX9sf2L_97mc18Xe8A6nj2O97T1qqghYuj3QweGLqE7Mgt93Hzoih4A9_vfDC2ljhRg"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMlIAZ-93y-vWXTPTaM9-Dp3BrAHPbbTjVoSdSCL___V0FjX9sf2L_97mc18Xe8A6nj2O97T1qqghYuj3QweGLqE7Mgt93Hzoih4A9_vfDC2ljhRg=w1200-h630-no-c"

@@ -2,6 +2,7 @@
 title: "Film"
 album_url: "https://photos.app.goo.gl/9HPEHWuvynqWQkuv6"
 order: 23
+year: 0
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMais7yte1OtMfSCJ9oQTv3dxd3zn4PST8RofsUT_MBgE3lhAKHJQAIqAnHgq0PrC0q2T_gzpTW9SGljpMb1p-qMDtoxiRx8qauzmUAQKqnZdoCfA"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMais7yte1OtMfSCJ9oQTv3dxd3zn4PST8RofsUT_MBgE3lhAKHJQAIqAnHgq0PrC0q2T_gzpTW9SGljpMb1p-qMDtoxiRx8qauzmUAQKqnZdoCfA=w1200-h630-no-c"

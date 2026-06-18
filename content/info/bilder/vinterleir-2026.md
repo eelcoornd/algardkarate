@@ -2,6 +2,7 @@
 title: "Vinterleir 2026"
 album_url: "https://photos.app.goo.gl/3xpyPjjcJoeF3uVP6"
 order: 2
+year: 2026
 embedded: true
 cover: "https://lh3.googleusercontent.com/pw/AP1GczMwXHLywqNPxMVJm2iLplEUy3kSdJsnITj3pLvdWEn9_xXKqWtk0WsJ_iejSMvGk4jEUlvySw7Ol8o_dK-GQCcCH5xdcii1JFMqcx47ZxwgoCpwhQ"
 ogImage: "https://lh3.googleusercontent.com/pw/AP1GczMwXHLywqNPxMVJm2iLplEUy3kSdJsnITj3pLvdWEn9_xXKqWtk0WsJ_iejSMvGk4jEUlvySw7Ol8o_dK-GQCcCH5xdcii1JFMqcx47ZxwgoCpwhQ=w1200-h630-no-c"
