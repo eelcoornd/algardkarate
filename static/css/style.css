@@ -340,3 +340,73 @@ body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; max-width: 480p
 .info-card h3 { margin: 0 0 8px; font-size: 16px; color: #6a1b9a; }
 .info-card ul { list-style: none; padding: 0; margin: 0; }
 .info-card li { padding: 4px 0; font-size: 15px; }
+
+/* KONTIGENT PAGE */
+.kontigent-page { font-size: 15px; color: #333; }
+.kontigent-page h2 { font-weight: 700; color: #111; }
+
+.info-banner {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: #fff8e1; border-left: 4px solid #f57f17;
+  padding: 14px; border-radius: 8px; margin-bottom: 16px;
+}
+.info-banner i { color: #f57f17; font-size: 20px; margin-top: 2px; }
+.info-banner strong { display: block; font-size: 15px; color: #111; margin-bottom: 4px; }
+.info-banner p { font-size: 14px; line-height: 1.6; color: #444; margin: 0; }
+
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.price-card {
+  background: white; border-radius: 12px; padding: 14px 8px;
+  text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+.price-card-icon {
+  width: 44px; height: 44px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; margin: 0 auto 8px;
+}
+.price-card-title { font-weight: 700; font-size: 14px; color: #111; }
+.price-card-amount { font-weight: 700; font-size: 20px; color: #2e7d32; margin-top: 4px; }
+.price-card-period { font-size: 11px; color: #777; }
+.price-card-note { font-size: 11px; color: #555; margin-top: 6px; }
+
+.pay-card {
+  background: white; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06); margin-bottom: 12px;
+}
+.pay-card-head {
+  color: white; padding: 12px 16px;
+  display: flex; align-items: center; gap: 10px; font-weight: 700;
+}
+.pay-card-head .vipps-logo {
+  font-style: italic; font-weight: 800; letter-spacing: 0.5px; font-size: 18px;
+}
+.pay-card-head .pay-code { margin-left: auto; font-size: 14px; opacity: 0.95; }
+.pay-card-body { padding: 12px 16px; font-size: 14px; }
+.pay-card-body p { margin: 0 0 6px; }
+.pay-card-body ul { margin: 0; padding-left: 18px; }
+.pay-card-body li { padding: 2px 0; }
+.account-no {
+  font-family: 'Menlo', monospace; font-size: 18px; font-weight: 700;
+  color: #1565c0; letter-spacing: 1px; margin-top: 4px;
+}
+
+.grade-list {
+  background: white; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+.grade-row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px; border-bottom: 1px solid #f0f0f0;
+}
+.grade-row:last-child { border-bottom: none; }
+.grade-label { flex: 1; font-size: 14px; }
+.grade-label strong { display: block; color: #111; margin-bottom: 2px; }
+.grade-label span { font-size: 12px; color: #666; line-height: 1.4; }
+.grade-price {
+  font-weight: 700; color: #2e7d32; white-space: nowrap;
+  font-size: 16px;
+}
