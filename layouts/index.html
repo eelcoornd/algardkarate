@@ -41,7 +41,8 @@
 {{ $now := now }}
 {{ $upcoming := slice }}
 {{ range $eventsJSON }}
-  {{ if gt (time .start) $now }}
+  {{ $endTime := time (.end | default .start) }}
+  {{ if gt $endTime $now }}
     {{ $upcoming = $upcoming | append . }}
   {{ end }}
 {{ end }}
@@ -87,7 +88,20 @@
       </div>
       <div class="product-info">
         <span class="product-name">{{ $title }}</span>
-        <span class="product-desc">{{ (time .start).Format "Mon 02.01" }} {{ (time .start).Format "15:04" }}</span>
+        <span class="product-desc">
+          {{ $startT := time .start }}
+          {{ $endT := time (.end | default .start) }}
+          {{ $startDay := substr .start 0 10 }}
+          {{ $endDay := substr (.end | default .start) 0 10 }}
+          {{ if eq $startDay $endDay }}
+            {{ $startT.Format "Mon 02.01" }} {{ $startT.Format "15:04" }}
+          {{ else }}
+            {{ $sd := time $startDay }}
+            {{ $ed := time $endDay }}
+            {{ $days := add (int (div (sub $ed.Unix $sd.Unix) 86400)) 1 }}
+            {{ $startT.Format "02.01" }} – {{ $endT.Format "02.01" }} ({{ $days }} dager)
+          {{ end }}
+        </span>
         <span class="product-price">{{ with .location }}{{ . }}{{ else }}&nbsp;{{ end }}</span>
       </div>
       <button class="add-btn" aria-label="Legg til"><i class="fas fa-plus"></i></button>

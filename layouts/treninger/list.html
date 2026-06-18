@@ -77,7 +77,17 @@ function buildCalendar(year, month) {
   document.getElementById("month-year").textContent = monthNames[month] + " " + year;
   const grid = document.getElementById("calendar-days");
   grid.innerHTML = "";
-  const eventDates = new Set(EVENTS.map(e => e.start.slice(0, 10)));
+  const eventDates = new Set();
+  EVENTS.forEach(function(e) {
+    const startDay = e.start.slice(0, 10);
+    const endDay = (e.end || e.start).slice(0, 10);
+    let cur = new Date(startDay + "T12:00:00");
+    const last = new Date(endDay + "T12:00:00");
+    while (cur <= last) {
+      eventDates.add(cur.getFullYear() + "-" + pad(cur.getMonth()+1) + "-" + pad(cur.getDate()));
+      cur.setDate(cur.getDate() + 1);
+    }
+  });
   const firstDay = new Date(year, month, 1).getDay();
   const daysInMonth = new Date(year, month + 1, 0).getDate();
   const today = todayStr();
@@ -105,9 +115,13 @@ function buildCalendar(year, month) {
 
 function showEvents(dateStr) {
   const list = document.getElementById("event-list");
-  const dayEvents = EVENTS.filter(e => e.start.slice(0, 10) === dateStr);
-  const dt = new Date(dateStr + "T12:00:00");
-  const heading = dt.toLocaleDateString("no-NO", { weekday: "long", day: "numeric", month: "long" });
+  const sel = new Date(dateStr + "T12:00:00");
+  const dayEvents = EVENTS.filter(function(e) {
+    const s = new Date(e.start.slice(0,10) + "T12:00:00");
+    const en = new Date((e.end || e.start).slice(0,10) + "T12:00:00");
+    return sel >= s && sel <= en;
+  });
+  const heading = sel.toLocaleDateString("no-NO", { weekday: "long", day: "numeric", month: "long" });
   const capHeading = heading.charAt(0).toUpperCase() + heading.slice(1);
   if (dayEvents.length === 0) {
     list.innerHTML = "<p class=\"event-date-heading\">" + capHeading + "</p><p class=\"no-events\">Ingen treninger denne dagen.</p>";
@@ -116,16 +130,32 @@ function showEvents(dateStr) {
   list.innerHTML = "<p class=\"event-date-heading\">" + capHeading + "</p>" + dayEvents.map(function(e) {
     const start = new Date(e.start);
     const end = new Date(e.end);
-    const timeStr = start.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"})
-                  + "\u2013"
-                  + end.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"});
+    const startDay = e.start.slice(0,10);
+    const endDay = (e.end || e.start).slice(0,10);
+    let timeStr;
+    if (startDay === endDay) {
+      timeStr = start.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"})
+              + "\u2013"
+              + end.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"});
+    } else {
+      const days = Math.round((new Date(endDay) - new Date(startDay)) / 86400000) + 1;
+      timeStr = days + " dager";
+    }
+    const dateRange = (startDay !== endDay)
+      ? "<div class=\"event-meta\"><i class=\"fas fa-calendar-day\" style=\"color:#c0174c;margin-right:4px\"></i>"
+        + start.toLocaleDateString("no-NO", {day:"2-digit", month:"2-digit"})
+        + " kl " + start.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"})
+        + " – " + end.toLocaleDateString("no-NO", {day:"2-digit", month:"2-digit"})
+        + " kl " + end.toLocaleTimeString("no-NO", {hour:"2-digit", minute:"2-digit"})
+        + "</div>"
+      : "";
     const cancelBadge = e.cancelled ? "<span class=\"cancelled-badge\">Avlyst</span>" : "";
     const loc = e.location ? "<div class=\"event-meta\"><i class=\"fas fa-map-marker-alt\" style=\"color:#c0174c;margin-right:4px\"></i>" + e.location + "</div>" : "";
     return "<div class=\"event-card" + (e.cancelled ? " cancelled" : "") + "\">"
          + "<div class=\"event-card-top\">"
          + "<div class=\"event-title\">" + e.title + cancelBadge + "</div>"
          + "<span class=\"event-time-badge\">" + timeStr + "</span>"
-         + "</div>" + loc + "</div>";
+         + "</div>" + dateRange + loc + "</div>";
   }).join("");
 }
 
