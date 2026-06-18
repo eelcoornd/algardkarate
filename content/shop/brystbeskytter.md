@@ -8,7 +8,7 @@ params:
   currency: "NOK"
   image: "/shop-images/1877.png"
   ogImage: "/shop-images/1877.png"
-  wp_permalink: "https://www.algardkarate.net/algardkarate/shop/brystbeskytter/"
+  wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/brystbeskytter/"
   wp_add_to_cart: ""
   categories: []
   category_slug: "annet"

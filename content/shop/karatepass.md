@@ -8,8 +8,8 @@ params:
   currency: "NOK"
   image: "/shop-images/761.jpg"
   ogImage: "/shop-images/761.jpg"
-  wp_permalink: "https://www.algardkarate.net/algardkarate/shop/karatepass/"
-  wp_add_to_cart: "https://www.algardkarate.net/algardkarate/cart/?add-to-cart=761"
+  wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/karatepass/"
+  wp_add_to_cart: "https://shop.algardkarate.net/algardkarate/cart/?add-to-cart=761"
   categories: []
   category_slug: "annet"
 ---

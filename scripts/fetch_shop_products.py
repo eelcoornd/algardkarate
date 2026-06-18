@@ -21,14 +21,14 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-API = "https://www.algardkarate.net/algardkarate/wp-json/wc/store/v1/products?per_page=100"
+API = "https://shop.algardkarate.net/algardkarate/wp-json/wc/store/v1/products?per_page=100"
 EXCLUDED_CATEGORY_SLUGS = {"intern", "kontigent"}
 EXCLUDED_SLUGS = {"ehf-gebyr"}
 
 DATA_OUTPUT = "data/shop_products.json"
 CONTENT_DIR = "content/shop"
 IMAGES_DIR = "static/shop-images"
-WP_CART_URL = "https://www.algardkarate.net/algardkarate/cart/"
+WP_CART_URL = "https://shop.algardkarate.net/algardkarate/cart/"
 
 ALLOWED_IMG_EXT = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 

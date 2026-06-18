@@ -8,7 +8,7 @@ params:
   currency: "NOK"
   image: "/shop-images/263.jpg"
   ogImage: "/shop-images/263.jpg"
-  wp_permalink: "https://www.algardkarate.net/algardkarate/shop/belte/"
+  wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/belte/"
   wp_add_to_cart: ""
   categories: ["belte"]
   category_slug: "belte"

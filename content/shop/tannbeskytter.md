@@ -8,7 +8,7 @@ params:
   currency: "NOK"
   image: "/shop-images/2228.webp"
   ogImage: "/shop-images/2228.webp"
-  wp_permalink: "https://www.algardkarate.net/algardkarate/shop/tannbeskytter/"
+  wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/tannbeskytter/"
   wp_add_to_cart: ""
   categories: []
   category_slug: "annet"

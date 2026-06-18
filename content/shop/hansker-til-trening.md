@@ -8,7 +8,7 @@ params:
   currency: "NOK"
   image: "/shop-images/1168.webp"
   ogImage: "/shop-images/1168.webp"
-  wp_permalink: "https://www.algardkarate.net/algardkarate/shop/hansker-til-trening/"
+  wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/hansker-til-trening/"
   wp_add_to_cart: ""
   categories: ["hansker"]
   category_slug: "hansker"

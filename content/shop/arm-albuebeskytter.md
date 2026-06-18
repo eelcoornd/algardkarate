@@ -8,7 +8,7 @@ params:
   currency: "NOK"
   image: "/shop-images/896.jpg"
   ogImage: "/shop-images/896.jpg"
-  wp_permalink: "https://www.algardkarate.net/algardkarate/shop/arm-albuebeskytter/"
+  wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/arm-albuebeskytter/"
   wp_add_to_cart: ""
   categories: []
   category_slug: "annet"

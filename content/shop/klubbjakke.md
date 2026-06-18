@@ -8,7 +8,7 @@ params:
   currency: "NOK"
   image: "/shop-images/1005.png"
   ogImage: "/shop-images/1005.png"
-  wp_permalink: "https://www.algardkarate.net/algardkarate/shop/klubbjakke/"
+  wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/klubbjakke/"
   wp_add_to_cart: ""
   categories: ["Klubbartikler"]
   category_slug: "klubbartikler"

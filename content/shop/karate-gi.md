@@ -8,7 +8,7 @@ params:
   currency: "NOK"
   image: "/shop-images/223.png"
   ogImage: "/shop-images/223.png"
-  wp_permalink: "https://www.algardkarate.net/algardkarate/shop/karate-gi/"
+  wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/karate-gi/"
   wp_add_to_cart: ""
   categories: ["drakt"]
   category_slug: "drakt"

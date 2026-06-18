@@ -1,0 +1,22 @@
+{
+  "routes": [
+    { "route": "/algardkarate/butikk*",         "redirect": "/shop/", "statusCode": 301 },
+    { "route": "/algardkarate/shop/*",          "redirect": "/shop/", "statusCode": 301 },
+    { "route": "/algardkarate/cart*",           "redirect": "https://shop.algardkarate.net/algardkarate/cart/", "statusCode": 302 },
+    { "route": "/algardkarate/checkout*",       "redirect": "https://shop.algardkarate.net/algardkarate/checkout/", "statusCode": 302 },
+    { "route": "/algardkarate/my-account*",     "redirect": "https://shop.algardkarate.net/algardkarate/my-account/", "statusCode": 302 },
+    { "route": "/algardkarate/wp-json/*",       "redirect": "https://shop.algardkarate.net/algardkarate/wp-json/", "statusCode": 302 },
+    { "route": "/algardkarate/wp-admin*",       "redirect": "https://shop.algardkarate.net/algardkarate/wp-admin/", "statusCode": 302 },
+    { "route": "/algardkarate/wp-login*",       "redirect": "https://shop.algardkarate.net/algardkarate/wp-login.php", "statusCode": 302 },
+    { "route": "/algardkarate/kontigent*",      "redirect": "/info/kontigent/", "statusCode": 301 },
+    { "route": "/algardkarate/privacy-policy*", "redirect": "/info/personvern/", "statusCode": 301 },
+    { "route": "/algardkarate/kontakt*",        "redirect": "/info/kontakt/", "statusCode": 301 },
+    { "route": "/algardkarate/instruktorer*",   "redirect": "/info/instruktorer/", "statusCode": 301 },
+    { "route": "/algardkarate/treninger*",      "redirect": "/treninger/", "statusCode": 301 },
+    { "route": "/algardkarate/hall-of-fame*",   "redirect": "/hall-of-fame/", "statusCode": 301 },
+    { "route": "/algardkarate/*",               "redirect": "/", "statusCode": 301 }
+  ],
+  "responseOverrides": {
+    "404": { "rewrite": "/404.html", "statusCode": 404 }
+  }
+}
