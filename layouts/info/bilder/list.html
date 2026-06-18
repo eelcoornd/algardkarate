@@ -1,0 +1,43 @@
+{{ define "title" }}{{ .Title }} – Ålgård Karate{{ end }}
+
+{{ define "main" }}
+<div style="background:#00838f;padding:24px 16px;color:white;display:flex;align-items:center;gap:14px;">
+  <a href="/info/" style="color:white;text-decoration:none;margin-right:8px;" aria-label="Tilbake til info"><i class="fas fa-arrow-left fa-lg"></i></a>
+  <div style="background:rgba(255,255,255,0.2);border-radius:50%;width:52px;height:52px;display:flex;align-items:center;justify-content:center;"><i class="fas fa-images fa-xl"></i></div>
+  <div>
+    <h2 style="font-size:20px;font-weight:700;">Bilder</h2>
+    <p style="opacity:0.85;font-size:13px;">Ålgård Karateklubb</p>
+  </div>
+</div>
+
+<div style="padding:16px;">
+  <div class="album-grid">
+    {{ range (sort .Pages "Params.order") }}
+      {{ $cover := .Params.cover }}
+      {{ $thumb := "" }}
+      {{ if $cover }}{{ $thumb = printf "%s=w600-h600-no-c" $cover }}{{ end }}
+      {{ if .Params.embedded }}
+        <a class="album-card" href="{{ .RelPermalink }}">
+          {{ if $thumb }}
+            <div class="album-thumb" style="background-image:url('{{ $thumb }}');"></div>
+          {{ else }}
+            <div class="album-thumb album-thumb-placeholder">📷</div>
+          {{ end }}
+          <div class="album-info">
+            <span class="album-title">{{ .Title }}</span>
+            <span class="album-meta">{{ .Params.photo_count }} bilder</span>
+          </div>
+        </a>
+      {{ else }}
+        <a class="album-card album-card-external" href="{{ .Params.album_url }}" target="_blank" rel="noopener">
+          <div class="album-thumb album-thumb-placeholder">📷</div>
+          <div class="album-info">
+            <span class="album-title">{{ .Title }}</span>
+            <span class="album-meta">Åpne i Google Photos&nbsp;↗</span>
+          </div>
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

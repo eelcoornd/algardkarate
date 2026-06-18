@@ -3,3 +3,4 @@ hugo_extended_*.tar.gz
 .env
 client_secret.json
 tokens.json
+public/

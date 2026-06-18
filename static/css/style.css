@@ -187,59 +187,93 @@ body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; max-width: 480p
 .menu-label { flex: 1; font-size: 16px; font-weight: 500; }
 .menu-arrow { color: #aaa; font-size: 14px; }
 
-/* Google Photos Album Grid */
-.google-albums-grid {
+/* Photo album list */
+.album-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 1rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
 }
-.google-album-card {
+.album-card {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
   text-decoration: none;
   color: inherit;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.15s, box-shadow 0.15s;
 }
-.google-album-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-}
-.google-album-thumb img {
+.album-card:active { transform: scale(0.98); }
+.album-thumb {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-color: #eceff1;
+}
+.album-thumb-placeholder {
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.4rem; color: #90a4ae;
+}
+.album-info { padding: 8px 10px 10px; }
+.album-title { display: block; font-weight: 600; font-size: 14px; color: #222; line-height: 1.2; }
+.album-meta { display: block; font-size: 12px; color: #607d8b; margin-top: 2px; }
+.album-card-external .album-meta { color: #1a73e8; }
+
+/* Photo grid (per-album single page) */
+.album-external-link {
+  display: inline-block;
+  font-size: 13px;
+  color: #1a73e8;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 4px;
+  padding: 0 4px 16px;
+}
+.photo-cell {
+  border: 0; padding: 0; margin: 0;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-color: #eceff1;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.92);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1000;
+}
+.lightbox[hidden] { display: none; }
+.lb-img {
+  max-width: 96vw; max-height: 88vh;
+  object-fit: contain;
   display: block;
 }
-.google-album-placeholder {
-  width: 100%;
-  height: 200px;
-  background: #f0f0f0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+.lb-close, .lb-prev, .lb-next {
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: 0;
+  width: 44px; height: 44px;
+  font-size: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
 }
-.google-album-info {
-  padding: 0.8rem 1rem;
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-.google-album-title {
-  font-weight: bold;
-  font-size: 1rem;
-}
-.google-album-count {
-  font-size: 0.85rem;
-  color: #666;
-}
-.google-album-link {
-  font-size: 0.8rem;
-  color: #1a73e8;
-  margin-top: 0.25rem;
+.lb-close { top: 16px; right: 16px; font-size: 28px; line-height: 1; }
+.lb-prev { left: 12px; top: 50%; transform: translateY(-50%); }
+.lb-next { right: 12px; top: 50%; transform: translateY(-50%); }
+.lb-counter {
+  position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%);
+  color: #fff; font-size: 13px; background: rgba(0,0,0,0.5);
+  padding: 4px 10px; border-radius: 12px;
 }
