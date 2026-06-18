@@ -10,14 +10,29 @@ weight: 1
 
 Vi setter stor pris på nye medlemmer, og tar godt imot nye utøvere.
 
-**Nye medlemmer kan melde seg på i starten av hvert halvår. Bruk linken her nede og velg oppstart.** Last også ned Spond-appen for å få oppdatert informasjon om treningen.
+<div class="callout">
+<strong>Nye medlemmer kan melde seg på i starten av hvert halvår.</strong> Bruk lenken under og velg oppstart. Last også ned Spond-appen for å få oppdatert informasjon om treningen.
+</div>
 
-## [👉 PÅMELDING GJØR DU HER](https://club.spond.com/landing/signup/dmala)
+### [👉 PÅMELDING GJØR DU HER](https://club.spond.com/landing/signup/dmala)
 
-> Obs! Nytt medlem fra annen karateklubb må ha nytt medlemsnummer i Ålgård karateklubb og derfor også registrere her.
+<p style="text-align:center;margin:18px 0;">
+  <a class="cta-button" href="https://club.spond.com/landing/signup/dmala" target="_blank" rel="noopener">Påmelding</a>
+</p>
+
+> Obs! Nytt medlem fra annen karateklubb må ha nytt medlemsnummer i Ålgård karateklubb og må derfor også registrere her.
 
 ## Last ned Spond-appen
 
-- [App Store (iPhone)](https://apps.apple.com/us/app/spond/id755596884?ls=1)
-- [Google Play (Android)](https://play.google.com/store/apps/details?id=com.spond.spond)
-- [Huawei AppGallery](https://appgallery.huawei.com/app/C101944291)
+<div class="store-badges">
+  <a href="https://apps.apple.com/us/app/spond/id755596884?ls=1" target="_blank" rel="noopener">
+    <img src="/images/store-badges/appstore.png" alt="Last ned på App Store" loading="lazy">
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=com.spond.spond" target="_blank" rel="noopener">
+    <img src="/images/store-badges/googleplay.png" alt="Hent på Google Play" loading="lazy">
+  </a>
+  <a href="https://appgallery.huawei.com/app/C101944291" target="_blank" rel="noopener">
+    <img src="/images/store-badges/appgallery.png" alt="Last ned i AppGallery" loading="lazy">
+  </a>
+</div>
+
