@@ -448,14 +448,18 @@ body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; max-width: 480p
   margin-bottom: 8px;
 }
 
-/* Syllabus tables with images: tighter padding on mobile */
+/* Syllabus tables with images: larger image column on mobile */
 .syllabus-content td img {
   display: block; max-width: 100%; height: auto;
 }
 .syllabus-content table td:last-child:has(img) {
-  padding: 6px; text-align: center; width: 1%;
+  padding: 6px; text-align: center; width: 45%;
+}
+.syllabus-content table td:last-child:has(img) img {
+  width: 100%; max-width: 160px; margin: 0 auto;
 }
 @media (max-width: 380px) {
   .syllabus-content table { font-size: 13px; }
-  .syllabus-content td { padding: 6px 8px; }
+  .syllabus-content td { padding: 6px 6px; }
+  .syllabus-content table td:last-child:has(img) { width: 50%; }
 }

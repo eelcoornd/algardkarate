@@ -72,12 +72,12 @@ weight: 10
 
 | Øvelse | Krav | |
 |---|---|---|
-| Fleksibilitet | Hodet berører gulvet fra sittende posisjon med spredte ben | <img src="/images/syllabus/10-kyu/fleksibilitet.jpg" style="width:90px;border-radius:6px;"> |
-| Armhevinger | 15 | <img src="/images/syllabus/10-kyu/armhevinger.png" style="width:70px;"> |
-| Mageøvelser | 40 | <img src="/images/syllabus/10-kyu/mageovelser.jpeg" style="width:90px;"> |
-| Spensthopp | 15 | <img src="/images/syllabus/10-kyu/spensthopp.png" style="width:70px;"> |
-| Heving til hake | 3 | <img src="/images/syllabus/10-kyu/heving-til-hake.png" style="width:70px;"> |
-| Hopp (Tobi Geri) | Til et mål på samme høyde som en selv | <a href="https://www.youtube.com/watch?v=BqWgxuteGe0" target="_blank"><img src="https://img.youtube.com/vi/BqWgxuteGe0/default.jpg" style="width:90px;border-radius:6px;"></a> |
+| Fleksibilitet | Hodet berører gulvet fra sittende posisjon med spredte ben | <img src="/images/syllabus/10-kyu/fleksibilitet.jpg"> |
+| Armhevinger | 15 | <img src="/images/syllabus/10-kyu/armhevinger.png"> |
+| Mageøvelser | 40 | <img src="/images/syllabus/10-kyu/mageovelser.jpeg"> |
+| Spensthopp | 15 | <img src="/images/syllabus/10-kyu/spensthopp.png"> |
+| Heving til hake | 3 | <img src="/images/syllabus/10-kyu/heving-til-hake.png"> |
+| Hopp (Tobi Geri) | Til et mål på samme høyde som en selv | <a href="https://www.youtube.com/watch?v=BqWgxuteGe0" target="_blank"><img src="https://img.youtube.com/vi/BqWgxuteGe0/default.jpg"></a> |
 
 ---
 
