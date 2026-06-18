@@ -49,6 +49,19 @@ def slugify(text: str) -> str:
     return text or "album"
 
 
+def resolve_url(url: str) -> str:
+    """Follow redirects (e.g. photos.app.goo.gl short links) to the final URL."""
+    if "photos.app.goo.gl" not in url:
+        return url
+    req = Request(url, headers={"User-Agent": USER_AGENT}, method="HEAD")
+    try:
+        with urlopen(req, timeout=15) as resp:
+            return resp.url
+    except (HTTPError, URLError) as exc:
+        print(f"  ! could not resolve {url}: {exc}", file=sys.stderr)
+        return url
+
+
 def fetch(url: str, attempts: int = 3) -> str | None:
     req = Request(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "no,en"})
     backoff = 1.0
@@ -139,12 +152,13 @@ def main() -> int:
     for order, entry in enumerate(config, start=1):
         title = entry.get("title", "").strip() or "Album"
         url = entry["url"].strip()
-        is_shareable = "/share/" in url and "key=" in url
+        resolved = resolve_url(url)
+        is_shareable = "/share/" in resolved and "key=" in resolved
 
         data = {"title": title, "cover": None, "photos": []}
         if is_shareable:
-            print(f"-> Fetching {title}: {url}")
-            html_text = fetch(url)
+            print(f"-> Fetching {title}: {resolved}")
+            html_text = fetch(resolved)
             if html_text:
                 parsed = parse_album(html_text)
                 if parsed["title"]:
@@ -158,6 +172,12 @@ def main() -> int:
                 time.sleep(0.5)
             else:
                 print(f"   ! could not fetch, falling back to link-out")
+            if is_shareable and not data["photos"]:
+                # Share URL exists but returned no photos -> link is dead or
+                # the album is empty. Skip rather than writing a confusing
+                # "external" card pointing at a dead share URL.
+                print(f"   ! skipping (share URL returned no photos)")
+                continue
 
         slug = slugify(data["title"])
         base = slug
