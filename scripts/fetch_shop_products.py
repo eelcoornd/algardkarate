@@ -122,7 +122,13 @@ def main() -> int:
         with urllib.request.urlopen(API, timeout=30) as resp:
             products = json.loads(resp.read())
     except Exception as e:
-        print(f"ERROR fetching products: {e}", flush=True)
+        # Fall back to whatever data/shop_products.json was last committed
+        # so a transient WP/network outage doesn't fail the whole deploy.
+        print(f"WARNING fetching products: {e}", flush=True)
+        if os.path.exists(DATA_OUTPUT):
+            print(f"  using cached {DATA_OUTPUT}; skipping regeneration.", flush=True)
+            return 0
+        print(f"  no cached {DATA_OUTPUT} to fall back to.", flush=True)
         return 1
 
     os.makedirs(IMAGES_DIR, exist_ok=True)
