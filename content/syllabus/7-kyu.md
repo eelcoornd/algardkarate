@@ -69,14 +69,14 @@ weight: 7
 
 ## B. Fysiske øvelser
 
-| Øvelse | Krav |
-|---|---|
-| Fleksibilitet | Samme som for foregående grad – med merkbar fremgang |
-| Armhevinger | 35 |
-| Mageøvelser | 55 |
-| Spensthopp | 35 |
-| Heving til hake | 5 |
-| Hopp (Tobi Geri) | Egen høyde + 10 cm |
+| Øvelse | Krav | |
+|---|---|---|
+| Fleksibilitet | Samme som for foregående grad – med merkbar fremgang | <img src="/images/syllabus/fysiske/fleksibilitet.jpg"> |
+| Armhevinger | 35 | <img src="/images/syllabus/fysiske/armhevinger.png"> |
+| Mageøvelser | 55 | <img src="/images/syllabus/fysiske/mageovelser.jpeg"> |
+| Spensthopp | 35 | <img src="/images/syllabus/fysiske/spensthopp.png"> |
+| Heving til hake | 5 | <img src="/images/syllabus/fysiske/heving-til-hake.png"> |
+| Hopp (Tobi Geri) | Egen høyde + 10 cm | <a href="https://www.youtube.com/watch?v=BqWgxuteGe0" target="_blank"><img src="https://img.youtube.com/vi/BqWgxuteGe0/default.jpg"></a> |
 
 ---
 

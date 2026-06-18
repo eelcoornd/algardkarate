@@ -47,14 +47,14 @@ weight: 1
 
 ## B. Fysiske øvelser
 
-| Øvelse | Krav |
-|---|---|
-| Fleksibilitet | Berøre gulvet med brystkassen fra sittende stilling med spredte ben |
-| Armhevinger | 65 |
-| Mageøvelser | 100 |
-| Spensthopp | 65 |
-| Heving til hake | 12 |
-| Hopp (Tobi Geri) | Egen høyde + 30 cm |
+| Øvelse | Krav | |
+|---|---|---|
+| Fleksibilitet | Berøre gulvet med brystkassen fra sittende stilling med spredte ben | <img src="/images/syllabus/fysiske/fleksibilitet.jpg"> |
+| Armhevinger | 65 | <img src="/images/syllabus/fysiske/armhevinger.png"> |
+| Mageøvelser | 100 | <img src="/images/syllabus/fysiske/mageovelser.jpeg"> |
+| Spensthopp | 65 | <img src="/images/syllabus/fysiske/spensthopp.png"> |
+| Heving til hake | 12 | <img src="/images/syllabus/fysiske/heving-til-hake.png"> |
+| Hopp (Tobi Geri) | Egen høyde + 30 cm | <a href="https://www.youtube.com/watch?v=BqWgxuteGe0" target="_blank"><img src="https://img.youtube.com/vi/BqWgxuteGe0/default.jpg"></a> |
 
 ---
 
