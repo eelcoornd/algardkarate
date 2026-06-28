@@ -40,10 +40,6 @@ jobs:
         run: python scripts/fetch_spond_events.py
         continue-on-error: true
 
-      - name: Fetch Shop products
-        run: python scripts/fetch_shop_products.py
-        continue-on-error: true
-
       - name: Fetch Photo albums
         run: python scripts/fetch_photo_albums.py
         continue-on-error: true
