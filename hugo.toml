@@ -8,7 +8,7 @@ title = "Ålgård Karate"
 
   # Shop / Vipps konfig. Sett api_base når Cloudflare Worker er deployet.
   # Når api_base er tom, vises "Vipps kommer snart" i checkout og ordreknappen er deaktivert.
-  api_base = "https://algardkarate-shop-api.algardkarate.workers.dev"
+  api_base = "https://algardkarate-shop-api-test.algardkarate.workers.dev"
   shop_currency = "NOK"
 
   # Klubbinfo for kvittering (MVA-formatert)
