@@ -1,0 +1,123 @@
+{{ define "head" }}
+<style>
+  .cart-hero { background: linear-gradient(135deg,#6a1b9a,#4a148c); color:#fff; padding:18px 16px; display:flex; align-items:center; gap:14px; }
+  .cart-hero .icon-wrap { background: rgba(255,255,255,0.2); border-radius: 50%; width: 48px; height: 48px; display:flex; align-items:center; justify-content:center; }
+  .cart-hero h2 { font-size:18px; font-weight:700; }
+  .cart-container { padding:14px; }
+  .cart-list { display:flex; flex-direction:column; gap:10px; }
+  .cart-item { background:#fff; border-radius:12px; padding:10px; display:flex; gap:10px; box-shadow:0 1px 3px rgba(0,0,0,0.05); }
+  .cart-item img { width:64px; height:64px; object-fit:cover; border-radius:8px; background:#f5f5f5; flex-shrink:0; }
+  .cart-item-info { flex:1; min-width:0; }
+  .cart-item-name { font-size:14px; font-weight:600; color:#222; line-height:1.3; }
+  .cart-item-variant { font-size:12px; color:#888; margin-top:2px; }
+  .cart-item-price { font-size:13px; color:#6a1b9a; font-weight:600; margin-top:4px; }
+  .cart-item-controls { display:flex; align-items:center; gap:8px; margin-top:6px; }
+  .qty-btn-sm { width:28px; height:28px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer; }
+  .qty-val-sm { min-width:24px; text-align:center; font-size:14px; font-weight:600; }
+  .remove-btn { margin-left:auto; background:none; border:none; color:#c62828; cursor:pointer; font-size:13px; }
+  .cart-summary { background:#fff; border-radius:12px; padding:14px; margin-top:16px; box-shadow:0 1px 3px rgba(0,0,0,0.05); }
+  .cart-summary-row { display:flex; justify-content:space-between; padding:6px 0; }
+  .cart-summary-total { font-weight:700; font-size:18px; color:#6a1b9a; border-top:1px solid #eee; padding-top:10px; margin-top:6px; }
+  .cart-actions { display:flex; flex-direction:column; gap:10px; margin-top:16px; }
+  .btn-primary, .btn-secondary { display:flex; align-items:center; justify-content:center; gap:8px; padding:14px; border-radius:12px; text-decoration:none; font-weight:600; font-size:14px; border:none; cursor:pointer; }
+  .btn-primary { background:#6a1b9a; color:#fff; }
+  .btn-primary:hover { background:#4a148c; }
+  .btn-secondary { background:#fff; color:#6a1b9a; border:1px solid #ddd; }
+  .cart-empty { text-align:center; padding:40px 20px; color:#888; }
+  .cart-empty i { font-size:48px; color:#ccc; margin-bottom:14px; }
+  .pickup-info { background:#f3e5f5; color:#4a148c; padding:10px 12px; border-radius:8px; font-size:12px; margin-top:14px; display:flex; gap:8px; align-items:flex-start; }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<div class="cart-hero">
+  <div class="icon-wrap"><i class="fas fa-shopping-cart fa-lg"></i></div>
+  <h2>Handlekurv</h2>
+</div>
+
+<div class="cart-container">
+  <div id="cart-content"></div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(function() {
+  const root = document.getElementById("cart-content");
+  const pickupInfo = {{ .Site.Params.club.pickup_info | default "Henting i klubblokalet etter avtale." | jsonify }};
+
+  function render() {
+    const items = AlgardCart.read();
+    if (!items.length) {
+      root.innerHTML = `
+        <div class="cart-empty">
+          <i class="fas fa-shopping-basket"></i>
+          <p>Handlekurven er tom.</p>
+          <a class="btn-secondary" href="/shop/" style="display:inline-flex;margin-top:14px;">
+            <i class="fas fa-arrow-left"></i> Tilbake til shop
+          </a>
+        </div>`;
+      return;
+    }
+
+    const list = items.map((it) => {
+      const lineTotal = it.qty * it.unit_price;
+      const variant = it.variant_label ? `<div class="cart-item-variant">${escapeHtml(it.variant_label)}</div>` : "";
+      const img = it.image ? `<img src="${escapeHtml(it.image)}" alt="">` : `<div style="width:64px;height:64px;background:#f5f5f5;border-radius:8px;flex-shrink:0;"></div>`;
+      return `
+        <div class="cart-item">
+          ${img}
+          <div class="cart-item-info">
+            <div class="cart-item-name">${escapeHtml(it.name)}</div>
+            ${variant}
+            <div class="cart-item-price">${AlgardCart.formatPrice(lineTotal)} <span style="color:#888;font-weight:400;">(${AlgardCart.formatPrice(it.unit_price)} × ${it.qty})</span></div>
+            <div class="cart-item-controls">
+              <button type="button" class="qty-btn-sm" data-act="dec" data-pid="${it.product_id}" data-vid="${escapeHtml(it.variant_id || "")}">−</button>
+              <span class="qty-val-sm">${it.qty}</span>
+              <button type="button" class="qty-btn-sm" data-act="inc" data-pid="${it.product_id}" data-vid="${escapeHtml(it.variant_id || "")}">+</button>
+              <button type="button" class="remove-btn" data-act="del" data-pid="${it.product_id}" data-vid="${escapeHtml(it.variant_id || "")}"><i class="fas fa-trash"></i> Fjern</button>
+            </div>
+          </div>
+        </div>`;
+    }).join("");
+
+    const total = AlgardCart.total(items);
+    root.innerHTML = `
+      <div class="cart-list">${list}</div>
+      <div class="cart-summary">
+        <div class="cart-summary-row"><span>Antall varer</span><span>${AlgardCart.count(items)}</span></div>
+        <div class="cart-summary-row cart-summary-total"><span>Totalt</span><span>${AlgardCart.formatPrice(total)}</span></div>
+      </div>
+      <div class="pickup-info">
+        <i class="fas fa-info-circle"></i>
+        <span>${escapeHtml(pickupInfo)}</span>
+      </div>
+      <div class="cart-actions">
+        <a class="btn-primary" href="/checkout/"><i class="fas fa-credit-card"></i> Gå til kasse</a>
+        <a class="btn-secondary" href="/shop/"><i class="fas fa-arrow-left"></i> Fortsett å handle</a>
+      </div>`;
+
+    root.querySelectorAll("button[data-act]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const pid = parseInt(btn.dataset.pid, 10);
+        const vid = btn.dataset.vid;
+        const items = AlgardCart.read();
+        const it = items.find((x) => x.product_id === pid && (x.variant_id || "") === vid);
+        if (!it) return;
+        if (btn.dataset.act === "inc") AlgardCart.setQty(pid, vid, it.qty + 1);
+        else if (btn.dataset.act === "dec") AlgardCart.setQty(pid, vid, it.qty - 1);
+        else if (btn.dataset.act === "del") AlgardCart.setQty(pid, vid, 0);
+        render();
+      });
+    });
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  render();
+  document.addEventListener("cart:changed", render);
+})();
+</script>
+{{ end }}

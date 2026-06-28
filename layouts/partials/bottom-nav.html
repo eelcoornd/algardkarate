@@ -5,5 +5,11 @@
   <a href="/info/" class="nav-item{{ if eq $section "info" }} active{{ end }}"><i class="fas fa-newspaper"></i><span>Info</span></a>
   <a href="/treninger/" class="nav-item{{ if eq $section "treninger" }} active{{ end }}"><i class="fas fa-calendar"></i><span>Treninger</span></a>
   <a href="/syllabus/" class="nav-item{{ if eq $section "syllabus" }} active{{ end }}"><i class="fas fa-book-open"></i><span>Syllabus</span></a>
-  <a href="/shop/" class="nav-item{{ if eq $section "shop" }} active{{ end }}"><i class="fas fa-shopping-bag"></i><span>Shop</span></a>
+  <a href="/shop/" class="nav-item{{ if or (eq $section "shop") (eq $section "kurv") (eq $section "checkout") (eq $section "ordre") }} active{{ end }}">
+    <span class="nav-icon-wrap">
+      <i class="fas fa-shopping-bag"></i>
+      <span class="cart-badge" data-cart-badge hidden>0</span>
+    </span>
+    <span>Shop</span>
+  </a>
 </nav>

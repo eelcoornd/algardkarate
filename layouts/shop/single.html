@@ -3,28 +3,52 @@
   .product-hero { background: linear-gradient(135deg,#6a1b9a,#4a148c); color:#fff; padding:14px 16px; display:flex; align-items:center; gap:12px; }
   .product-hero a.back { color:#fff; text-decoration:none; font-size:18px; }
   .product-hero .title { font-size:16px; font-weight:600; flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .product-hero a.cart-icon { color:#fff; text-decoration:none; font-size:18px; position:relative; }
+  .product-hero a.cart-icon .cart-badge { right:-8px; top:-6px; }
+
   .product-detail { padding:16px; }
   .product-image { width:100%; max-width:360px; margin:0 auto 16px; background:#f5f5f5; border-radius:14px; overflow:hidden; display:block; aspect-ratio:1/1; }
   .product-image img { width:100%; height:100%; object-fit:contain; display:block; }
   .product-name { font-size:22px; font-weight:700; color:#222; margin-bottom:6px; }
   .product-categories { font-size:12px; color:#888; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:10px; }
   .product-price { font-size:24px; font-weight:700; color:#6a1b9a; margin-bottom:14px; }
-  .product-type-hint { background:#f3e5f5; color:#6a1b9a; font-size:12px; padding:4px 10px; border-radius:20px; display:inline-block; margin-bottom:14px; }
+
+  .variant-group { margin: 16px 0; }
+  .variant-group label { display:block; font-size:13px; font-weight:600; color:#555; margin-bottom:6px; }
+  .variant-options { display:flex; flex-wrap:wrap; gap:8px; }
+  .variant-opt { background:#fff; border:1px solid #ddd; padding:10px 14px; border-radius:10px; font-size:14px; cursor:pointer; }
+  .variant-opt.selected { background:#6a1b9a; color:#fff; border-color:#6a1b9a; }
+  .variant-opt.out-of-stock { opacity:0.45; cursor:not-allowed; text-decoration:line-through; }
+
+  .qty-group { display:flex; align-items:center; gap:12px; margin: 16px 0; }
+  .qty-group label { font-size:13px; font-weight:600; color:#555; }
+  .qty-btn { width:36px; height:36px; border-radius:8px; border:1px solid #ddd; background:#fff; font-size:18px; cursor:pointer; }
+  .qty-val { min-width:30px; text-align:center; font-size:16px; font-weight:600; }
+
   .product-actions { display:flex; flex-direction:column; gap:10px; margin-top:6px; }
-  .btn-primary, .btn-secondary { display:flex; align-items:center; justify-content:center; gap:8px; padding:14px; border-radius:12px; text-decoration:none; font-weight:600; font-size:14px; }
+  .btn-primary, .btn-secondary { display:flex; align-items:center; justify-content:center; gap:8px; padding:14px; border-radius:12px; text-decoration:none; font-weight:600; font-size:14px; border:none; cursor:pointer; }
   .btn-primary { background:#6a1b9a; color:#fff; }
   .btn-primary:hover { background:#4a148c; }
+  .btn-primary:disabled { background:#bbb; cursor:not-allowed; }
   .btn-secondary { background:#fff; color:#6a1b9a; border:1px solid #ddd; }
+  .added-flash { background:#e8f5e9; color:#2e7d32; padding:10px; border-radius:8px; text-align:center; font-size:13px; font-weight:600; }
+  .pickup-info { background:#f3e5f5; color:#4a148c; padding:10px 12px; border-radius:8px; font-size:12px; margin-top:14px; display:flex; gap:8px; align-items:flex-start; }
+  .pickup-info i { margin-top:2px; }
 </style>
 {{ end }}
 
 {{ define "main" }}
-{{ $isSimple := eq .Params.product_type "simple" }}
-{{ $hasCart := .Params.wp_add_to_cart }}
+{{ $variants := .Params.variants }}
+{{ $hasVariants := and $variants (gt (len $variants) 0) }}
+{{ $pickupInfo := .Site.Params.club.pickup_info | default "Henting i klubblokalet etter avtale." }}
 
 <div class="product-hero">
   <a href="/shop/" class="back" aria-label="Tilbake til shop"><i class="fas fa-arrow-left"></i></a>
   <div class="title">{{ .Title }}</div>
+  <a href="/kurv/" class="cart-icon" aria-label="Handlekurv">
+    <i class="fas fa-shopping-cart"></i>
+    <span class="cart-badge" data-cart-badge hidden>0</span>
+  </a>
 </div>
 
 <div class="product-detail">
@@ -34,25 +58,120 @@
 
   <div class="product-name">{{ .Title }}</div>
   {{ with .Params.categories }}{{ if . }}<div class="product-categories">{{ delimit . " · " }}</div>{{ end }}{{ end }}
-  <div class="product-price">kr {{ printf "%.0f" .Params.price }},-</div>
+  <div class="product-price" id="product-price">kr {{ printf "%.0f" .Params.price }},-</div>
 
-  {{ if not $isSimple }}
-  <div class="product-type-hint"><i class="fas fa-sliders-h"></i> Flere varianter – velg på neste side</div>
+  {{ if $hasVariants }}
+  <div class="variant-group">
+    <label>Velg variant</label>
+    <div class="variant-options" id="variant-options">
+      {{ range $variants }}
+      <button type="button" class="variant-opt{{ if not (default true .in_stock) }} out-of-stock{{ end }}"
+              data-variant-id="{{ .id }}"
+              data-variant-label="{{ .label }}"
+              data-price-delta="{{ default 0 .price_delta }}"
+              {{ if not (default true .in_stock) }}disabled aria-label="Utsolgt"{{ end }}>
+        {{ .label }}{{ if not (default true .in_stock) }} (utsolgt){{ end }}
+      </button>
+      {{ end }}
+    </div>
+  </div>
   {{ end }}
 
+  <div class="qty-group">
+    <label>Antall</label>
+    <button type="button" class="qty-btn" id="qty-minus" aria-label="Reduser antall">−</button>
+    <span class="qty-val" id="qty-val">1</span>
+    <button type="button" class="qty-btn" id="qty-plus" aria-label="Øk antall">+</button>
+  </div>
+
   <div class="product-actions">
-    {{ if and $isSimple $hasCart }}
-    <a class="btn-primary" href="{{ .Params.wp_add_to_cart }}" target="_blank" rel="noopener">
-      <i class="fas fa-shopping-cart"></i> Legg i handlekurv
-    </a>
-    {{ else }}
-    <a class="btn-primary" href="{{ .Params.wp_permalink }}" target="_blank" rel="noopener">
-      <i class="fas fa-sliders-h"></i> Velg variant og kjøp
-    </a>
-    {{ end }}
-    <a class="btn-secondary" href="{{ .Params.wp_permalink }}" target="_blank" rel="noopener">
-      <i class="fas fa-external-link-alt"></i> Se hele produktbeskrivelsen
+    <button type="button" class="btn-primary" id="add-to-cart-btn"
+            data-product-id="{{ .Params.product_id }}"
+            data-slug="{{ .File.BaseFileName }}"
+            data-name="{{ .Title }}"
+            data-base-price="{{ .Params.price }}"
+            data-image="{{ .Params.image }}"
+            data-has-variants="{{ if $hasVariants }}1{{ else }}0{{ end }}">
+      <i class="fas fa-cart-plus"></i> Legg i kurv
+    </button>
+    <a class="btn-secondary" href="/kurv/">
+      <i class="fas fa-shopping-cart"></i> Gå til handlekurv
     </a>
   </div>
+
+  <div id="added-flash" class="added-flash" hidden>
+    <i class="fas fa-check-circle"></i> Lagt i kurven
+  </div>
+
+  <div class="pickup-info">
+    <i class="fas fa-info-circle"></i>
+    <span>{{ $pickupInfo }}</span>
+  </div>
 </div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(function() {
+  const addBtn = document.getElementById("add-to-cart-btn");
+  if (!addBtn) return;
+
+  const productId = parseInt(addBtn.dataset.productId, 10);
+  const slug = addBtn.dataset.slug;
+  const name = addBtn.dataset.name;
+  const basePrice = parseFloat(addBtn.dataset.basePrice) || 0;
+  const image = addBtn.dataset.image;
+  const hasVariants = addBtn.dataset.hasVariants === "1";
+
+  let qty = 1;
+  let selectedVariant = null;
+
+  const qtyVal = document.getElementById("qty-val");
+  document.getElementById("qty-minus").addEventListener("click", () => {
+    if (qty > 1) { qty--; qtyVal.textContent = qty; }
+  });
+  document.getElementById("qty-plus").addEventListener("click", () => {
+    qty++; qtyVal.textContent = qty;
+  });
+
+  const priceEl = document.getElementById("product-price");
+  function renderPrice() {
+    const delta = selectedVariant ? parseFloat(selectedVariant.dataset.priceDelta) || 0 : 0;
+    priceEl.textContent = AlgardCart.formatPrice(basePrice + delta);
+  }
+
+  if (hasVariants) {
+    document.querySelectorAll("#variant-options .variant-opt").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        if (btn.classList.contains("out-of-stock")) return;
+        document.querySelectorAll("#variant-options .variant-opt").forEach((b) => b.classList.remove("selected"));
+        btn.classList.add("selected");
+        selectedVariant = btn;
+        renderPrice();
+      });
+    });
+  }
+
+  const flash = document.getElementById("added-flash");
+  addBtn.addEventListener("click", () => {
+    if (hasVariants && !selectedVariant) {
+      alert("Velg en variant først.");
+      return;
+    }
+    const delta = selectedVariant ? parseFloat(selectedVariant.dataset.priceDelta) || 0 : 0;
+    AlgardCart.add({
+      product_id: productId,
+      slug: slug,
+      name: name,
+      variant_id: selectedVariant ? selectedVariant.dataset.variantId : "",
+      variant_label: selectedVariant ? selectedVariant.dataset.variantLabel : "",
+      qty: qty,
+      unit_price: basePrice + delta,
+      image: image,
+    });
+    flash.hidden = false;
+    setTimeout(() => { flash.hidden = true; }, 2500);
+  });
+})();
+</script>
 {{ end }}

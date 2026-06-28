@@ -1,0 +1,237 @@
+{{ define "head" }}
+<style>
+  .checkout-hero { background: linear-gradient(135deg,#6a1b9a,#4a148c); color:#fff; padding:18px 16px; display:flex; align-items:center; gap:14px; }
+  .checkout-hero h2 { font-size:18px; font-weight:700; }
+  .checkout-container { padding:14px; max-width:560px; margin:0 auto; }
+  .checkout-section { background:#fff; border-radius:12px; padding:14px; margin-bottom:14px; box-shadow:0 1px 3px rgba(0,0,0,0.05); }
+  .checkout-section h3 { font-size:15px; font-weight:700; color:#222; margin-bottom:10px; }
+
+  .summary-line { display:flex; justify-content:space-between; padding:4px 0; font-size:13px; }
+  .summary-total { font-weight:700; font-size:16px; color:#6a1b9a; border-top:1px solid #eee; padding-top:8px; margin-top:6px; }
+
+  .form-group { margin-bottom:12px; }
+  .form-group label { display:block; font-size:13px; font-weight:600; color:#555; margin-bottom:4px; }
+  .form-group input { width:100%; padding:10px 12px; border:1px solid #ddd; border-radius:8px; font-size:14px; box-sizing:border-box; }
+  .form-group input:focus { outline:none; border-color:#6a1b9a; }
+  .form-group small { color:#888; font-size:11px; }
+
+  .discount-row { display:flex; gap:8px; }
+  .discount-row input { flex:1; }
+  .discount-row button { background:#fff; border:1px solid #6a1b9a; color:#6a1b9a; padding:0 14px; border-radius:8px; cursor:pointer; font-weight:600; font-size:13px; }
+
+  .btn-primary, .btn-secondary { display:flex; align-items:center; justify-content:center; gap:8px; padding:14px; border-radius:12px; text-decoration:none; font-weight:600; font-size:14px; border:none; cursor:pointer; width:100%; box-sizing:border-box; }
+  .btn-primary { background:#ff5b24; color:#fff; }
+  .btn-primary:hover { background:#e54a18; }
+  .btn-primary:disabled { background:#bbb; cursor:not-allowed; }
+  .btn-secondary { background:#fff; color:#6a1b9a; border:1px solid #ddd; }
+
+  .vipps-soon { background:#fff3e0; color:#e65100; padding:12px 14px; border-radius:8px; font-size:13px; text-align:center; margin-bottom:14px; }
+  .vipps-soon i { margin-right:6px; }
+
+  .pickup-info { background:#f3e5f5; color:#4a148c; padding:10px 12px; border-radius:8px; font-size:12px; margin-bottom:14px; display:flex; gap:8px; align-items:flex-start; }
+  .error-msg { background:#ffebee; color:#c62828; padding:10px; border-radius:8px; font-size:13px; margin-top:10px; }
+</style>
+{{ end }}
+
+{{ define "main" }}
+{{ $apiBase := .Site.Params.api_base }}
+{{ $pickupInfo := .Site.Params.club.pickup_info | default "Henting i klubblokalet etter avtale." }}
+
+<div class="checkout-hero">
+  <a href="/kurv/" style="color:#fff;text-decoration:none;font-size:18px;"><i class="fas fa-arrow-left"></i></a>
+  <h2>Kasse</h2>
+</div>
+
+<div class="checkout-container" id="checkout-root">
+  <div class="pickup-info">
+    <i class="fas fa-info-circle"></i>
+    <span>{{ $pickupInfo }}</span>
+  </div>
+
+  {{ if not $apiBase }}
+  <div class="vipps-soon">
+    <i class="fas fa-clock"></i>
+    Vipps-betaling kommer snart. Knappen er deaktivert frem til klubben har gjennomført Vipps-onboarding.
+  </div>
+  {{ end }}
+
+  <div class="checkout-section">
+    <h3>Oppsummering</h3>
+    <div id="summary-lines"></div>
+    <div id="summary-discount" hidden></div>
+    <div class="summary-line summary-total">
+      <span>Totalt</span>
+      <span id="summary-total">kr 0,-</span>
+    </div>
+  </div>
+
+  <form id="checkout-form" class="checkout-section" novalidate>
+    <h3>Kontaktinfo</h3>
+    <div class="form-group">
+      <label for="cust-name">Navn *</label>
+      <input type="text" id="cust-name" name="name" autocomplete="name" required>
+    </div>
+    <div class="form-group">
+      <label for="cust-email">E-post *</label>
+      <input type="email" id="cust-email" name="email" autocomplete="email" required>
+      <small>Bekreftelse og kvittering sendes hit.</small>
+    </div>
+    <div class="form-group">
+      <label for="cust-phone">Telefon *</label>
+      <input type="tel" id="cust-phone" name="phone" autocomplete="tel" required placeholder="+47 ...">
+    </div>
+
+    <div class="form-group">
+      <label for="discount-code">Rabattkode (valgfritt)</label>
+      <div class="discount-row">
+        <input type="text" id="discount-code" name="discount" autocapitalize="characters" placeholder="F.eks. MEDLEM25">
+        <button type="button" id="apply-discount">Bruk</button>
+      </div>
+      <small id="discount-feedback"></small>
+    </div>
+
+    <button type="submit" class="btn-primary" id="pay-btn" {{ if not $apiBase }}disabled{{ end }}>
+      <i class="fab fa-vimeo-v"></i> Betal med Vipps
+    </button>
+    <div id="checkout-error" class="error-msg" hidden></div>
+  </form>
+
+  <a class="btn-secondary" href="/kurv/" style="margin-top:6px;">
+    <i class="fas fa-arrow-left"></i> Tilbake til handlekurv
+  </a>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(function() {
+  const apiBase = {{ .Site.Params.api_base | jsonify }};
+  const summaryLinesEl = document.getElementById("summary-lines");
+  const summaryTotalEl = document.getElementById("summary-total");
+  const discountWrapEl = document.getElementById("summary-discount");
+  const discountFeedbackEl = document.getElementById("discount-feedback");
+  const errorEl = document.getElementById("checkout-error");
+  const payBtn = document.getElementById("pay-btn");
+  const form = document.getElementById("checkout-form");
+
+  let appliedDiscount = null; // { code, percent_off, amount_off }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  function renderSummary() {
+    const items = AlgardCart.read();
+    if (!items.length) {
+      summaryLinesEl.innerHTML = '<p style="color:#888;font-size:13px;">Handlekurven er tom.</p>';
+      summaryTotalEl.textContent = AlgardCart.formatPrice(0);
+      payBtn.disabled = true;
+      return;
+    }
+    summaryLinesEl.innerHTML = items.map((it) => {
+      const lineTotal = it.qty * it.unit_price;
+      const variant = it.variant_label ? ` <span style="color:#888;">(${escapeHtml(it.variant_label)})</span>` : "";
+      return `<div class="summary-line">
+        <span>${it.qty} × ${escapeHtml(it.name)}${variant}</span>
+        <span>${AlgardCart.formatPrice(lineTotal)}</span>
+      </div>`;
+    }).join("");
+
+    let total = AlgardCart.total(items);
+    if (appliedDiscount) {
+      const off = appliedDiscount.percent_off
+        ? total * (appliedDiscount.percent_off / 100)
+        : (appliedDiscount.amount_off || 0);
+      total -= off;
+      discountWrapEl.hidden = false;
+      discountWrapEl.innerHTML = `<div class="summary-line" style="color:#2e7d32;">
+        <span>Rabatt (${escapeHtml(appliedDiscount.code)})</span>
+        <span>−${AlgardCart.formatPrice(off)}</span>
+      </div>`;
+    } else {
+      discountWrapEl.hidden = true;
+      discountWrapEl.innerHTML = "";
+    }
+    summaryTotalEl.textContent = AlgardCart.formatPrice(Math.max(0, total));
+  }
+
+  document.getElementById("apply-discount").addEventListener("click", async () => {
+    const code = document.getElementById("discount-code").value.trim().toUpperCase();
+    if (!code) return;
+    if (!apiBase) {
+      discountFeedbackEl.textContent = "Rabattkoder valideres når Vipps er aktivert.";
+      discountFeedbackEl.style.color = "#888";
+      return;
+    }
+    try {
+      const resp = await fetch(apiBase + "/discount/" + encodeURIComponent(code));
+      if (!resp.ok) throw new Error("ugyldig");
+      const data = await resp.json();
+      appliedDiscount = { code, percent_off: data.percent_off, amount_off: data.amount_off };
+      discountFeedbackEl.textContent = "Rabatt aktivert.";
+      discountFeedbackEl.style.color = "#2e7d32";
+      renderSummary();
+    } catch (e) {
+      appliedDiscount = null;
+      discountFeedbackEl.textContent = "Ugyldig eller utløpt kode.";
+      discountFeedbackEl.style.color = "#c62828";
+      renderSummary();
+    }
+  });
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    errorEl.hidden = true;
+    if (!apiBase) {
+      errorEl.textContent = "Vipps-betaling er ikke aktivert ennå. Kontakt klubben direkte.";
+      errorEl.hidden = false;
+      return;
+    }
+    const items = AlgardCart.read();
+    if (!items.length) {
+      errorEl.textContent = "Handlekurven er tom.";
+      errorEl.hidden = false;
+      return;
+    }
+    const payload = {
+      items: items.map((it) => ({
+        product_id: it.product_id,
+        variant_id: it.variant_id || null,
+        qty: it.qty,
+      })),
+      customer: {
+        name: form.name.value.trim(),
+        email: form.email.value.trim(),
+        phone: form.phone.value.trim(),
+      },
+      discount_code: appliedDiscount ? appliedDiscount.code : null,
+    };
+    payBtn.disabled = true;
+    payBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Starter Vipps...';
+    try {
+      const resp = await fetch(apiBase + "/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!resp.ok) {
+        const txt = await resp.text();
+        throw new Error(txt || "Checkout feilet");
+      }
+      const data = await resp.json();
+      // Lagre order-id slik at /ordre/?id=... kan polle status
+      sessionStorage.setItem("algardkarate_last_order", data.order_id);
+      window.location.href = data.redirect_url;
+    } catch (e) {
+      errorEl.textContent = "Klarte ikke å starte betaling: " + e.message;
+      errorEl.hidden = false;
+      payBtn.disabled = false;
+      payBtn.innerHTML = '<i class="fab fa-vimeo-v"></i> Betal med Vipps';
+    }
+  });
+
+  renderSummary();
+  document.addEventListener("cart:changed", renderSummary);
+})();
+</script>
+{{ end }}

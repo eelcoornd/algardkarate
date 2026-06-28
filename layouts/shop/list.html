@@ -68,8 +68,7 @@
 
 <div class="shop-grid" id="shop-grid">
   {{ range $pages }}
-  {{ $isSimple := eq .Params.product_type "simple" }}
-  {{ $cartUrl := .Params.wp_add_to_cart }}
+  {{ $hasVariants := and .Params.variants (gt (len .Params.variants) 0) }}
   <div class="shop-card"
        data-name="{{ lower .Title }}"
        data-cat="{{ .Params.category_slug | default "annet" }}">
@@ -82,18 +81,12 @@
       <div class="shop-info">
         <span class="shop-name">{{ .Title }}</span>
         <span class="shop-price">kr {{ printf "%.0f" .Params.price }},-</span>
-        {{ if not $isSimple }}<span class="shop-meta">Flere varianter</span>{{ end }}
+        {{ if $hasVariants }}<span class="shop-meta">Flere varianter</span>{{ end }}
       </div>
     </a>
-    {{ if and $isSimple $cartUrl }}
-    <a class="shop-btn" href="{{ $cartUrl }}" target="_blank" rel="noopener" aria-label="Legg {{ .Title }} i handlekurv">
-      <i class="fas fa-cart-plus"></i> Legg i kurv
+    <a class="shop-btn" href="{{ .RelPermalink }}" aria-label="Se {{ .Title }}">
+      <i class="fas fa-eye"></i> Se produkt
     </a>
-    {{ else }}
-    <a class="shop-btn" href="{{ .RelPermalink }}" aria-label="Se varianter for {{ .Title }}">
-      <i class="fas fa-sliders-h"></i> Velg variant
-    </a>
-    {{ end }}
   </div>
   {{ end }}
 </div>

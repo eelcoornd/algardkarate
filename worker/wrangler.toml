@@ -1,9 +1,10 @@
-name = "algardkarate-shop-api"
+name = "algardkarate-shop-api-test"
 main = "src/index.ts"
 compatibility_date = "2026-06-01"
 compatibility_flags = ["nodejs_compat"]
 
-# Hvilket Vipps-miljø Workeren snakker med. Settes per environment under.
+# Default (top-level) deploy = test-miljø.
+# Bruk `wrangler deploy --env production` for prod.
 [vars]
 VIPPS_ENV = "test"
 ALLOWED_ORIGIN = "https://www.algardkarate.net"
@@ -11,7 +12,9 @@ PICKUP_INFO = "Hentes i klubblokalet etter avtale."
 CLUB_EMAIL = "post@algardkarate.net"
 CLUB_NAME = "Ålgård Karateklubb"
 
-# KV namespaces — id må fylles ut etter `wrangler kv:namespace create ORDERS` osv.
+# NB: test og prod deler i dag KV-namespaces. Hvis du vil isolere testdata,
+# opprett egne namespaces (wrangler kv namespace create ORDERS_TEST) og bytt
+# ut id-ene under.
 [[kv_namespaces]]
 binding = "ORDERS"
 id = "18a0abf3f32246b5a5530237ee9ca0e0"
