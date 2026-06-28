@@ -105,7 +105,13 @@
 {{ define "scripts" }}
 <script>
 (function() {
-  const apiBase = {{ .Site.Params.api_base | jsonify }};
+  const apiBase = (function () {
+    const v = {{ .Site.Params.api_base | jsonify }};
+    // Guard mot cachet versjon der api_base var tom: bare bruk URLer som
+    // peker mot et eksternt API (workers.dev / *.algardkarate.net), ellers
+    // havner POST relativt på GitHub Pages som svarer 405.
+    return typeof v === "string" && /^https?:\/\//.test(v) ? v : "";
+  })();
   const summaryLinesEl = document.getElementById("summary-lines");
   const summaryTotalEl = document.getElementById("summary-total");
   const discountWrapEl = document.getElementById("summary-discount");
