@@ -186,7 +186,7 @@ async function handleOrderStatus(env: Env, ctx: ExecutionContext, orderId: strin
       const payment = await getPayment(env, order.vipps_reference);
       const newStatus = mapVippsState(payment.state);
 
-      if (newStatus === "PAID" && order.status !== "PAID") {
+      if (newStatus === "PAID") {
         // Auto-capture før vi markerer som betalt.
         const captured =
           (payment.aggregate?.capturedAmount?.value ?? 0) >=
