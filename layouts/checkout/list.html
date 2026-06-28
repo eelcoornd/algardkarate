@@ -42,7 +42,7 @@
   <h2>Kasse</h2>
 </div>
 
-<div class="checkout-container" id="checkout-root">
+<div class="checkout-container" id="checkout-root" data-api-base="{{ .Site.Params.api_base }}">
   <div class="pickup-info">
     <i class="fas fa-info-circle"></i>
     <span>{{ $pickupInfo }}</span>
@@ -106,11 +106,9 @@
 <script>
 (function() {
   const apiBase = (function () {
-    const v = {{ .Site.Params.api_base | jsonify }};
-    // Guard mot cachet versjon der api_base var tom: bare bruk URLer som
-    // peker mot et eksternt API (workers.dev / *.algardkarate.net), ellers
-    // havner POST relativt på GitHub Pages som svarer 405.
-    return typeof v === "string" && /^https?:\/\//.test(v) ? v : "";
+    const root = document.getElementById("checkout-root");
+    const v = (root && root.dataset.apiBase) || "";
+    return v.indexOf("http") === 0 ? v : "";
   })();
   const summaryLinesEl = document.getElementById("summary-lines");
   const summaryTotalEl = document.getElementById("summary-total");
