@@ -6,6 +6,20 @@ title = "Ålgård Karate"
   description = "Ålgård Karateklubb – Kyokushinkai karate i Sandnes. Treninger, gradering, stevner og påmelding."
   ogImage = "/images/top-logo.png"
 
+  # Shop / Vipps konfig. Sett api_base når Cloudflare Worker er deployet.
+  # Når api_base er tom, vises "Vipps kommer snart" i checkout og ordreknappen er deaktivert.
+  api_base = "https://algardkarate-shop-api.algardkarate.workers.dev"
+  shop_currency = "NOK"
+
+  # Klubbinfo for kvittering (MVA-formatert)
+  [params.club]
+    name = "Ålgård Karateklubb"
+    org_nr = "" # TODO: fyll inn 9-sifret org.nr
+    vat_status = "" # f.eks. "Ikke MVA-pliktig" eller "MVA-nr: NO123456789MVA"
+    email = "post@algardkarate.net"
+    address = "Ålgård, Sandnes"
+    pickup_info = "Hentes i klubblokalet etter avtale – klubben tar kontakt på e-post."
+
 [[menus.main]]
   name = "Treninger"
   url = "/treninger/"

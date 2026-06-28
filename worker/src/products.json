@@ -1,0 +1,238 @@
+[
+  {
+    "id": 896,
+    "name": "arm/albuebeskytter",
+    "slug": "arm-albuebeskytter",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/arm-albuebeskytter/",
+    "type": "variable",
+    "price": 350.0,
+    "currency": "NOK",
+    "image": "/shop-images/896.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/1521830202342_e021-w-2_1024x1024.jpg",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 263,
+    "name": "Belte",
+    "slug": "belte",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/belte/",
+    "type": "variable",
+    "price": 100.0,
+    "currency": "NOK",
+    "image": "/shop-images/263.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/03/Kyokushin-Karate-Belts1.jpg",
+    "on_sale": false,
+    "categories": [
+      "belte"
+    ],
+    "category_slug": "belte"
+  },
+  {
+    "id": 1877,
+    "name": "BRYSTBESKYTTER",
+    "slug": "brystbeskytter",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/brystbeskytter/",
+    "type": "variable",
+    "price": 600.0,
+    "currency": "NOK",
+    "image": "/shop-images/1877.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2022/09/Screen-Shot-2022-09-07-at-19.53.00.png",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 2112,
+    "name": "Drikkeflaske",
+    "slug": "drikkeflaske",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/drikkeflaske/",
+    "type": "simple",
+    "price": 100.0,
+    "currency": "NOK",
+    "image": "/shop-images/2112.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2024/01/Screenshot-2024-01-30-at-21.14.32.png",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 1168,
+    "name": "ESSENTIALS MMA HANSKER",
+    "slug": "hansker-til-trening",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/hansker-til-trening/",
+    "type": "variable",
+    "price": 500.0,
+    "currency": "NOK",
+    "image": "/shop-images/1168.webp",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2021/02/b045-001_1000x.webp",
+    "on_sale": false,
+    "categories": [
+      "hansker"
+    ],
+    "category_slug": "hansker"
+  },
+  {
+    "id": 1146,
+    "name": "Hansker kamp",
+    "slug": "hansker-kamp",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/hansker-kamp/",
+    "type": "variable",
+    "price": 500.0,
+    "currency": "NOK",
+    "image": "/shop-images/1146.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/07/Fighter-handsker.jpg",
+    "on_sale": false,
+    "categories": [
+      "hansker"
+    ],
+    "category_slug": "hansker"
+  },
+  {
+    "id": 2116,
+    "name": "Karate Bag",
+    "slug": "karate-bag",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/karate-bag/",
+    "type": "simple",
+    "price": 950.0,
+    "currency": "NOK",
+    "image": "/shop-images/2116.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2024/01/Screenshot-2024-01-30-at-21.15.55.png",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 223,
+    "name": "Karate GI",
+    "slug": "karate-gi",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/karate-gi/",
+    "type": "variable",
+    "price": 450.0,
+    "currency": "NOK",
+    "image": "/shop-images/223.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/03/Screenshot-2020-03-10-at-19.34.40-e1583868032615.png",
+    "on_sale": false,
+    "categories": [
+      "drakt"
+    ],
+    "category_slug": "drakt"
+  },
+  {
+    "id": 761,
+    "name": "Karatepass",
+    "slug": "karatepass",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/karatepass/",
+    "type": "simple",
+    "price": 100.0,
+    "currency": "NOK",
+    "image": "/shop-images/761.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/04/IMG_4663-scaled.jpg",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 1005,
+    "name": "Klubbjakke",
+    "slug": "klubbjakke",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/klubbjakke/",
+    "type": "variable",
+    "price": 799.0,
+    "currency": "NOK",
+    "image": "/shop-images/1005.png",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-12.15.02.png",
+    "on_sale": false,
+    "categories": [
+      "Klubbartikler"
+    ],
+    "category_slug": "klubbartikler"
+  },
+  {
+    "id": 895,
+    "name": "KWF pass",
+    "slug": "kwf-pass",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/kwf-pass/",
+    "type": "simple",
+    "price": 100.0,
+    "currency": "NOK",
+    "image": "/shop-images/895.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/IMG_4664.jpg",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 942,
+    "name": "Leggbeskytter",
+    "slug": "leggbeskytter",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/leggbeskytter/",
+    "type": "variable",
+    "price": 400.0,
+    "currency": "NOK",
+    "image": "/shop-images/942.webp",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/E027-002_600x_e9de7848-a155-4daf-bafa-c033537be6f1_1000x.webp",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 1152,
+    "name": "SPARRINGSHANSKE – KYOKUSHINKAI",
+    "slug": "hansker-trening",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/hansker-trening/",
+    "type": "variable",
+    "price": 450.0,
+    "currency": "NOK",
+    "image": "/shop-images/1152.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/1595569940234_smid802-2_1024x1024.jpg",
+    "on_sale": false,
+    "categories": [
+      "hansker"
+    ],
+    "category_slug": "hansker"
+  },
+  {
+    "id": 939,
+    "name": "Susp",
+    "slug": "susp",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/susp/",
+    "type": "variable",
+    "price": 250.0,
+    "currency": "NOK",
+    "image": "/shop-images/939.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/09/SUSP.jpg",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 759,
+    "name": "Syllabus",
+    "slug": "syllabus",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/syllabus/",
+    "type": "simple",
+    "price": 100.0,
+    "currency": "NOK",
+    "image": "/shop-images/759.jpg",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2020/04/Syllabus.jpg",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  },
+  {
+    "id": 2228,
+    "name": "Tannbeskytter",
+    "slug": "tannbeskytter",
+    "permalink": "https://www.algardkarate.net/algardkarate/shop/tannbeskytter/",
+    "type": "variable",
+    "price": 100.0,
+    "currency": "NOK",
+    "image": "/shop-images/2228.webp",
+    "remote_image": "https://www.algardkarate.net/algardkarate/wp-content/uploads/2025/05/Mouthguard-SMAI_1000x_18896169-e4c9-4211-9437-8283ef4b1349_1000x.webp",
+    "on_sale": false,
+    "categories": [],
+    "category_slug": "annet"
+  }
+]

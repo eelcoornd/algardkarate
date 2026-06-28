@@ -1,0 +1,47 @@
+name = "algardkarate-shop-api"
+main = "src/index.ts"
+compatibility_date = "2026-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Hvilket Vipps-miljø Workeren snakker med. Settes per environment under.
+[vars]
+VIPPS_ENV = "test"
+ALLOWED_ORIGIN = "https://www.algardkarate.net"
+PICKUP_INFO = "Hentes i klubblokalet etter avtale."
+CLUB_EMAIL = "post@algardkarate.net"
+CLUB_NAME = "Ålgård Karateklubb"
+
+# KV namespaces — id må fylles ut etter `wrangler kv:namespace create ORDERS` osv.
+[[kv_namespaces]]
+binding = "ORDERS"
+id = "18a0abf3f32246b5a5530237ee9ca0e0"
+
+[[kv_namespaces]]
+binding = "DISCOUNTS"
+id = "1bd301c5081f49f9ab1393c6545fa9fe"
+
+# Produksjon: kjør mot Vipps prod og prod-domenet
+[env.production]
+name = "algardkarate-shop-api"
+vars = { VIPPS_ENV = "prod", ALLOWED_ORIGIN = "https://www.algardkarate.net", PICKUP_INFO = "Hentes i klubblokalet etter avtale.", CLUB_EMAIL = "post@algardkarate.net", CLUB_NAME = "Ålgård Karateklubb" }
+
+[[env.production.kv_namespaces]]
+binding = "ORDERS"
+id = "18a0abf3f32246b5a5530237ee9ca0e0"
+
+[[env.production.kv_namespaces]]
+binding = "DISCOUNTS"
+id = "1bd301c5081f49f9ab1393c6545fa9fe"
+
+# Secrets (sett med `wrangler secret put NAME` per environment):
+#   VIPPS_PROD_CLIENT_ID
+#   VIPPS_PROD_CLIENT_SECRET
+#   VIPPS_PROD_SUBSCRIPTION_KEY
+#   VIPPS_PROD_MSN
+#   VIPPS_TEST_CLIENT_ID
+#   VIPPS_TEST_CLIENT_SECRET
+#   VIPPS_TEST_SUBSCRIPTION_KEY
+#   VIPPS_TEST_MSN
+#   TELEGRAM_BOT_TOKEN
+#   TELEGRAM_CLUB_CHAT_ID
+#   MAIL_FROM            (verifisert sender for MailChannels, f.eks. "noreply@algardkarate.net")
