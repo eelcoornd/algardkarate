@@ -60,6 +60,15 @@ function validateCustomer(c: unknown): c is Customer {
   );
 }
 
+// Vipps krever ren sifferstreng på 9-15 tegn (^\d{9,15}$). Vi stripper
+// alt som ikke er tall, og prepender 47 (NO) hvis brukeren skrev inn
+// et nasjonalt 8-sifret nummer.
+function normalizePhone(raw: string): string {
+  const digits = raw.replace(/\D/g, "");
+  if (digits.length === 8) return "47" + digits;
+  return digits;
+}
+
 // ───── handlers ───────────────────────────────────────────────────────────
 
 async function handleDiscount(env: Env, code: string): Promise<Response> {
@@ -130,7 +139,7 @@ async function handleCheckout(req: Request, env: Env): Promise<Response> {
       reference: orderId,
       returnUrl,
       description,
-      customerPhone: body.customer.phone,
+      customerPhone: normalizePhone(body.customer.phone),
     });
   } catch (e) {
     return errorResponse(env, `Vipps-feil: ${(e as Error).message}`, 502);
