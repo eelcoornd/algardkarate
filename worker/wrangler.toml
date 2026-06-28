@@ -12,16 +12,16 @@ PICKUP_INFO = "Hentes i klubblokalet etter avtale."
 CLUB_EMAIL = "post@algardkarate.net"
 CLUB_NAME = "Ålgård Karateklubb"
 
-# NB: test og prod deler i dag KV-namespaces. Hvis du vil isolere testdata,
-# opprett egne namespaces (wrangler kv namespace create ORDERS_TEST) og bytt
-# ut id-ene under.
+# Test bruker dedikerte KV-namespaces slik at testdata ikke blander seg
+# med prod. Bindings-navnene (ORDERS, DISCOUNTS) er like som i prod, så
+# koden i src/ trenger ingen endring.
 [[kv_namespaces]]
 binding = "ORDERS"
-id = "18a0abf3f32246b5a5530237ee9ca0e0"
+id = "14d8997a858a4de7ad56873a572ff942"
 
 [[kv_namespaces]]
 binding = "DISCOUNTS"
-id = "1bd301c5081f49f9ab1393c6545fa9fe"
+id = "2757526ddf914b33ac39849ad366fa01"
 
 # Produksjon: kjør mot Vipps prod og prod-domenet
 [env.production]
