@@ -11,7 +11,7 @@ weight: 1
 Vi setter stor pris på nye medlemmer, og tar godt imot nye utøvere.
 
 <div class="callout">
-<strong>Nye medlemmer kan melde seg på i starten av hvert halvår.</strong> Bruk lenken under og velg oppstart. Last også ned Spond-appen for å få oppdatert informasjon om treningen.
+<strong>Minimum alder 9 år.</strong> Nye medlemmer kan melde seg på i starten av hvert halvår. Bruk lenken under og velg oppstart. Last også ned Spond-appen for å få oppdatert informasjon om treningen.
 </div>
 
 <p style="text-align:center;margin:24px 0;">
