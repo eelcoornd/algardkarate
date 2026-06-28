@@ -2,6 +2,10 @@
 <style>
   .shop-hero { background: linear-gradient(135deg,#6a1b9a,#4a148c); color:#fff; padding:20px 16px; display:flex; align-items:center; gap:14px; }
   .shop-hero .icon-wrap { background: rgba(255,255,255,0.2); border-radius: 50%; width: 52px; height: 52px; display:flex; align-items:center; justify-content:center; }
+  .shop-hero .hero-text { flex:1; min-width:0; }
+  .shop-hero .cart-link { position:relative; color:#fff; background:rgba(255,255,255,0.18); border-radius:50%; width:44px; height:44px; display:flex; align-items:center; justify-content:center; text-decoration:none; flex-shrink:0; }
+  .shop-hero .cart-link:hover { background:rgba(255,255,255,0.3); }
+  .shop-hero .cart-link .cart-badge { position:absolute; top:-4px; right:-4px; background:#ff5b24; color:#fff; border-radius:10px; min-width:18px; height:18px; padding:0 5px; font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center; line-height:1; }
 
   .shop-controls { padding:12px 14px 0; }
   .shop-search { position:relative; }
@@ -33,10 +37,14 @@
 {{ define "main" }}
 <div class="shop-hero">
   <div class="icon-wrap"><i class="fas fa-tshirt fa-xl"></i></div>
-  <div>
+  <div class="hero-text">
     <h2 style="font-size:20px;font-weight:700;">Shop</h2>
     <p style="opacity:0.85;font-size:13px;">Utstyr og klubbartikler</p>
   </div>
+  <a class="cart-link" href="/kurv/" aria-label="Handlekurv">
+    <i class="fas fa-shopping-cart"></i>
+    <span class="cart-badge" data-cart-badge hidden>0</span>
+  </a>
 </div>
 
 {{ $pages := where .Pages "Section" "shop" }}
