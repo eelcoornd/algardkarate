@@ -180,7 +180,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; max-width: 480p
 
 /* TABLE */
 .syllabus-content table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 14px; }
-.syllabus-content th { background: #2e7d32; color: white; padding: 8px 12px; text-align: left; }
+.syllabus-content th { background: var(--belt-color, #2e7d32); color: white; padding: 8px 12px; text-align: left; }
 .syllabus-content td { padding: 8px 12px; border-bottom: 1px solid #eee; }
 .syllabus-content tr:nth-child(even) td { background: #f9f9f9; }
 

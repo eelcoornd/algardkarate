@@ -1,7 +1,8 @@
 {{ define "main" }}
-<div style="background:{{ .Params.belt_color | default `#2e7d32` }};padding:24px 16px;color:white;display:flex;align-items:center;gap:14px;">
+{{ $belt := .Params.belt_color | default "#2e7d32" }}
+<div style="background:{{ $belt }};padding:24px 16px;color:white;display:flex;align-items:center;gap:14px;">
   <a href="/syllabus/" style="color:white;text-decoration:none;margin-right:8px;" aria-label="Tilbake til syllabus"><i class="fas fa-arrow-left fa-lg"></i></a>
   <div><h2 style="font-size:22px;font-weight:700;">{{ .Title }}</h2><p style="opacity:0.85;font-size:13px;margin-top:4px;">Kyokushinkai Karate</p></div>
 </div>
-<div style="padding:20px 16px;"><div class="syllabus-content">{{ .Content }}</div></div>
+<div style="padding:20px 16px;"><div class="syllabus-content" style="--belt-color:{{ $belt }};">{{ .Content }}</div></div>
 {{ end }}
