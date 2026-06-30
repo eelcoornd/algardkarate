@@ -15,16 +15,16 @@ params:
   variants:
     - id: "oransje"
       label: "Oransje"
-      stock: 0
+      stock: 5
     - id: "bla"
       label: "Blå"
-      stock: 0
+      stock: 5
     - id: "gul"
       label: "Gul"
-      stock: 0
+      stock: 5
     - id: "gronn"
       label: "Grønn"
-      stock: 0
+      stock: 4
     - id: "brun"
       label: "Brun"
       stock: 0
