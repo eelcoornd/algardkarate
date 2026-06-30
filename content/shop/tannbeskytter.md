@@ -12,4 +12,11 @@ params:
   wp_add_to_cart: ""
   categories: []
   category_slug: "annet"
+  variants:
+    - id: "junior"
+      label: "Junior"
+      stock: 0
+    - id: "senior"
+      label: "Senior"
+      stock: 0
 ---

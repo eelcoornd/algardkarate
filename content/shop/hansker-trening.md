@@ -12,4 +12,14 @@ params:
   wp_add_to_cart: ""
   categories: ["hansker"]
   category_slug: "hansker"
+  variants:
+    - id: "small"
+      label: "Small"
+      stock: 0
+    - id: "medium"
+      label: "Medium"
+      stock: 0
+    - id: "large"
+      label: "Large"
+      stock: 0
 ---
