@@ -10,8 +10,8 @@ params:
   ogImage: "/shop-images/942.webp"
   wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/leggbeskytter/"
   wp_add_to_cart: ""
-  categories: []
-  category_slug: "annet"
+  categories: ["Beskytter"]
+  category_slug: "beskytter"
   variants:
     - id: "small"
       label: "Small"

@@ -10,12 +10,12 @@ params:
   ogImage: "/shop-images/2228.webp"
   wp_permalink: "https://shop.algardkarate.net/algardkarate/shop/tannbeskytter/"
   wp_add_to_cart: ""
-  categories: []
-  category_slug: "annet"
+  categories: ["Beskytter"]
+  category_slug: "beskytter"
   variants:
     - id: "junior"
       label: "Junior"
-      stock: 0
+      stock: 3
     - id: "senior"
       label: "Senior"
       stock: 0
