@@ -12,4 +12,26 @@ params:
   wp_add_to_cart: ""
   categories: ["drakt"]
   category_slug: "drakt"
+  variants:
+    - id: "s0-130"
+      label: "S0 – 130cm"
+      stock: 0
+    - id: "s1-140"
+      label: "S1 – 140cm"
+      stock: 0
+    - id: "s2-150"
+      label: "S2 – 150cm"
+      stock: 0
+    - id: "s3-160"
+      label: "S3 – 160cm"
+      stock: 0
+    - id: "s4-170"
+      label: "S4 – 170cm"
+      stock: 0
+    - id: "s5-180"
+      label: "S5 – 180cm"
+      stock: 0
+    - id: "s6-190"
+      label: "S6 – 190cm"
+      stock: 0
 ---
