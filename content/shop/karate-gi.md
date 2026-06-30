@@ -35,3 +35,6 @@ params:
       label: "S6 – 190cm"
       stock: 0
 ---
+
+Hvit belte følger med drakt.
+
