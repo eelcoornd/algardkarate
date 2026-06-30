@@ -18,7 +18,7 @@ params:
       stock: 0
     - id: "medium"
       label: "Medium"
-      stock: 0
+      stock: 2
     - id: "large"
       label: "Large"
       stock: 0
