@@ -18,6 +18,15 @@ export type CatalogProduct = {
   currency: string;
   image?: string;
   categories?: string[];
+  variants?: CatalogVariant[];
+};
+
+export type CatalogVariant = {
+  id: string;
+  label: string;
+  stock?: number;
+  in_stock?: boolean;
+  price_delta?: number;
 };
 
 const PRODUCTS: CatalogProduct[] = rawProducts as CatalogProduct[];

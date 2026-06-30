@@ -106,12 +106,38 @@ async function handleCheckout(req: Request, env: Env): Promise<Response> {
     if (!product) {
       return errorResponse(env, `Ukjent produkt ${item.product_id}`);
     }
-    const lineTotal = Math.round(product.price * item.qty * 100) / 100;
+    if (product.variants && product.variants.length > 0) {
+      if (!item.variant_id) {
+        return errorResponse(env, `Velg variant for ${product.name}`);
+      }
+      const variant = product.variants.find((v) => v.id === item.variant_id);
+      if (!variant) {
+        return errorResponse(env, `Ukjent variant for ${product.name}`);
+      }
+      const hasStockField = typeof variant.stock === "number";
+      const stock = hasStockField ? (variant.stock as number) : -1;
+      const outOfStock = hasStockField ? stock <= 0 : variant.in_stock === false;
+      if (outOfStock) {
+        return errorResponse(env, `${product.name} (${variant.label}) er utsolgt`);
+      }
+      if (hasStockField && item.qty > stock) {
+        return errorResponse(
+          env,
+          `${product.name} (${variant.label}): bare ${stock} på lager`,
+        );
+      }
+    }
+    const unitPrice = product.price + (
+      product.variants
+        ? (product.variants.find((v) => v.id === item.variant_id)?.price_delta ?? 0)
+        : 0
+    );
+    const lineTotal = Math.round(unitPrice * item.qty * 100) / 100;
     lines.push({
       product_id: product.id,
       name: product.name,
       qty: item.qty,
-      unit_price_nok: product.price,
+      unit_price_nok: unitPrice,
       line_total_nok: lineTotal,
       variant_id: item.variant_id ?? null,
     });

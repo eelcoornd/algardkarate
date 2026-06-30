@@ -65,12 +65,18 @@
     <label>Velg variant</label>
     <div class="variant-options" id="variant-options">
       {{ range $variants }}
-      <button type="button" class="variant-opt{{ if not (default true .in_stock) }} out-of-stock{{ end }}"
+        {{/* Antall (stock) er heltall ≥0. Bakoverkompat: hvis "stock" mangler men "in_stock: false" er satt, regnes varianten som utsolgt. */}}
+        {{ $hasStock := isset . "stock" }}
+        {{ $stock := int (default 0 .stock) }}
+        {{ $inStock := default true .in_stock }}
+        {{ $outOfStock := or (and $hasStock (le $stock 0)) (and (not $hasStock) (not $inStock)) }}
+      <button type="button" class="variant-opt{{ if $outOfStock }} out-of-stock{{ end }}"
               data-variant-id="{{ .id }}"
               data-variant-label="{{ .label }}"
               data-price-delta="{{ default 0 .price_delta }}"
-              {{ if not (default true .in_stock) }}disabled aria-label="Utsolgt"{{ end }}>
-        {{ .label }}{{ if not (default true .in_stock) }} (utsolgt){{ end }}
+              data-variant-stock="{{ if $hasStock }}{{ $stock }}{{ else }}{{ if $inStock }}-1{{ else }}0{{ end }}{{ end }}"
+              {{ if $outOfStock }}disabled aria-label="Utsolgt"{{ end }}>
+        {{ .label }}{{ if $outOfStock }} (utsolgt){{ else if and $hasStock (le $stock 5) }} ({{ $stock }} igjen){{ end }}
       </button>
       {{ end }}
     </div>
@@ -127,11 +133,28 @@
   let selectedVariant = null;
 
   const qtyVal = document.getElementById("qty-val");
+
+  function variantStock(btn) {
+    // -1 = ingen lager-tracking (regnes som "ubegrenset"); 0+ = faktisk antall.
+    if (!btn) return -1;
+    const n = parseInt(btn.dataset.variantStock, 10);
+    return Number.isFinite(n) ? n : -1;
+  }
+  function maxQty() {
+    if (!hasVariants || !selectedVariant) return Infinity;
+    const s = variantStock(selectedVariant);
+    return s < 0 ? Infinity : s;
+  }
+  function clampQty() {
+    const m = maxQty();
+    if (qty > m) { qty = Math.max(1, m); qtyVal.textContent = qty; }
+  }
+
   document.getElementById("qty-minus").addEventListener("click", () => {
     if (qty > 1) { qty--; qtyVal.textContent = qty; }
   });
   document.getElementById("qty-plus").addEventListener("click", () => {
-    qty++; qtyVal.textContent = qty;
+    if (qty < maxQty()) { qty++; qtyVal.textContent = qty; }
   });
 
   const priceEl = document.getElementById("product-price");
@@ -147,6 +170,7 @@
         document.querySelectorAll("#variant-options .variant-opt").forEach((b) => b.classList.remove("selected"));
         btn.classList.add("selected");
         selectedVariant = btn;
+        clampQty();
         renderPrice();
       });
     });
@@ -157,6 +181,11 @@
     if (hasVariants && !selectedVariant) {
       alert("Velg en variant først.");
       return;
+    }
+    if (hasVariants && selectedVariant) {
+      const s = variantStock(selectedVariant);
+      if (s === 0) { alert("Denne varianten er utsolgt."); return; }
+      if (s > 0 && qty > s) { alert("Bare " + s + " på lager."); return; }
     }
     const delta = selectedVariant ? parseFloat(selectedVariant.dataset.priceDelta) || 0 : 0;
     AlgardCart.add({

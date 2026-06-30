@@ -6,6 +6,7 @@ on:
     paths:
       - "worker/**"
       - "data/shop_products.json"
+      - "content/shop/**"
       - ".github/workflows/deploy-worker.yml"
   workflow_dispatch:
 
