@@ -8,7 +8,7 @@ compatibility_flags = ["nodejs_compat"]
 [vars]
 VIPPS_ENV = "test"
 ALLOWED_ORIGIN = "https://www.algardkarate.net"
-PICKUP_INFO = "Hentes i klubblokalet etter avtale."
+PICKUP_INFO = "Alle kjøpte varer blir levert på trening. Sendt melding i Spond hvis produktet du vil kjøpe ikke er på lager, vi kan få det levert innen 2-3 uker."
 CLUB_EMAIL = "post@algardkarate.net"
 CLUB_NAME = "Ålgård Karateklubb"
 
@@ -26,7 +26,7 @@ id = "2757526ddf914b33ac39849ad366fa01"
 # Produksjon: kjør mot Vipps prod og prod-domenet
 [env.production]
 name = "algardkarate-shop-api"
-vars = { VIPPS_ENV = "prod", ALLOWED_ORIGIN = "https://www.algardkarate.net", PICKUP_INFO = "Hentes i klubblokalet etter avtale.", CLUB_EMAIL = "post@algardkarate.net", CLUB_NAME = "Ålgård Karateklubb" }
+vars = { VIPPS_ENV = "prod", ALLOWED_ORIGIN = "https://www.algardkarate.net", PICKUP_INFO = "Alle kjøpte varer blir levert på trening. Sendt melding i Spond hvis produktet du vil kjøpe ikke er på lager, vi kan få det levert innen 2-3 uker.", CLUB_EMAIL = "post@algardkarate.net", CLUB_NAME = "Ålgård Karateklubb" }
 
 [[env.production.kv_namespaces]]
 binding = "ORDERS"

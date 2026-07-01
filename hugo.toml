@@ -18,7 +18,7 @@ title = "Ålgård Karate"
     vat_status = "" # f.eks. "Ikke MVA-pliktig" eller "MVA-nr: NO123456789MVA"
     email = "post@algardkarate.net"
     address = "Ålgård, Sandnes"
-    pickup_info = "Hentes i klubblokalet etter avtale – klubben tar kontakt på e-post."
+    pickup_info = "Alle kjøpte varer blir levert på trening. Sendt melding i Spond hvis produktet du vil kjøpe ikke er på lager, vi kan få det levert innen 2-3 uker."
 
 [[menus.main]]
   name = "Treninger"
