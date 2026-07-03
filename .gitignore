@@ -4,3 +4,4 @@ hugo_extended_*.tar.gz
 client_secret.json
 tokens.json
 public/
+.hugo_build.lock
