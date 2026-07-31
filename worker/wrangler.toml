@@ -9,7 +9,7 @@ compatibility_flags = ["nodejs_compat"]
 VIPPS_ENV = "test"
 ALLOWED_ORIGIN = "https://www.algardkarate.net"
 PICKUP_INFO = "Alle kjøpte varer blir levert på trening. Sendt melding i Spond hvis produktet du vil kjøpe ikke er på lager, vi kan få det levert innen 2-3 uker."
-CLUB_EMAIL = "post@algardkarate.net"
+CLUB_EMAIL = "algrad.karate@gmail.com"
 CLUB_NAME = "Ålgård Karateklubb"
 
 # Test bruker dedikerte KV-namespaces slik at testdata ikke blander seg
@@ -26,7 +26,7 @@ id = "2757526ddf914b33ac39849ad366fa01"
 # Produksjon: kjør mot Vipps prod og prod-domenet
 [env.production]
 name = "algardkarate-shop-api"
-vars = { VIPPS_ENV = "prod", ALLOWED_ORIGIN = "https://www.algardkarate.net", PICKUP_INFO = "Alle kjøpte varer blir levert på trening. Sendt melding i Spond hvis produktet du vil kjøpe ikke er på lager, vi kan få det levert innen 2-3 uker.", CLUB_EMAIL = "post@algardkarate.net", CLUB_NAME = "Ålgård Karateklubb" }
+vars = { VIPPS_ENV = "prod", ALLOWED_ORIGIN = "https://www.algardkarate.net", PICKUP_INFO = "Alle kjøpte varer blir levert på trening. Sendt melding i Spond hvis produktet du vil kjøpe ikke er på lager, vi kan få det levert innen 2-3 uker.", CLUB_EMAIL = "algrad.karate@gmail.com", CLUB_NAME = "Ålgård Karateklubb" }
 
 [[env.production.kv_namespaces]]
 binding = "ORDERS"
@@ -47,4 +47,6 @@ id = "1bd301c5081f49f9ab1393c6545fa9fe"
 #   VIPPS_TEST_MSN
 #   TELEGRAM_BOT_TOKEN
 #   TELEGRAM_CLUB_CHAT_ID
-#   MAIL_FROM            (verifisert sender for MailChannels, f.eks. "noreply@algardkarate.net")
+#   GMAIL_USER           (f.eks. "algrad.karate@gmail.com")
+#   GMAIL_APP_PASSWORD   (16-tegns App Password fra Google-kontoen, 2FA må være på)
+#   MAIL_FROM            (valgfri; overstyrer From-adresse hvis satt)

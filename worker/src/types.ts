@@ -19,6 +19,11 @@ export type Env = {
   VIPPS_PROD_MSN?: string;
   TELEGRAM_BOT_TOKEN?: string;
   TELEGRAM_CLUB_CHAT_ID?: string;
+  // Gmail SMTP (App Password kreves — 2FA må være på for kontoen)
+  GMAIL_USER?: string;
+  GMAIL_APP_PASSWORD?: string;
+  // Beholdt for bakoverkompabilitet; hvis satt brukes som From-adresse,
+  // ellers brukes GMAIL_USER.
   MAIL_FROM?: string;
 };
 

@@ -1,9 +1,13 @@
+import { WorkerMailer } from "worker-mailer";
 import type { Env, Order } from "./types";
 
 // Sender Telegram-melding til klubbens chat. Stille feil for å ikke
 // blokkere /order-respons hvis Telegram er nede.
 export async function notifyTelegram(env: Env, order: Order): Promise<void> {
-  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_CLUB_CHAT_ID) return;
+  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_CLUB_CHAT_ID) {
+    console.warn("telegram notify skipped: missing TELEGRAM_BOT_TOKEN or TELEGRAM_CLUB_CHAT_ID");
+    return;
+  }
   const lines = order.lines
     .map((l) => `• ${l.qty}× ${l.name} — kr ${l.line_total_nok.toFixed(0)},-`)
     .join("\n");
@@ -18,42 +22,61 @@ export async function notifyTelegram(env: Env, order: Order): Promise<void> {
       : "") +
     `*Totalt: kr ${order.total_nok.toFixed(0)},-*`;
   try {
-    await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        chat_id: env.TELEGRAM_CLUB_CHAT_ID,
-        text,
-        parse_mode: "Markdown",
-      }),
-    });
+    const resp = await fetch(
+      `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          chat_id: env.TELEGRAM_CLUB_CHAT_ID,
+          text,
+          parse_mode: "Markdown",
+        }),
+      },
+    );
+    if (!resp.ok) {
+      console.error("telegram notify http", resp.status, await resp.text());
+    }
   } catch (e) {
     console.error("telegram notify failed", e);
   }
 }
 
-// Sender e-post via MailChannels (gratis fra Cloudflare Workers).
-// Krever at MAIL_FROM-domenet har riktige SPF/DKIM-records for MailChannels.
+// Sender e-post via Gmail SMTP (smtp.gmail.com:465, implisitt TLS).
+// Krever GMAIL_USER + GMAIL_APP_PASSWORD (App Password fra Google-kontoen
+// med 2FA aktivert). MAIL_FROM overstyrer avsender-adressen hvis satt.
 async function sendEmail(
   env: Env,
   to: { email: string; name: string },
   subject: string,
   htmlBody: string,
 ): Promise<void> {
-  if (!env.MAIL_FROM) return;
+  if (!env.GMAIL_USER || !env.GMAIL_APP_PASSWORD) {
+    console.warn("email skipped: missing GMAIL_USER or GMAIL_APP_PASSWORD");
+    return;
+  }
+  const fromEmail = env.MAIL_FROM || env.GMAIL_USER;
   try {
-    await fetch("https://api.mailchannels.net/tx/v1/send", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        personalizations: [{ to: [to] }],
-        from: { email: env.MAIL_FROM, name: env.CLUB_NAME },
+    await WorkerMailer.send(
+      {
+        host: "smtp.gmail.com",
+        port: 465,
+        secure: true,
+        credentials: {
+          username: env.GMAIL_USER,
+          password: env.GMAIL_APP_PASSWORD,
+        },
+        authType: "login",
+      },
+      {
+        from: { name: env.CLUB_NAME, email: fromEmail },
+        to: { name: to.name, email: to.email },
         subject,
-        content: [{ type: "text/html", value: htmlBody }],
-      }),
-    });
+        html: htmlBody,
+      },
+    );
   } catch (e) {
-    console.error("mailchannels send failed", e);
+    console.error("gmail smtp send failed", e);
   }
 }
 
