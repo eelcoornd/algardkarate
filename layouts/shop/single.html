@@ -132,6 +132,44 @@
   const basePrice = parseFloat(addBtn.dataset.basePrice) || 0;
   const image = addBtn.dataset.image;
   const hasVariants = addBtn.dataset.hasVariants === "1";
+  const apiBase = {{ .Site.Params.api_base | jsonify }};
+
+  // Oppdater lager fra serveren slik at siden viser live antall selv om
+  // Hugo-siden ikke er bygget på nytt siden siste ordre.
+  async function refreshLiveStock() {
+    if (!apiBase || !hasVariants) return;
+    try {
+      const resp = await fetch(apiBase + "/stock", { cache: "no-store" });
+      if (!resp.ok) return;
+      const data = await resp.json();
+      const forProduct = data && data[String(productId)];
+      if (!forProduct) return;
+      document.querySelectorAll("#variant-options .variant-opt").forEach((btn) => {
+        const vid = btn.dataset.variantId;
+        if (!(vid in forProduct)) return;
+        const live = parseInt(forProduct[vid], 10);
+        if (!Number.isFinite(live)) return;
+        btn.dataset.variantStock = String(live);
+        // Fjern gammel "(N igjen)"/"(utsolgt)"-suffix.
+        const label = btn.dataset.variantLabel || btn.textContent.replace(/\s*\(.*\)\s*$/, "").trim();
+        let suffix = "";
+        if (live <= 0) suffix = " (utsolgt)";
+        else if (live <= 5) suffix = " (" + live + " igjen)";
+        btn.textContent = label + suffix;
+        if (live <= 0) {
+          btn.classList.add("out-of-stock");
+          btn.setAttribute("disabled", "");
+          btn.setAttribute("aria-label", "Utsolgt");
+          if (selectedVariant === btn) selectedVariant = null;
+        } else {
+          btn.classList.remove("out-of-stock");
+          btn.removeAttribute("disabled");
+          btn.removeAttribute("aria-label");
+        }
+      });
+      clampQty();
+    } catch (_) { /* stille — beholder baseline */ }
+  }
 
   let qty = 1;
   let selectedVariant = null;
@@ -205,6 +243,8 @@
     flash.hidden = false;
     setTimeout(() => { flash.hidden = true; }, 2500);
   });
+
+  refreshLiveStock();
 })();
 </script>
 {{ end }}

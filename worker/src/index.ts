@@ -1,6 +1,7 @@
 import { applyDiscount, lookupDiscount } from "./discounts";
 import { notifyAll } from "./notify";
 import { getProduct } from "./products";
+import { decrementStockForOrder, getEffectiveStock, listStockOverrides } from "./stock";
 import type {
   CheckoutRequest,
   Customer,
@@ -115,7 +116,10 @@ async function handleCheckout(req: Request, env: Env): Promise<Response> {
         return errorResponse(env, `Ukjent variant for ${product.name}`);
       }
       const hasStockField = typeof variant.stock === "number";
-      const stock = hasStockField ? (variant.stock as number) : -1;
+      const liveStock = hasStockField
+        ? await getEffectiveStock(env, product.id, variant.id)
+        : null;
+      const stock = liveStock ?? -1;
       const outOfStock = hasStockField ? stock <= 0 : variant.in_stock === false;
       if (outOfStock) {
         return errorResponse(env, `${product.name} (${variant.label}) er utsolgt`);
@@ -239,6 +243,8 @@ async function handleOrderStatus(env: Env, ctx: ExecutionContext, orderId: strin
         if (!order.notified) {
           order.notified = true;
           ctx.waitUntil(notifyAll(env, order));
+          // Trekk fra live-lager én gang, når ordren først går PAID.
+          ctx.waitUntil(decrementStockForOrder(env, order));
         }
         await env.ORDERS.put(`order:${order.id}`, JSON.stringify(order), {
           expirationTtl: 60 * 24 * 3600,
@@ -279,6 +285,11 @@ export default {
 
     if (req.method === "POST" && path === "/checkout") {
       return handleCheckout(req, env);
+    }
+
+    if (req.method === "GET" && path === "/stock") {
+      const overrides = await listStockOverrides(env);
+      return jsonResponse(env, overrides);
     }
 
     const discountMatch = path.match(/^\/discount\/([^/]+)$/);
