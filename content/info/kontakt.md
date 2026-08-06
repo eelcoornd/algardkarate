@@ -3,7 +3,7 @@ title: "Kontakt Oss"
 icon: "fa-envelope"
 icon_color: "#2e7d32"
 icon_bg: "#e8f5e9"
-weight: 3
+weight: 4
 ---
 
 <div class="kontakt-page">

@@ -3,7 +3,7 @@ title: "Styre"
 icon: "fa-users-cog"
 icon_color: "#f57f17"
 icon_bg: "#fff8e1"
-weight: 6
+weight: 7
 ---
 ## Styret i Ålgård Karateklubb
 

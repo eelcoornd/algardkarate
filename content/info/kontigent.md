@@ -3,7 +3,7 @@ title: "Kontigent"
 icon: "fa-credit-card"
 icon_color: "#e65100"
 icon_bg: "#fff3e0"
-weight: 4
+weight: 5
 ---
 
 <div class="kontigent-page">
