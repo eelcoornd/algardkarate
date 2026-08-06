@@ -15,20 +15,11 @@ weight: 4
 </div>
 
 <div class="fs-intro">
-  <p>Norges Kampsportforbund samarbeider med <strong>Tryg forsikring</strong> om å
-     levere gode forsikringer til våre medlemmer. Det betyr at du som medlem i en
-     kampsportklubb tilsluttet forbundet har en
-     <a href="https://kampsport.no/organisasjon/kontigent-skatt-forsikring/forsikringer/ulykkesforsikring/" target="_blank" rel="noopener">skade-/ulykkesforsikring</a>
-     som dekker deg på trening og konkurranse.</p>
-
-  <p>Videre tilbyr forbundet gode
-     <a href="https://kampsport.no/organisasjon/kontigent-skatt-forsikring/forsikringer/klubbforsikring/" target="_blank" rel="noopener">klubbforsikringer</a>,
-     blant annet den obligatoriske underslagsforsikringen. Som medlem av Norges
-     Kampsportforbund kan du også få gunstige rabatter hos Tryg forsikring på dine
-     <a href="https://kampsport.no/organisasjon/kontigent-skatt-forsikring/forsikringer/privat/" target="_blank" rel="noopener">private forsikringer</a>.</p>
+  <p>Norges Kampsportforbund samarbeider med <strong>Tryg forsikring</strong> om å levere gode forsikringer til våre medlemmer. Det betyr at du som medlem i en kampsportklubb tilsluttet forbundet har en <a href="https://kampsport.no/forsikring/" target="_blank" rel="noopener">skade-/ulykkesforsikring</a> som dekker deg på trening og konkurranse.</p>
+  <p>Videre tilbyr forbundet gode <a href="https://kampsport.no/forsikring/" target="_blank" rel="noopener">klubbforsikringer</a>, blant annet den obligatoriske underslagsforsikringen. Som medlem av Norges Kampsportforbund kan du også få gunstige rabatter hos Tryg forsikring på dine <a href="https://kampsport.no/forsikring/" target="_blank" rel="noopener">private forsikringer</a>.</p>
 </div>
 
-<a class="fs-cta" href="https://www.tryg.no/meld-skade/personskader-og-behandling.html" target="_blank" rel="noopener">
+<a class="fs-cta" href="https://kampsport.no/forsikring/" target="_blank" rel="noopener">
   <i class="fas fa-exclamation-triangle"></i>
   <span>Meld skade hos Tryg</span>
 </a>
@@ -39,19 +30,11 @@ weight: 4
     <h2>Norges Kampsportforbund &amp; Tryg</h2>
   </div>
   <div class="fs-card-body">
-    <p>Tryg er Norges Kampsportforbunds samarbeidspartner på private forsikringer.
-       Som medlem får du <strong>5&nbsp;% medlemsrabatt</strong> på alle forsikringer.</p>
-
-    <p>I tillegg kan du samle forsikringene dine hos Tryg og få
-       <strong>opptil 20&nbsp;% rabatt</strong> gjennom fordelsprogrammet
-       <em>Tryg Pluss</em>. Dette gir deg også mange andre fordeler, som gratis
-       tilgang til bolighjelpstelefon og profesjonell hjelp ved personlige kriser.</p>
-
-    <p>Kjøper du forsikringene på nett, får du ytterligere
-       <strong>10&nbsp;% nettrabatt</strong> det første året på en rekke forsikringer.</p>
-
-    <a class="fs-link" href="https://www.tryg.no/forsikringer/fordeler-hos-tryg/tryg-pluss/index.html" target="_blank" rel="noopener">
-      Les mer om Tryg Pluss <i class="fas fa-arrow-right"></i>
+    <p>Tryg er Norges Kampsportforbunds samarbeidspartner på private forsikringer. Som medlem får du <strong>5&nbsp;% medlemsrabatt</strong> på alle forsikringer.</p>
+    <p>I tillegg kan du samle forsikringene dine hos Tryg og få <strong>opptil 20&nbsp;% rabatt</strong> gjennom fordelsprogrammet <em>Tryg Pluss</em>. Dette gir deg også mange andre fordeler, som gratis tilgang til bolighjelpstelefon og profesjonell hjelp ved personlige kriser.</p>
+    <p>Kjøper du forsikringene på nett, får du ytterligere <strong>10&nbsp;% nettrabatt</strong> det første året på en rekke forsikringer.</p>
+    <a class="fs-link" href="https://kampsport.no/forsikring/" target="_blank" rel="noopener">
+      Les mer om forsikringene <i class="fas fa-arrow-right"></i>
     </a>
   </div>
 </div>
