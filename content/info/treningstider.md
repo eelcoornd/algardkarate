@@ -11,16 +11,33 @@ weight: 3
 <div class="info-banner">
   <i class="fas fa-map-marker-alt"></i>
   <div>
-    <strong>Bærland skole – gymsalen</strong>
+    <strong>Bærland barneskole – gymsalen</strong>
     <p>Ålgård, Sandnes</p>
   </div>
 </div>
 
-<p style="font-size:14px;line-height:1.6;color:#444;margin-bottom:18px;">
-Faste treningstider gjennom sesongen. Enkelttreninger kan bli flyttet eller avlyst –
-sjekk alltid <a href="/treninger/" style="color:#1565c0;text-decoration:none;">kalenderen</a>
-for oppdatert oversikt.
+<p style="font-size:14px;line-height:1.6;color:#444;margin-bottom:14px;">
+Treningene er tilpasset forskjellige grader slik at alle får en god treningsøkt.
+Du må være <strong>9 år</strong> for å begynne. Vi tar inn nye medlemmer i starten
+av et halvår. Alder er heller ingen hindring – det er aldri for sent å begynne
+med karate, men minimum alder er 9 år.
 </p>
+
+<p style="font-size:14px;line-height:1.6;color:#444;margin-bottom:18px;">
+Vi bruker <strong>SPOND</strong> til alle treninger og arrangementer.
+<a href="/info/pamelding/" style="color:#1565c0;text-decoration:none;">Påmelding i SPOND gjør du her</a>.
+</p>
+
+<div class="info-banner" style="background:#fff8e1;border-left-color:#f57f17;">
+  <i class="fas fa-exclamation-circle" style="color:#f57f17;"></i>
+  <div>
+    <strong style="color:#e65100;">OBS! Sjekk for endringer</strong>
+    <p>Kontroller <a href="/info/" style="color:#1565c0;text-decoration:none;">Nyheter</a>,
+       <a href="/treninger/" style="color:#1565c0;text-decoration:none;">Terminliste</a>,
+       <a href="/info/facebook/" style="color:#1565c0;text-decoration:none;">Facebook</a>
+       eller SPOND-appen for eventuelle endringer. Se Spond for detaljer.</p>
+  </div>
+</div>
 
 <div class="schedule-grid">
 
@@ -31,11 +48,11 @@ for oppdatert oversikt.
     </div>
     <div class="schedule-slot">
       <div class="schedule-time">18:00 – 19:00</div>
-      <div class="schedule-group">Nybegynnere, 10. kyu og 9. kyu</div>
+      <div class="schedule-group">Nybegynnere (9 år og oppover) + oransje belte</div>
     </div>
     <div class="schedule-slot">
       <div class="schedule-time">19:00 – 20:30</div>
-      <div class="schedule-group">8. kyu og oppover</div>
+      <div class="schedule-group">Alle graderte</div>
     </div>
   </div>
 
@@ -46,11 +63,11 @@ for oppdatert oversikt.
     </div>
     <div class="schedule-slot">
       <div class="schedule-time">18:00 – 19:00</div>
-      <div class="schedule-group">Nybegynnere, 10. kyu og 9. kyu</div>
+      <div class="schedule-group">Nybegynnere (9 år og oppover) + oransje belte</div>
     </div>
     <div class="schedule-slot">
       <div class="schedule-time">19:00 – 20:00</div>
-      <div class="schedule-group">8. kyu og oppover</div>
+      <div class="schedule-group">Alle graderte</div>
     </div>
   </div>
 
@@ -61,7 +78,7 @@ for oppdatert oversikt.
     </div>
     <div class="schedule-slot">
       <div class="schedule-time">19:00 – 20:00</div>
-      <div class="schedule-group">Kamptrening – kun for inviterte</div>
+      <div class="schedule-group">Kamptrening</div>
     </div>
   </div>
 
