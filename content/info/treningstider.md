@@ -8,77 +8,73 @@ weight: 3
 
 <div class="treningstider-page">
 
-<div class="info-banner">
-  <i class="fas fa-map-marker-alt"></i>
-  <div>
-    <strong>Bærland barneskole – gymsalen</strong>
-    <p>Ålgård, Sandnes</p>
-  </div>
+<div class="tt-hero">
+  <div class="tt-hero-icon"><i class="far fa-clock"></i></div>
+  <h1>Treningstider</h1>
+  <p>Bærland barneskole – gymsalen</p>
 </div>
 
-<p style="font-size:14px;line-height:1.6;color:#444;margin-bottom:14px;">
-Treningene er tilpasset forskjellige grader slik at alle får en god treningsøkt.
-Du må være <strong>9 år</strong> for å begynne. Vi tar inn nye medlemmer i starten
-av et halvår. Alder er heller ingen hindring – det er aldri for sent å begynne
-med karate, men minimum alder er 9 år.
-</p>
+<div class="tt-intro">
+  <p>Treningene er tilpasset forskjellige grader slik at alle får en god treningsøkt.
+     Du må være <strong>9 år</strong> for å begynne. Vi tar inn nye medlemmer i starten
+     av et halvår. Alder er heller ingen hindring – det er aldri for sent å begynne
+     med karate, men minimum alder er 9 år.</p>
 
-<p style="font-size:14px;line-height:1.6;color:#444;margin-bottom:18px;">
-Vi bruker <strong>SPOND</strong> til alle treninger og arrangementer.
-<a href="/info/pamelding/" style="color:#1565c0;text-decoration:none;">Påmelding i SPOND gjør du her</a>.
-</p>
-
-<div class="info-banner" style="background:#fff8e1;border-left-color:#f57f17;">
-  <i class="fas fa-exclamation-circle" style="color:#f57f17;"></i>
-  <div>
-    <strong style="color:#e65100;">OBS! Sjekk for endringer</strong>
-    <p>Kontroller <a href="/info/" style="color:#1565c0;text-decoration:none;">Nyheter</a>,
-       <a href="/treninger/" style="color:#1565c0;text-decoration:none;">Terminliste</a>,
-       <a href="/info/facebook/" style="color:#1565c0;text-decoration:none;">Facebook</a>
-       eller SPOND-appen for eventuelle endringer. Se Spond for detaljer.</p>
-  </div>
+  <p>Vi bruker <strong>SPOND</strong> til alle treninger og arrangementer.
+     <a href="/info/pamelding/">Påmelding i SPOND gjør du her</a>.</p>
 </div>
 
-<div class="schedule-grid">
+<div class="tt-obs">
+  <div class="tt-obs-icon"><i class="far fa-clock"></i></div>
+  <h2>OBS! Se Spond for detaljer</h2>
+  <p>Kontroller <a href="/info/">Nyheter</a>,
+     <a href="/treninger/">Terminliste</a>,
+     <a href="/info/facebook/">Facebook</a>
+     eller SPOND-appen for eventuelle endringer.</p>
+</div>
 
-  <div class="schedule-day">
-    <div class="schedule-day-header" style="background:#1565c0;">
-      <i class="fas fa-calendar-day"></i>
+<div class="tt-schedule">
+
+  <div class="tt-day">
+    <div class="tt-day-header tt-day-blue">
       <span>Mandag</span>
     </div>
-    <div class="schedule-slot">
-      <div class="schedule-time">18:00 – 19:00</div>
-      <div class="schedule-group">Nybegynnere (9 år og oppover) + oransje belte</div>
+    <div class="tt-slot">
+      <div class="tt-slot-icon"><i class="far fa-clock"></i></div>
+      <div class="tt-slot-time">18:00 – 19:00</div>
+      <div class="tt-slot-group">Nybegynnere (9 år og oppover)<br>+ oransje belte</div>
     </div>
-    <div class="schedule-slot">
-      <div class="schedule-time">19:00 – 20:30</div>
-      <div class="schedule-group">Alle graderte</div>
+    <div class="tt-slot">
+      <div class="tt-slot-icon"><i class="far fa-clock"></i></div>
+      <div class="tt-slot-time">19:00 – 20:30</div>
+      <div class="tt-slot-group">Alle graderte</div>
     </div>
   </div>
 
-  <div class="schedule-day">
-    <div class="schedule-day-header" style="background:#1565c0;">
-      <i class="fas fa-calendar-day"></i>
+  <div class="tt-day">
+    <div class="tt-day-header tt-day-blue">
       <span>Onsdag</span>
     </div>
-    <div class="schedule-slot">
-      <div class="schedule-time">18:00 – 19:00</div>
-      <div class="schedule-group">Nybegynnere (9 år og oppover) + oransje belte</div>
+    <div class="tt-slot">
+      <div class="tt-slot-icon"><i class="far fa-clock"></i></div>
+      <div class="tt-slot-time">18:00 – 19:00</div>
+      <div class="tt-slot-group">Nybegynnere (9 år og oppover)<br>+ oransje belte</div>
     </div>
-    <div class="schedule-slot">
-      <div class="schedule-time">19:00 – 20:00</div>
-      <div class="schedule-group">Alle graderte</div>
+    <div class="tt-slot">
+      <div class="tt-slot-icon"><i class="far fa-clock"></i></div>
+      <div class="tt-slot-time">19:00 – 20:00</div>
+      <div class="tt-slot-group">Alle graderte</div>
     </div>
   </div>
 
-  <div class="schedule-day">
-    <div class="schedule-day-header" style="background:#c62828;">
-      <i class="fas fa-fist-raised"></i>
+  <div class="tt-day">
+    <div class="tt-day-header tt-day-red">
       <span>Torsdag</span>
     </div>
-    <div class="schedule-slot">
-      <div class="schedule-time">19:00 – 20:00</div>
-      <div class="schedule-group">Kamptrening</div>
+    <div class="tt-slot tt-slot-red">
+      <div class="tt-slot-icon tt-slot-icon-red"><i class="far fa-clock"></i></div>
+      <div class="tt-slot-time">19:00 – 20:00</div>
+      <div class="tt-slot-group">Kamptrening</div>
     </div>
   </div>
 
@@ -87,23 +83,107 @@ Vi bruker <strong>SPOND</strong> til alle treninger og arrangementer.
 </div>
 
 <style>
-  .treningstider-page { padding: 0 16px 40px; }
-  .info-banner { display:flex; gap:12px; align-items:flex-start; background:#e3f2fd; border-left:4px solid #1565c0; padding:12px 14px; border-radius:6px; margin:16px 0; }
-  .info-banner i { color:#1565c0; font-size:1.2rem; margin-top:2px; }
-  .info-banner strong { display:block; font-size:14px; color:#0d47a1; }
-  .info-banner p { margin:2px 0 0; font-size:13px; color:#333; }
+  .treningstider-page { padding:0 16px 40px; color:#222; }
 
-  .schedule-grid { display:grid; grid-template-columns:1fr; gap:14px; }
-  .schedule-day { background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.08); }
-  .schedule-day-header { display:flex; align-items:center; gap:10px; color:#fff; padding:10px 14px; font-weight:700; font-size:15px; }
-  .schedule-day-header i { font-size:0.95rem; }
-  .schedule-slot { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:12px 14px; border-top:1px solid #f0f0f0; }
-  .schedule-slot:first-of-type { border-top:none; }
-  .schedule-time { font-weight:700; color:#1565c0; font-size:14px; white-space:nowrap; }
-  .schedule-group { font-size:13.5px; color:#333; text-align:right; }
+  /* Hero */
+  .tt-hero {
+    text-align:center;
+    background:linear-gradient(135deg,#0d47a1 0%,#1565c0 100%);
+    color:#fff;
+    padding:28px 20px 24px;
+    border-radius:14px;
+    margin:16px 0 22px;
+    box-shadow:0 4px 14px rgba(13,71,161,0.25);
+  }
+  .tt-hero-icon {
+    width:64px; height:64px; margin:0 auto 12px;
+    background:rgba(255,255,255,0.18);
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:30px;
+  }
+  .tt-hero h1 { font-size:26px; font-weight:800; margin:0 0 4px; letter-spacing:0.5px; }
+  .tt-hero p { margin:0; font-size:15px; opacity:0.92; }
 
-  @media (min-width: 640px) {
-    .schedule-grid { grid-template-columns:repeat(2, 1fr); }
-    .schedule-day:last-child { grid-column:1 / -1; }
+  /* Intro */
+  .tt-intro p { font-size:15.5px; line-height:1.65; color:#333; margin:0 0 14px; }
+  .tt-intro a { color:#1565c0; text-decoration:none; font-weight:600; }
+  .tt-intro a:hover { text-decoration:underline; }
+
+  /* OBS callout */
+  .tt-obs {
+    background:#fff8e1;
+    border-left:5px solid #f57f17;
+    border-radius:10px;
+    padding:20px 18px;
+    margin:22px 0;
+    text-align:center;
+  }
+  .tt-obs-icon {
+    width:52px; height:52px; margin:0 auto 10px;
+    background:#f57f17; color:#fff;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:24px;
+    box-shadow:0 3px 8px rgba(245,127,23,0.35);
+  }
+  .tt-obs h2 { font-size:18px; font-weight:800; color:#e65100; margin:0 0 8px; }
+  .tt-obs p { font-size:14.5px; line-height:1.6; color:#4e342e; margin:0; }
+  .tt-obs a { color:#1565c0; text-decoration:none; font-weight:600; }
+  .tt-obs a:hover { text-decoration:underline; }
+
+  /* Schedule cards */
+  .tt-schedule { display:grid; grid-template-columns:1fr; gap:18px; margin-top:8px; }
+  .tt-day {
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    border:1px solid #eceff1;
+  }
+  .tt-day-header {
+    color:#fff;
+    padding:14px 18px;
+    font-weight:800;
+    font-size:18px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-align:center;
+  }
+  .tt-day-blue { background:linear-gradient(135deg,#0d47a1,#1565c0); }
+  .tt-day-red  { background:linear-gradient(135deg,#b71c1c,#c62828); }
+
+  .tt-slot {
+    text-align:center;
+    padding:20px 18px;
+    border-top:1px solid #eceff1;
+  }
+  .tt-slot:first-of-type { border-top:none; }
+  .tt-slot-icon {
+    width:52px; height:52px; margin:0 auto 10px;
+    background:#e3f2fd; color:#1565c0;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:22px;
+  }
+  .tt-slot-icon-red { background:#ffebee; color:#c62828; }
+  .tt-slot-red .tt-slot-time { color:#b71c1c; }
+  .tt-slot-time {
+    font-size:20px;
+    font-weight:800;
+    color:#0d47a1;
+    margin-bottom:6px;
+    letter-spacing:0.3px;
+  }
+  .tt-slot-group {
+    font-size:15px;
+    line-height:1.5;
+    color:#37474f;
+    font-weight:500;
+  }
+
+  @media (min-width:720px) {
+    .tt-schedule { grid-template-columns:repeat(2,1fr); }
+    .tt-day:last-child { grid-column:1 / -1; max-width:420px; margin:0 auto; width:100%; }
   }
 </style>
