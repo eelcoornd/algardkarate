@@ -27,9 +27,7 @@ weight: 3
 <div class="tt-obs">
   <div class="tt-obs-icon"><i class="far fa-clock"></i></div>
   <h2>OBS! Se Spond for detaljer</h2>
-  <p>Kontroller <a href="/info/">Nyheter</a>,
-     <a href="/treninger/">Terminliste</a>,
-     <a href="/info/facebook/">Facebook</a>
+  <p>Kontroller <a href="/treninger/">Terminliste</a>
      eller SPOND-appen for eventuelle endringer.</p>
 </div>
 
