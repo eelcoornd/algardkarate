@@ -9,9 +9,10 @@ weight: 3
 <div class="treningstider-page">
 
 <div class="tt-hero">
-  <div class="tt-hero-icon"><i class="far fa-clock"></i></div>
-  <h1>Treningstider</h1>
   <p>Bærland barneskole – gymsalen</p>
+  <img class="tt-hero-img"
+       src="https://res.cloudinary.com/ssp/image/fetch/w_1250,h_610,c_fill/https://prokomsaas.blob.core.windows.net/bookup/Private/kcajehenowa/IMG_1197_d6c2.JPG"
+       alt="Bærland barneskole – gymsalen">
 </div>
 
 <div class="tt-intro">
@@ -45,7 +46,7 @@ weight: 3
     <div class="tt-slot">
       <div class="tt-slot-icon"><i class="far fa-clock"></i></div>
       <div class="tt-slot-time">19:00 – 20:30</div>
-      <div class="tt-slot-group">Alle graderte</div>
+      <div class="tt-slot-group">8 Kyu og oppover</div>
     </div>
   </div>
 
@@ -61,7 +62,7 @@ weight: 3
     <div class="tt-slot">
       <div class="tt-slot-icon"><i class="far fa-clock"></i></div>
       <div class="tt-slot-time">19:00 – 20:00</div>
-      <div class="tt-slot-group">Alle graderte</div>
+      <div class="tt-slot-group">8 Kyu og oppover</div>
     </div>
   </div>
 
@@ -101,7 +102,15 @@ weight: 3
     font-size:30px;
   }
   .tt-hero h1 { font-size:26px; font-weight:800; margin:0 0 4px; letter-spacing:0.5px; }
-  .tt-hero p { margin:0; font-size:15px; opacity:0.92; }
+  .tt-hero p { margin:0 0 14px; font-size:15px; opacity:0.92; }
+  .tt-hero-img {
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.25);
+  }
 
   /* Intro */
   .tt-intro p { font-size:15.5px; line-height:1.65; color:#333; margin:0 0 14px; }
