@@ -19,7 +19,7 @@ weight: 5
 
 <p style="font-size:14px;line-height:1.6;color:#444;margin-bottom:14px;">
 Kontigent må være betalt for at medlemmet skal kunne gå opp til gradering.
-Betaling av kontigent betyr også at man er <a href="/info/" style="color:#1565c0;text-decoration:none;">forsikret</a>.
+Betaling av kontigent betyr også at man er <a href="/info/forsikring/" style="color:#1565c0;text-decoration:none;">forsikret</a>.
 Juniorkontigent gjelder for de under 18 år. Vi refunderer ikke kontigent i påbegynt sesong.
 </p>
 
