@@ -9,36 +9,36 @@ weight: 10
 
 ### 1. Tachikata (Stillinger)
 
-| Teknikk |
-|---|
-| Yoi Dachi |
-| Fudo Dachi |
-| Sanchin Dachi |
-| Zenkutsu Dachi |
+| Teknikk | Beskrivelse | Bilde |
+|---|---|---|
+| **Yoi Dachi** | Bena er omtrent en skulderbredde fra hverandre, tærne pekende framover | <img src="/images/syllabus/10-kyu/yoi-dachi.png" style="width:100px;"> |
+| **Fudo Dachi** | Posisjon hvor man «er klar». Bena er omtrent en skulderbredde fra hverandre, tærne pekende utover | <img src="/images/syllabus/10-kyu/fudo-dachi.png" style="width:100px;"> |
+| **Sanchin Dachi** | Ca en skulderbredde. Når man går i Sanchin Dachi skal hele kroppen spennes. Deretter skal man beholde benmuskelaturen noe spent gjennom å «gripe» gulvet med tærne og presse bena mot hverandre | <img src="/images/syllabus/10-kyu/sanchin-dachi.png" style="width:100px;"> |
+| **Zenkutsu Dachi** | Ene foten er foran den andre. Len kroppen framover. Husk å ikke gå «opp og ned» når man beveger seg i denne stillingen | <img src="/images/syllabus/10-kyu/zenkutsu-dachi.png" style="width:150px;"> |
 
 ### 2. Tsuki (Slag)
 
-| Teknikk | Beskrivelse |
-|---|---|
-| **Seiken Oi Tsuki** | Jodan, Chudan, Gedan |
-| **Seiken Gyaku Tsuki** | Jodan, Chudan, Gedan |
-| **Seiken Morote Tsuki** | Jodan, Chudan, Gedan |
-| **Seiken Ago Uchi** | |
+| Teknikk | Beskrivelse | Bilde |
+|---|---|---|
+| **Seiken Oi Tsuki** | Jodan, Chudan, Gedan | <img src="/images/syllabus/10-kyu/seiken-oi-tsuki.png" style="width:150px;"> |
+| **Seiken Gyaku Tsuki** | Jodan, Chudan, Gedan | <img src="/images/syllabus/10-kyu/seiken-gyaku-tsuki.png" style="width:150px;"> |
+| **Seiken Morote Tsuki** | Jodan, Chudan, Gedan | <img src="/images/syllabus/10-kyu/seiken-morote-tsuki.png" style="width:100px;"> |
+| **Seiken Ago Uchi** | | <img src="/images/syllabus/10-kyu/seiken-ago-uchi.png" style="width:150px;"> |
 
 ### 3. Uke (Blokkeringer)
 
-| Teknikk | Beskrivelse |
-|---|---|
-| **(Seiken/Shuto) Jodan Uke** | Blokkering oppover |
-| **(Seiken/Shuto) Mae Gedan Barai** | Blokkering nedover |
+| Teknikk | Beskrivelse | Bilde |
+|---|---|---|
+| **(Seiken/Shuto) Jodan Uke** | Blokkering oppover | |
+| **(Seiken/Shuto) Mae Gedan Barai** | Blokkering nedover | |
 
 ### 4. Keri (Spark)
 
-| Teknikk | Beskrivelse |
-|---|---|
-| Hiza Geri | Knespark |
-| Kin Geri | Spark mot skritt |
-| Mae Geri | Jodan, Chudan, Gedan |
+| Teknikk | Beskrivelse | Bilde |
+|---|---|---|
+| Hiza Geri | Knespark | |
+| Kin Geri | Spark mot skritt | <img src="/images/syllabus/10-kyu/kin-geri.jpg" style="width:100px;"> |
+| Mae Geri | Jodan, Chudan, Gedan | <img src="/images/syllabus/10-kyu/mae-geri.png" style="width:150px;"> |
 
 ### 5. Kokyu Ho (Pusteteknikker)
 
