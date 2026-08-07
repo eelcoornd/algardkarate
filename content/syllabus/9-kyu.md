@@ -52,8 +52,7 @@ weight: 9
 ## Kata
 
 ### Taikyoku Sono San
-<div style="overflow:hidden;clear:both;"></div>
-<a href="https://www.youtube.com/watch?v=Czgo71PO2Ko" target="_blank" style="display:block;position:relative;margin-bottom:16px;max-width:100%;clear:both;"><img src="https://img.youtube.com/vi/Czgo71PO2Ko/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
+<iframe title="Taikyoku Sono San Kyokushin Union" width="100%" height="315" src="https://www.youtube.com/embed/INbPiLR7oPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;max-width:560px;display:block;margin-bottom:16px;"></iframe>
 
 ---
 
@@ -66,7 +65,7 @@ weight: 9
 | Mageøvelser | 45 | <img src="/images/syllabus/fysiske/mageovelser.jpeg"> |
 | Spensthopp | 20 | <img src="/images/syllabus/fysiske/spensthopp.png"> |
 | Heving til hake | 4 | <img src="/images/syllabus/fysiske/heving-til-hake.png"> |
-| Hopp (Tobi Geri) | Til et mål på samme høyde som en selv | <a href="https://www.youtube.com/watch?v=BqWgxuteGe0" target="_blank"><img src="https://img.youtube.com/vi/BqWgxuteGe0/default.jpg"></a> |
+| Hopp (Tobi Geri) | Til et mål på samme høyde som en selv | <iframe title="mae tobi geri" width="200" height="150" src="https://www.youtube.com/embed/BqWgxuteGe0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
 
 ---
 
