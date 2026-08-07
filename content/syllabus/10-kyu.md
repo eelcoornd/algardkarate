@@ -59,10 +59,10 @@ weight: 10
 ## Kata
 
 ### Taikyoku Sono Ichi
-<iframe title="Taikyoku Sono Ichi" width="100%" height="315" src="https://www.youtube.com/embed/WfBfXfqf2_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;max-width:560px;display:block;margin-bottom:16px;"></iframe>
+<iframe title="Taikyoku Sono Ichi" width="100%" height="315" src="https://www.youtube.com/embed/EKwke8s4nKQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;max-width:560px;display:block;margin-bottom:16px;"></iframe>
 
 ### Taikyoku Sono Ni
-<iframe title="Taikyoku Sono Ni" width="100%" height="315" src="https://www.youtube.com/embed/tA8sZIp5KX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;max-width:560px;display:block;margin-bottom:16px;"></iframe>
+<iframe title="Taikyoku Sono Ni" width="100%" height="315" src="https://www.youtube.com/embed/yV4bENMVRiE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;max-width:560px;display:block;margin-bottom:16px;"></iframe>
 
 ---
 
