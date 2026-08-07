@@ -9,37 +9,37 @@ weight: 9
 
 ### 1. Tachikata (Stillinger)
 
-| Teknikk |
-|---|
-| Musubi Dachi |
-| Heiko Dachi |
-| Heisoku Dachi |
-| Kokutsu Dachi |
+| Teknikk | Beskrivelse | Bilde |
+|---|---|---|
+| **Musubi Dachi** | Open Toe Stance | <img src="/images/syllabus/9-kyu/musubi-dachi.png" style="width:120px;"> |
+| **Heiko Dachi** | | <img src="/images/syllabus/9-kyu/heiko-dachi.png" style="width:120px;"> |
+| **Heisoku Dachi** | | <img src="/images/syllabus/9-kyu/heisuko-dachi.png" style="width:120px;"> |
+| **Kokutsu Dachi** | Backward Leaning Stance | <img src="/images/syllabus/9-kyu/kokutsu-dachi.png" style="width:120px;"> |
 
 ### 2. Tsuki (Slag)
 
-| Teknikk | Beskrivelse |
-|---|---|
-| **Seiken Shita Tsuki** | |
-| **Seiken Tate Tsuki** | Jodan, Chudan, Gedan |
-| **Seiken Kagi Tsuki** | |
-| **Hiji Ate** | Jodan, Chudan |
+| Teknikk | Beskrivelse | Bilde |
+|---|---|---|
+| **Seiken Shita Tsuki** | | <img src="/images/syllabus/9-kyu/seiken-shita-tsuki.png" style="width:100px;"> |
+| **Seiken Tate Tsuki** | Jodan, Chudan, Gedan | <img src="/images/syllabus/9-kyu/seiken-tate-tsuki.png" style="width:150px;"> |
+| **Seiken Kagi Tsuki** | | <img src="/images/syllabus/9-kyu/seiken-kagi-tsuki.png" style="width:150px;"> |
+| **Hiji Ate** | Jodan, Chudan | <img src="/images/syllabus/9-kyu/hiji-ate.png" style="width:100px;"> |
 
 ### 3. Uke (Blokkeringer)
 
-| Teknikk | Beskrivelse |
-|---|---|
-| **(Seiken/Shuto) Chudan Soto Uke** | Blokkering utenfra inn |
-| **(Seiken/Shuto) Chudan Uchi Uke** | Blokkering innenfra ut |
+| Teknikk | Beskrivelse | Bilde |
+|---|---|---|
+| **(Seiken/Shuto) Chudan Soto Uke** | Blokkering utenfra inn | <img src="/images/syllabus/9-kyu/chudan-soto-uke.png" style="width:150px;"> |
+| **(Seiken/Shuto) Chudan Uchi Uke** | Blokkering innenfra ut | <img src="/images/syllabus/9-kyu/chudan-uchi-uke.png" style="width:150px;"> |
 
 ### 4. Keri (Spark)
 
-| Teknikk | Beskrivelse |
-|---|---|
-| Mae Keage | Frontalt svingspark |
-| Yoko Keage | Sidesvingspark |
-| Uchi Mawashi Keage | Innover sirkelspark |
-| Soto Mawashi Keage | Utover sirkelspark |
+| Teknikk | Beskrivelse | Bilde |
+|---|---|---|
+| **Mae Keage** | Frontalt svingspark | <img src="/images/syllabus/9-kyu/hiza-geri.png" style="width:100px;"> |
+| **Yoko Keage** | Sidesvingspark | <img src="/images/syllabus/9-kyu/yoko-keage.png" style="width:150px;"> |
+| **Uchi Mawashi Keage** | Innover sirkelspark | <img src="/images/syllabus/9-kyu/uchi-mawashi-keage.png" style="width:150px;"> |
+| **Soto Mawashi Keage** | Utover sirkelspark | <img src="/images/syllabus/9-kyu/soto-mawashi-keage.png" style="width:150px;"> |
 
 ### Ido (Grunnleggende bevegelser)
 
