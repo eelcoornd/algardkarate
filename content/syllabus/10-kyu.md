@@ -59,12 +59,10 @@ weight: 10
 ## Kata
 
 ### Taikyoku Sono Ichi
-<div style="overflow:hidden;clear:both;"></div>
-<a href="https://www.youtube.com/watch?v=WfBfXfqf2_E" target="_blank" style="display:block;position:relative;margin-bottom:16px;max-width:100%;clear:both;"><img src="https://img.youtube.com/vi/WfBfXfqf2_E/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
+<iframe title="Taikyoku Sono Ichi" width="100%" height="315" src="https://www.youtube.com/embed/WfBfXfqf2_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;max-width:560px;display:block;margin-bottom:16px;"></iframe>
 
 ### Taikyoku Sono Ni
-<div style="overflow:hidden;clear:both;"></div>
-<a href="https://www.youtube.com/watch?v=tA8sZIp5KX0" target="_blank" style="display:block;position:relative;margin-bottom:16px;max-width:100%;clear:both;"><img src="https://img.youtube.com/vi/tA8sZIp5KX0/hqdefault.jpg" style="width:100%;border-radius:8px;"><div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(200,0,0,0.85);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;"><span style="color:white;font-size:22px;margin-left:5px;">&#9654;</span></div></a>
+<iframe title="Taikyoku Sono Ni" width="100%" height="315" src="https://www.youtube.com/embed/tA8sZIp5KX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;max-width:560px;display:block;margin-bottom:16px;"></iframe>
 
 ---
 
@@ -77,7 +75,7 @@ weight: 10
 | Mageøvelser | 40 | <img src="/images/syllabus/fysiske/mageovelser.jpeg"> |
 | Spensthopp | 15 | <img src="/images/syllabus/fysiske/spensthopp.png"> |
 | Heving til hake | 3 | <img src="/images/syllabus/fysiske/heving-til-hake.png"> |
-| Hopp (Tobi Geri) | Til et mål på samme høyde som en selv | <a href="https://www.youtube.com/watch?v=BqWgxuteGe0" target="_blank"><img src="https://img.youtube.com/vi/BqWgxuteGe0/default.jpg"></a> |
+| Hopp (Tobi Geri) | Til et mål på samme høyde som en selv | <iframe title="mae tobi geri" width="200" height="150" src="https://www.youtube.com/embed/BqWgxuteGe0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
 
 ---
 
