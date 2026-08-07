@@ -37,6 +37,8 @@
   {{ block "main" . }}{{ end }}
   {{ block "bottomSpacer" . }}<div class="bottom-spacer"></div>{{ end }}
   {{ partial "bottom-nav.html" . }}
+  {{ partial "install-banner.html" . }}
+  <script src="/js/install-prompt.js"></script>
   {{ block "scripts" . }}{{ end }}
 </body>
 </html>
