@@ -89,8 +89,8 @@
       event.preventDefault();
       deferredPrompt = event;
       readyToShow = function () {
-        titleEl.textContent = "Legg til Ålgård Karate på hjemskjermen";
-        textEl.textContent = "Installer appen for rask tilgang, uten å måtte åpne nettleseren.";
+        titleEl.textContent = "Legg til på hjemskjermen";
+        textEl.textContent = "Trykk «Installer» for rask tilgang";
         actionBtn.hidden = false;
       };
     });
@@ -111,9 +111,8 @@
     // iOS Safari: no beforeinstallprompt, show manual instructions instead
     if (isIOS() && isSafari()) {
       readyToShow = function () {
-        titleEl.textContent = "Legg til Ålgård Karate på hjemskjermen";
-        textEl.innerHTML =
-          'Trykk <i class="fas fa-arrow-up-from-bracket"></i> Del, og velg deretter <strong>«Legg til på Hjemskjerm»</strong>.';
+        titleEl.textContent = "Legg til på hjemskjermen";
+        textEl.innerHTML = 'Trykk <i class="fas fa-arrow-up-from-bracket"></i> Del → «Legg til»';
       };
     }
 
