@@ -43,8 +43,12 @@ print(f"Logging in as {USERNAME[:3]}***", flush=True)
 async def main():
     s = spond.Spond(username=USERNAME, password=PASSWORD)
 
-    min_start = datetime(2026, 1, 1, tzinfo=timezone.utc)
-    max_end   = datetime(2026, 12, 31, tzinfo=timezone.utc)
+    # Rullerende vindu: fra 1. januar i år til 31. desember neste år, slik at
+    # events lenger frem i tid (f.eks. juni-gradering) ikke faller utenfor
+    # og forsvinner fra nettsiden.
+    now = datetime.now(tz=timezone.utc)
+    min_start = now.replace(month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
+    max_end   = now.replace(year=now.year + 1, month=12, day=31, hour=23, minute=59, second=59, microsecond=0)
 
     all_events = await s.get_events(
         min_start=min_start,
