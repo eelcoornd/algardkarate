@@ -39,6 +39,13 @@
   {{ partial "bottom-nav.html" . }}
   {{ partial "install-banner.html" . }}
   <script src="/js/install-prompt.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("/sw.js").catch(function () {});
+      });
+    }
+  </script>
   {{ block "scripts" . }}{{ end }}
 </body>
 </html>
