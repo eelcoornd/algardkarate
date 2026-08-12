@@ -14,7 +14,7 @@ if not USERNAME or not PASSWORD:
     sys.exit(1)
 
 # Subgrupper som IKKE skal vises (kun admin/trener-interne events)
-EXCLUDE_ONLY_SUBGROUPS = {"Admin", "Trenere", "Kamptrening"}
+EXCLUDE_ONLY_SUBGROUPS = {"Admin", "Trenere"}
 
 # Titler som alltid skal vises uansett subgruppe
 ALWAYS_INCLUDE_TITLES = {
