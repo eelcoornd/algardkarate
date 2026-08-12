@@ -24,18 +24,12 @@ ALWAYS_INCLUDE_TITLES = {
     "Publikum til NM Fullkontakt 2026 på Bryne"
 }
 
-# Tittel-substringer som alltid skal inkluderes (uansett subgruppe-oppsett)
-# NB: "gradering" alene ekskluderer "gradering øvelse" (mock-gradering,
-# trener-intern planlegging) via ordgrense-sjekk under.
+# Tittel-substringer som alltid skal inkluderes (uansett subgruppe-oppsett),
+# men KUN når arrangementet faktisk har en offentlig/belte-subgruppe —
+# se subgruppe-sjekken lenger ned som kjører FØR denne.
 ALWAYS_INCLUDE_KEYWORDS = (
     "sommerleir", "vinterleir", "leir", "gradering",
     "sesongavslutning", "fight camp", "nm",
-)
-
-# Titler som ALDRI skal tvinges inn selv om de matcher et alltid-inkluder nøkkelord
-# (trener-interne planleggingsnotater, ikke reelle klubb-arrangementer)
-NEVER_FORCE_INCLUDE_KEYWORDS = (
-    "gradering øvelse", "graderings trening", "gradering-øvelse",
 )
 
 print(f"Logging in as {USERNAME[:3]}***", flush=True)
@@ -64,15 +58,19 @@ async def main():
         title = event.get("heading", "")
         start = event.get("startTimestamp", "")
 
-        # Ekskluder events som KUN har Admin/Trenere/Kamptrening subgrupper
         group = event.get("recipients", {}).get("group", {})
         subgroups = {sg.get("name") for sg in group.get("subGroups", [])}
         title_lower = (title or "").lower()
+
+        # Absolutt sperre: hvis Trenere er en av subgruppene, er dette et
+        # trener-internt planleggingsnotat og skal ALDRI vises på nettsiden,
+        # uansett hva tittelen inneholder (f.eks. "... gradering" i teksten).
+        # Dette kjører FØR nøkkelord-baserte alltid-inkluder-regler.
+        if "Trenere" in subgroups:
+            continue
+
         # Alltid inkluder spesielle events
-        if title in ALWAYS_INCLUDE_TITLES or (
-            any(kw in title_lower for kw in ALWAYS_INCLUDE_KEYWORDS)
-            and not any(kw in title_lower for kw in NEVER_FORCE_INCLUDE_KEYWORDS)
-        ):
+        if title in ALWAYS_INCLUDE_TITLES or any(kw in title_lower for kw in ALWAYS_INCLUDE_KEYWORDS):
             pass
         elif not subgroups:
             # Klubb-wide event uten subgruppe-filter — inkluder
