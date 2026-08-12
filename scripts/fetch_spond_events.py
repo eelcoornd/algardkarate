@@ -25,9 +25,17 @@ ALWAYS_INCLUDE_TITLES = {
 }
 
 # Tittel-substringer som alltid skal inkluderes (uansett subgruppe-oppsett)
+# NB: "gradering" alene ekskluderer "gradering øvelse" (mock-gradering,
+# trener-intern planlegging) via ordgrense-sjekk under.
 ALWAYS_INCLUDE_KEYWORDS = (
     "sommerleir", "vinterleir", "leir", "gradering",
     "sesongavslutning", "fight camp", "nm",
+)
+
+# Titler som ALDRI skal tvinges inn selv om de matcher et alltid-inkluder nøkkelord
+# (trener-interne planleggingsnotater, ikke reelle klubb-arrangementer)
+NEVER_FORCE_INCLUDE_KEYWORDS = (
+    "gradering øvelse", "graderings trening", "gradering-øvelse",
 )
 
 print(f"Logging in as {USERNAME[:3]}***", flush=True)
@@ -57,7 +65,10 @@ async def main():
         subgroups = {sg.get("name") for sg in group.get("subGroups", [])}
         title_lower = (title or "").lower()
         # Alltid inkluder spesielle events
-        if title in ALWAYS_INCLUDE_TITLES or any(kw in title_lower for kw in ALWAYS_INCLUDE_KEYWORDS):
+        if title in ALWAYS_INCLUDE_TITLES or (
+            any(kw in title_lower for kw in ALWAYS_INCLUDE_KEYWORDS)
+            and not any(kw in title_lower for kw in NEVER_FORCE_INCLUDE_KEYWORDS)
+        ):
             pass
         elif not subgroups:
             # Klubb-wide event uten subgruppe-filter — inkluder
