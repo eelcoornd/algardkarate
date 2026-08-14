@@ -84,7 +84,7 @@ Juniorkontigent gjelder for de under 18 år. Vi refunderer ikke kontigent i påb
   <div class="grade-row">
     <div class="grade-label">
       <strong>Min første gradering</strong>
-      <span>Hvit → oransje belte<br>Inkl. belte, karatepass, syllabus og gradering</span>
+      <span>Hvit → oransje belte<br>Inkl. belte, karatepass og gradering</span>
     </div>
     <div class="grade-price">500,–</div>
   </div>
