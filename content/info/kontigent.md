@@ -86,21 +86,21 @@ Juniorkontigent gjelder for de under 18 år. Vi refunderer ikke kontigent i påb
       <strong>Min første gradering</strong>
       <span>Hvit → oransje belte<br>Inkl. belte, karatepass, syllabus og gradering</span>
     </div>
-    <div class="grade-price">550,–</div>
+    <div class="grade-price">450,–</div>
   </div>
   <div class="grade-row">
     <div class="grade-label">
       <strong>Gradering, samme farge</strong>
       <span>For oransje belte og oppover når du går opp til ny grad innen samme farge</span>
     </div>
-    <div class="grade-price">200,–</div>
+    <div class="grade-price">250,–</div>
   </div>
   <div class="grade-row">
     <div class="grade-label">
       <strong>Gradering til ny farge</strong>
       <span>Oransje → blå, blå → gul, gul → grønn, grønn → brun, brun → svart</span>
     </div>
-    <div class="grade-price">300,–</div>
+    <div class="grade-price">350,–</div>
   </div>
 </div>
 
@@ -119,7 +119,7 @@ Juniorkontigent gjelder for de under 18 år. Vi refunderer ikke kontigent i påb
       <strong>Syllabus</strong>
       <span>Hvis du ikke har den fra før (kan også lastes ned gratis)</span>
     </div>
-    <div class="grade-price">100,–</div>
+    <div class="grade-price">150,–</div>
   </div>
   <div class="grade-row">
     <div class="grade-label">

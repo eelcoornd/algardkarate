@@ -1,10 +1,10 @@
 ---
 title: "Syllabus"
-description: "Syllabus kr 100,- — fra Ålgård Karateklubbs nettbutikk."
+description: "Syllabus kr 150,- — fra Ålgård Karateklubbs nettbutikk."
 params:
   product_id: 759
   product_type: "simple"
-  price: 100.0
+  price: 150.0
   currency: "NOK"
   image: "/shop-images/759.jpg"
   ogImage: "/shop-images/759.jpg"
