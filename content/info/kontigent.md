@@ -126,7 +126,7 @@ Juniorkontigent gjelder for de under 18 år. Vi refunderer ikke kontigent i påb
       <strong>Karatepass</strong>
       <span>Hvis du har mistet passet ditt kan du bestille nytt</span>
     </div>
-    <div class="grade-price">100,–</div>
+    <div class="grade-price">150,–</div>
   </div>
   <div class="grade-row">
     <div class="grade-label">

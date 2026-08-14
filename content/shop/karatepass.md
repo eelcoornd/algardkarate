@@ -1,10 +1,10 @@
 ---
 title: "Karatepass"
-description: "Karatepass kr 100,- — fra Ålgård Karateklubbs nettbutikk."
+description: "Karatepass kr 150,- — fra Ålgård Karateklubbs nettbutikk."
 params:
   product_id: 761
   product_type: "simple"
-  price: 100.0
+  price: 150.0
   currency: "NOK"
   image: "/shop-images/761.jpg"
   ogImage: "/shop-images/761.jpg"
