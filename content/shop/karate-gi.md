@@ -1,10 +1,10 @@
 ---
 title: "Karate GI"
-description: "Karate GI kr 450,- (drakt) — fra Ålgård Karateklubbs nettbutikk."
+description: "Karate GI kr 500,- (drakt) — fra Ålgård Karateklubbs nettbutikk."
 params:
   product_id: 223
   product_type: "variable"
-  price: 450.0
+  price: 500.0
   currency: "NOK"
   image: "/shop-images/223.png"
   ogImage: "/shop-images/223.png"
