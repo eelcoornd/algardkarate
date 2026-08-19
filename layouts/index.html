@@ -93,8 +93,9 @@
           {{ $endT := time (.end | default .start) }}
           {{ $startDay := substr .start 0 10 }}
           {{ $endDay := substr (.end | default .start) 0 10 }}
+          {{ $weekdaysNo := dict "Monday" "Man" "Tuesday" "Tir" "Wednesday" "Ons" "Thursday" "Tor" "Friday" "Fre" "Saturday" "Lør" "Sunday" "Søn" }}
           {{ if eq $startDay $endDay }}
-            {{ $startT.Format "Mon 02.01" }} {{ $startT.Format "15:04" }}
+            {{ index $weekdaysNo $startT.Weekday.String }} {{ $startT.Format "02.01" }} {{ $startT.Format "15:04" }}
           {{ else }}
             {{ $sd := time $startDay }}
             {{ $ed := time $endDay }}
