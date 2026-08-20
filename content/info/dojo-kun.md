@@ -3,7 +3,7 @@ title: "Dojo Kun"
 icon: "fa-scroll"
 icon_color: "#b71c1c"
 icon_bg: "#ffebee"
-weight: 11
+weight: -1
 ---
 
 <div class="dojokun-page">
