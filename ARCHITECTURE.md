@@ -5,6 +5,12 @@ som bygger den, hvor den kjører, hvilke eksterne tjenester den snakker med,
 hvor koden/hemmelighetene ligger, og hvordan du (eller en annen AI-agent som
 Hermes, OpenClaw eller Copilot) kan sette alt opp på nytt fra bunnen av.
 
+> **Vedlikeholdsregel:** Hold denne filen oppdatert. Hver gang en oppgave
+> endrer sidestruktur, tilkoblinger, workflows, secrets eller deploy-oppsett,
+> skal `ARCHITECTURE.md` oppdateres i samme commit/PR — ikke som en egen
+> "senere"-oppgave. Dette gjelder for enhver agent eller utvikler som jobber
+> i dette repoet.
+
 ---
 
 ## 1. Oversikt (arkitekturdiagram)
