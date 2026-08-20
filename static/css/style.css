@@ -89,13 +89,6 @@ body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; max-width: 480p
 .product-name { font-size: 13px; font-weight: 600; color: #222; }
 .product-desc { font-size: 11px; color: #888; }
 .product-price { font-size: 13px; font-weight: 700; color: #2e7d32; margin-top: 4px; }
-.add-btn {
-  position: absolute; bottom: 12px; right: 12px;
-  background: #2e7d32; color: white; border: none;
-  border-radius: 50%; width: 28px; height: 28px;
-  cursor: pointer; font-size: 13px;
-  display: flex; align-items: center; justify-content: center;
-}
 
 /* FIXED BOTTOM NAV */
 .bottom-spacer { height: 80px; }
