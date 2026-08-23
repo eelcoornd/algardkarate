@@ -4,6 +4,8 @@ icon: "fa-seedling"
 icon_color: "#1565c0"
 icon_bg: "#e3f2fd"
 weight: 2.5
+aliases:
+  - "/algardkarate/nybegynner/"
 ---
 
 <div class="nyb-page">

@@ -12,4 +12,6 @@ params:
   wp_add_to_cart: "https://shop.algardkarate.net/algardkarate/cart/?add-to-cart=2116"
   categories: ["Klubbartikler"]
   category_slug: "klubbartikler"
+aliases:
+  - "/algardkarate/shop/karate-bag/"
 ---

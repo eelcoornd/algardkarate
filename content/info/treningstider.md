@@ -4,6 +4,8 @@ icon: "fa-clock"
 icon_color: "#1565c0"
 icon_bg: "#e3f2fd"
 weight: 3
+aliases:
+  - "/algardkarate/treningstider/"
 ---
 
 <div class="treningstider-page">

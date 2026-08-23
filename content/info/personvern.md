@@ -4,6 +4,9 @@ icon: "fa-shield-alt"
 icon_color: "#6a1b9a"
 icon_bg: "#f3e5f5"
 weight: 2
+aliases:
+  - "/algardkarate/privacy-policy/"
+  - "/algardkarate/terms-conditions/"
 ---
 
 # Besøk på våre nettsider

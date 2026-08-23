@@ -4,6 +4,8 @@ icon: "fa-scroll"
 icon_color: "#b71c1c"
 icon_bg: "#ffebee"
 weight: -1
+aliases:
+  - "/algardkarate/etikette/"
 ---
 
 <div class="dojokun-page">

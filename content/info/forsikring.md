@@ -4,6 +4,8 @@ icon: "fa-shield-alt"
 icon_color: "#2e7d32"
 icon_bg: "#e8f5e9"
 weight: 4
+aliases:
+  - "/algardkarate/forsikring/"
 ---
 
 <div class="forsikring-page">

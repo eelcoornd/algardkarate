@@ -12,4 +12,6 @@ params:
   wp_add_to_cart: "https://shop.algardkarate.net/algardkarate/cart/?add-to-cart=761"
   categories: []
   category_slug: "annet"
+aliases:
+  - "/algardkarate/shop/karatepass/"
 ---

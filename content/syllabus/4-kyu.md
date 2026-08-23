@@ -3,6 +3,9 @@ title: "Grønt belte – 4. Kyu"
 belt_color: "#2e7d32"
 belt_level: "4 KYU"
 weight: 4
+aliases:
+  - "/algardkarate/4-kyu-gront-belte/"
+  - "/algardkarate/category/4-kyu/"
 ---
 
 ## A. Teknikker (Grunnleggende øvelser) Kihon

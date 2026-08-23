@@ -12,4 +12,6 @@ params:
   wp_add_to_cart: ""
   categories: ["Klubbartikler"]
   category_slug: "klubbartikler"
+aliases:
+  - "/algardkarate/shop/klubbjakke/"
 ---

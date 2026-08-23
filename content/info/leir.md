@@ -4,6 +4,11 @@ icon: "fa-campground"
 icon_color: "#ad1457"
 icon_bg: "#fce4ec"
 weight: 10
+aliases:
+  - "/algardkarate/leir/"
+  - "/algardkarate/sommer/"
+  - "/algardkarate/sommerleir/"
+  - "/algardkarate/vinterleir/"
 ---
 
 <div class="leir-page">

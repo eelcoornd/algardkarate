@@ -4,6 +4,8 @@ icon: "fa-ribbon"
 icon_color: "#5d4037"
 icon_bg: "#efebe9"
 weight: 9
+aliases:
+  - "/algardkarate/belte/"
 ---
 
 <div class="belte-page">

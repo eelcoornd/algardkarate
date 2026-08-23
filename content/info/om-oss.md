@@ -4,6 +4,9 @@ icon: "fa-info-circle"
 icon_color: "#6a1b9a"
 icon_bg: "#f3e5f5"
 weight: 2
+aliases:
+  - "/algardkarate/kyokushin/"
+  - "/algardkarate/om-oss/"
 ---
 
 <figure class="page-hero">

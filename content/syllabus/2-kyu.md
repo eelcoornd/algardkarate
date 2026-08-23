@@ -3,6 +3,9 @@ title: "Brunt belte – 2. Kyu"
 belt_color: "#6d4c41"
 belt_level: "2 KYU"
 weight: 2
+aliases:
+  - "/algardkarate/2-kyu-brunt-belte/"
+  - "/algardkarate/category/2-kyu/"
 ---
 
 ## A. Teknikker (Grunnleggende øvelser) Kihon

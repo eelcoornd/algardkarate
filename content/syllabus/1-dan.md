@@ -3,6 +3,9 @@ title: "Sort belte – Shodan (1. Dan)"
 belt_color: "#1a1a1a"
 belt_level: "1 DAN"
 weight: 0
+aliases:
+  - "/algardkarate/1-dan-sort-belte/"
+  - "/algardkarate/category/1-dan/"
 ---
 
 ## A. Teknikker (Grunnleggende øvelser) Kihon

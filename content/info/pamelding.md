@@ -4,6 +4,8 @@ icon: "fa-user-plus"
 icon_color: "#1565c0"
 icon_bg: "#e3f2fd"
 weight: 1
+aliases:
+  - "/algardkarate/innmelding/"
 ---
 
 Ønsker du å melde deg selv, eller ditt barn inn i Ålgård Karateklubb? Fyll ut skjemaet, og du vil bli registrert hos oss, Norges Kampsportforbund og NIF.
