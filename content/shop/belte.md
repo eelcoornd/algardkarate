@@ -31,4 +31,6 @@ params:
     - id: "svart"
       label: "Svart"
       stock: 0
+aliases:
+  - "/algardkarate/shop/belte/"
 ---

@@ -34,6 +34,9 @@ params:
     - id: "s6-190"
       label: "S6 – 190cm"
       stock: 0
+aliases:
+  - "/algardkarate/product-tag/drakt/"
+  - "/algardkarate/shop/karate-gi/"
 ---
 
 Hvit belte følger med drakt.

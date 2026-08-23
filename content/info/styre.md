@@ -4,6 +4,10 @@ icon: "fa-users-cog"
 icon_color: "#f57f17"
 icon_bg: "#fff8e1"
 weight: 7
+aliases:
+  - "/algardkarate/category/kurs/styre/"
+  - "/algardkarate/innforing-i-styrearbeid-for-idrettslag/"
+  - "/algardkarate/styre/"
 ---
 ## Styret i Ålgård Karateklubb
 

@@ -3,6 +3,9 @@ title: "Gult belte – 6. Kyu"
 belt_color: "#f9a825"
 belt_level: "6 KYU"
 weight: 6
+aliases:
+  - "/algardkarate/6-kyu-gult-belte/"
+  - "/algardkarate/category/6-kyu/"
 ---
 
 ## A. Teknikker (Grunnleggende øvelser) Kihon

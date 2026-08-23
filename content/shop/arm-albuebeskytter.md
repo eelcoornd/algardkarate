@@ -12,4 +12,6 @@ params:
   wp_add_to_cart: ""
   categories: ["Beskytter"]
   category_slug: "beskytter"
+aliases:
+  - "/algardkarate/shop/arm-albuebeskytter/"
 ---

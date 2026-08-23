@@ -4,6 +4,8 @@ icon: "fa-download"
 icon_color: "#00695c"
 icon_bg: "#e0f2f1"
 weight: 8
+aliases:
+  - "/algardkarate/downloads/"
 ---
 
 <div class="dl-page">

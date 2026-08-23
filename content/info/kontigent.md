@@ -4,6 +4,10 @@ icon: "fa-credit-card"
 icon_color: "#e65100"
 icon_bg: "#fff3e0"
 weight: 5
+aliases:
+  - "/algardkarate/kontigent/"
+  - "/algardkarate/product-category/kontigent/"
+  - "/algardkarate/shop/kontigent/"
 ---
 
 <div class="kontigent-page">

@@ -3,6 +3,9 @@ title: "Blått belte – 7. Kyu"
 belt_color: "#1565c0"
 belt_level: "7 KYU"
 weight: 7
+aliases:
+  - "/algardkarate/7-kyu-blatt-belte/"
+  - "/algardkarate/category/7-kyu/"
 ---
 
 ## A. Teknikker (Grunnleggende øvelser) Kihon

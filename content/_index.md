@@ -1,0 +1,17 @@
+---
+aliases:
+  - "/algardkarate/"
+  - "/algardkarate/arkiv/"
+  - "/algardkarate/author/eelco/"
+  - "/algardkarate/bildetest/"
+  - "/algardkarate/category/forside/"
+  - "/algardkarate/category/linker/"
+  - "/algardkarate/hestia-front/"
+  - "/algardkarate/home/"
+  - "/algardkarate/lenker/"
+  - "/algardkarate/photonic/"
+  - "/algardkarate/podcasts/"
+  - "/algardkarate/sample-page/"
+  - "/algardkarate/starside-ny/"
+  - "/algardkarate/test/"
+---

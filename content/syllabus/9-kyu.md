@@ -3,6 +3,9 @@ title: "Oransje belte – 9. Kyu"
 belt_color: "#FF8C00"
 belt_level: "9 KYU"
 weight: 9
+aliases:
+  - "/algardkarate/9-kyu-oransje-belte/"
+  - "/algardkarate/category/9-kyu/"
 ---
 
 ## A. Teknikker (Grunnleggende øvelser) Kihon

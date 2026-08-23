@@ -3,6 +3,10 @@ title: "Oransje belte – 10. Kyu"
 belt_color: "#FF8C00"
 belt_level: "10 KYU"
 weight: 10
+aliases:
+  - "/algardkarate/10-kyu-oransje-belte/"
+  - "/algardkarate/10-kyu/"
+  - "/algardkarate/category/10-kyu/"
 ---
 
 ## A. Teknikker (Grunnleggende øvelser) Kihon
