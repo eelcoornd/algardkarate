@@ -107,6 +107,7 @@ async function handleCheckout(req: Request, env: Env): Promise<Response> {
     if (!product) {
       return errorResponse(env, `Ukjent produkt ${item.product_id}`);
     }
+    let variantLabel: string | null = null;
     if (product.variants && product.variants.length > 0) {
       if (!item.variant_id) {
         return errorResponse(env, `Velg variant for ${product.name}`);
@@ -115,6 +116,7 @@ async function handleCheckout(req: Request, env: Env): Promise<Response> {
       if (!variant) {
         return errorResponse(env, `Ukjent variant for ${product.name}`);
       }
+      variantLabel = variant.label;
       const hasStockField = typeof variant.stock === "number";
       const liveStock = hasStockField
         ? await getEffectiveStock(env, product.id, variant.id)
@@ -144,6 +146,7 @@ async function handleCheckout(req: Request, env: Env): Promise<Response> {
       unit_price_nok: unitPrice,
       line_total_nok: lineTotal,
       variant_id: item.variant_id ?? null,
+      variant_label: variantLabel,
     });
   }
 
