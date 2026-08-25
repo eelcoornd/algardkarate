@@ -52,6 +52,7 @@ export type OrderLine = {
   unit_price_nok: number;
   line_total_nok: number;
   variant_id?: string | null;
+  variant_label?: string | null;
 };
 
 export type OrderStatus = "PENDING" | "PAID" | "CANCELLED" | "EXPIRED" | "FAILED";

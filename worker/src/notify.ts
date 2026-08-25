@@ -9,7 +9,10 @@ export async function notifyTelegram(env: Env, order: Order): Promise<void> {
     return;
   }
   const lines = order.lines
-    .map((l) => `• ${l.qty}× ${l.name} — kr ${l.line_total_nok.toFixed(0)},-`)
+    .map(
+      (l) =>
+        `• ${l.qty}× ${l.name}${l.variant_label ? ` (${l.variant_label})` : ""} — kr ${l.line_total_nok.toFixed(0)},-`,
+    )
     .join("\n");
   const text =
     `🛒 *Ny shop-bestilling betalt*\n\n` +
@@ -90,7 +93,7 @@ function orderHtml(order: Order, env: Env, isCustomer: boolean): string {
   const linesHtml = order.lines
     .map(
       (l) =>
-        `<tr><td>${l.qty}× ${escapeHtml(l.name)}</td>` +
+        `<tr><td>${l.qty}× ${escapeHtml(l.name)}${l.variant_label ? ` (${escapeHtml(l.variant_label)})` : ""}</td>` +
         `<td style="text-align:right">kr ${l.line_total_nok.toFixed(0)},-</td></tr>`,
     )
     .join("");
