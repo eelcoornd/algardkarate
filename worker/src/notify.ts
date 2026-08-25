@@ -9,10 +9,13 @@ export async function notifyTelegram(env: Env, order: Order): Promise<void> {
     return;
   }
   const lines = order.lines
-    .map(
-      (l) =>
-        `• ${l.qty}× ${l.name}${l.variant_label ? ` (${l.variant_label})` : ""} — kr ${l.line_total_nok.toFixed(0)},-`,
-    )
+    .map((l) => {
+      // Fallback til rå variant_id hvis variant_label mangler (f.eks. gamle
+      // ordre fra før denne feltet fantes) — varianten skal aldri forsvinne
+      // stille fra bestillingsoversikten.
+      const variant = l.variant_label ?? l.variant_id;
+      return `• ${l.qty}× ${l.name}${variant ? ` (${variant})` : ""} — kr ${l.line_total_nok.toFixed(0)},-`;
+    })
     .join("\n");
   const text =
     `🛒 *Ny shop-bestilling betalt*\n\n` +
@@ -91,11 +94,13 @@ function escapeHtml(s: string): string {
 
 function orderHtml(order: Order, env: Env, isCustomer: boolean): string {
   const linesHtml = order.lines
-    .map(
-      (l) =>
-        `<tr><td>${l.qty}× ${escapeHtml(l.name)}${l.variant_label ? ` (${escapeHtml(l.variant_label)})` : ""}</td>` +
-        `<td style="text-align:right">kr ${l.line_total_nok.toFixed(0)},-</td></tr>`,
-    )
+    .map((l) => {
+      const variant = l.variant_label ?? l.variant_id;
+      return (
+        `<tr><td>${l.qty}× ${escapeHtml(l.name)}${variant ? ` (${escapeHtml(variant)})` : ""}</td>` +
+        `<td style="text-align:right">kr ${l.line_total_nok.toFixed(0)},-</td></tr>`
+      );
+    })
     .join("");
   const intro = isCustomer
     ? `Tusen takk for bestillingen din hos ${escapeHtml(env.CLUB_NAME)}!`
