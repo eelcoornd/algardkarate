@@ -1,5 +1,6 @@
 import { WorkerMailer } from "worker-mailer";
 import type { Env, Order } from "./types";
+import { generateOrderPdf, uint8ToBase64 } from "./invoice";
 
 // Sender Telegram-melding til klubbens chat. Stille feil for å ikke
 // blokkere /order-respons hvis Telegram er nede.
@@ -56,6 +57,7 @@ async function sendEmail(
   to: { email: string; name: string },
   subject: string,
   htmlBody: string,
+  attachments?: { filename: string; content: string; mimeType?: string }[],
 ): Promise<void> {
   if (!env.GMAIL_USER || !env.GMAIL_APP_PASSWORD) {
     console.warn("email skipped: missing GMAIL_USER or GMAIL_APP_PASSWORD");
@@ -79,6 +81,7 @@ async function sendEmail(
         to: { name: to.name, email: to.email },
         subject,
         html: htmlBody,
+        attachments,
       },
     );
   } catch (e) {
@@ -128,8 +131,30 @@ function orderHtml(order: Order, env: Env, isCustomer: boolean): string {
   `;
 }
 
+// Klubbens eget varsel legger ved en PDF-pakkseddel (se invoice.ts) i stedet
+// for en full HTML-oppsummering. Kunden får fortsatt kun HTML som før.
+async function buildClubAttachments(
+  env: Env,
+  order: Order,
+): Promise<{ filename: string; content: string; mimeType?: string }[]> {
+  try {
+    const pdfBytes = await generateOrderPdf(env, order);
+    return [
+      {
+        filename: `Ordre-${order.id}.pdf`,
+        content: uint8ToBase64(pdfBytes),
+        mimeType: "application/pdf",
+      },
+    ];
+  } catch (e) {
+    console.error("order pdf generation failed", e);
+    return [];
+  }
+}
+
 export async function notifyEmail(env: Env, order: Order): Promise<void> {
   const subject = `Ordre ${order.id} — ${escapeHtml(env.CLUB_NAME)}`;
+  const clubBody = `<p>Ny bestilling betalt via Vipps. Se vedlagt pakkseddel (PDF) for detaljer.</p>`;
   await Promise.all([
     sendEmail(
       env,
@@ -141,7 +166,8 @@ export async function notifyEmail(env: Env, order: Order): Promise<void> {
       env,
       { email: env.CLUB_EMAIL, name: env.CLUB_NAME },
       `Ny ordre ${order.id}`,
-      orderHtml(order, env, false),
+      clubBody,
+      await buildClubAttachments(env, order),
     ),
   ]);
 }
