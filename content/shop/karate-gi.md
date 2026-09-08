@@ -15,22 +15,22 @@ params:
   variants:
     - id: "s0-130"
       label: "S0 – 130cm"
-      stock: 6
+      stock: 5
     - id: "s1-140"
       label: "S1 – 140cm"
-      stock: 1
+      stock: 6
     - id: "s2-150"
       label: "S2 – 150cm"
-      stock: 0
+      stock: 5
     - id: "s3-160"
       label: "S3 – 160cm"
-      stock: 1
+      stock: 5
     - id: "s4-170"
       label: "S4 – 170cm"
       stock: 5
     - id: "s5-180"
       label: "S5 – 180cm"
-      stock: 0
+      stock: 3
     - id: "s6-190"
       label: "S6 – 190cm"
       stock: 0
