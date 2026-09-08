@@ -9,9 +9,11 @@ weight: 10
 <div class="leir-page">
 
 <div class="leir-hero">
-  <div class="leir-hero-icon"><i class="fas fa-campground"></i></div>
-  <h1>Leir</h1>
-  <p>Vinterleir og Sommerleir i Kyokushin karate</p>
+  <img class="leir-hero-img" src="/images/leir-hero.jpg" alt="Utøvere på Kyokushin karateleir" loading="eager" decoding="async">
+  <div class="leir-hero-text">
+    <h1>Leir</h1>
+    <p>Vinterleir og Sommerleir i Kyokushin karate</p>
+  </div>
 </div>
 
 <div class="leir-intro">
@@ -162,23 +164,36 @@ weight: 10
   .leir-page { padding:0 16px 40px; color:#222; }
 
   .leir-hero {
+    position:relative;
     text-align:center;
-    background:linear-gradient(135deg,#880e4f 0%,#ad1457 100%);
     color:#fff;
-    padding:28px 20px 24px;
     border-radius:14px;
     margin:16px 0 22px;
+    overflow:hidden;
     box-shadow:0 4px 14px rgba(136,14,79,0.25);
+    background:#880e4f;
   }
-  .leir-hero-icon {
-    width:64px; height:64px; margin:0 auto 12px;
-    background:rgba(255,255,255,0.18);
-    border-radius:50%;
-    display:flex; align-items:center; justify-content:center;
-    font-size:28px;
+  .leir-hero-img {
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    inset:0;
+    object-fit:cover;
+    object-position:center 42%;
+  }
+  .leir-hero-text {
+    position:relative;
+    padding:150px 20px 18px;
+    min-height:210px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    background:linear-gradient(180deg,rgba(74,6,42,0.10) 0%,rgba(74,6,42,0.30) 55%,rgba(74,6,42,0.66) 100%);
+    text-shadow:0 2px 6px rgba(0,0,0,0.55);
   }
   .leir-hero h1 { font-size:26px; font-weight:800; margin:0 0 4px; letter-spacing:0.5px; }
-  .leir-hero p { margin:0; font-size:15px; opacity:0.92; }
+  .leir-hero p { margin:0; font-size:15px; opacity:0.95; }
 
   .leir-intro p { font-size:14px; line-height:1.65; color:#333; margin:0 0 18px; }
 
@@ -322,9 +337,16 @@ weight: 10
   .info-banner i { font-size:18px; margin-top:2px; color:#ad1457; }
   .info-banner p { margin:4px 0 0; line-height:1.6; }
 
+  @media (max-width:520px) {
+    .leir-hero-text { padding:118px 16px 16px; min-height:180px; }
+    .leir-hero h1 { font-size:23px; }
+    .leir-hero p { font-size:13.5px; }
+  }
+
   @media (min-width:600px) {
     .leir-grid { grid-template-columns:repeat(3,1fr); }
     .leir-price-grid { grid-template-columns:repeat(3,1fr); }
     .leir-price-card { flex-direction:column; align-items:flex-start; gap:6px; }
+    .leir-hero-text { padding:170px 20px 20px; min-height:240px; }
   }
 </style>
