@@ -22,4 +22,6 @@ params:
     - id: "large"
       label: "Large"
       stock: 0
+aliases:
+  - "/algardkarate/shop/hansker-kamp/"
 ---

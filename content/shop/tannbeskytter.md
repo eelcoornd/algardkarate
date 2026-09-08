@@ -19,4 +19,6 @@ params:
     - id: "senior"
       label: "Senior"
       stock: 0
+aliases:
+  - "/algardkarate/shop/tannbeskytter/"
 ---
