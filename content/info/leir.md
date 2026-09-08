@@ -111,35 +111,9 @@ weight: 10
   <p class="leir-p">Overnatting foregår på Lundheim Folkehøgskole på Moi. Det er senger/madrasser på rommene – alle må ta med strekklaken, samt sovepose/dyne/pute for de som ikke reiser så langt.</p>
   <p class="leir-p">Frokost, lunsj og middag er inkludert i prisen, samt grillfest på lørdagen.</p>
 
-  <h3 class="leir-h3">Pris</h3>
-  <div class="leir-price-grid">
-    <div class="leir-price-card">
-      <div class="leir-price-amount">2 290,–</div>
-      <div class="leir-price-note">Hele leiren, inkl. mat og overnatting</div>
-    </div>
-    <div class="leir-price-card">
-      <div class="leir-price-amount">2 150,–</div>
-      <div class="leir-price-note">Familierabatt – familiemedlem 2</div>
-    </div>
-    <div class="leir-price-card">
-      <div class="leir-price-amount">1 950,–</div>
-      <div class="leir-price-note">Familierabatt – familiemedlem 3+</div>
-    </div>
-  </div>
-
-  <div class="info-banner">
-    <i class="fas fa-info-circle"></i>
-    <div>
-      <strong>Begrenset antall plasser</strong>
-      <p>Maks 220 plasser, så meld deg på tidlig. Betalingsfrist er <strong>10. juni</strong> – ved betaling etter denne datoen tilkommer kr 200,– i tillegg.</p>
-    </div>
-  </div>
-
   <h3 class="leir-h3">Påmelding og betaling</h3>
-  <p class="leir-p">Påmelding gjøres via web-skjema. Husk å betale leiren innen få dager, så du ikke mister plassen.</p>
-  <p class="leir-p">Bankkonto: <strong>3543 14 58215</strong><br>
-     Merk betalingen med: «NKKO sommerleir» + navn på deltager.</p>
-  <p class="leir-p">Kontaktperson: Sensei Frode – Mob: 913 80 360 – <a href="mailto:kyokushin.sommerleir@gmail.com">kyokushin.sommerleir@gmail.com</a></p>
+  <p class="leir-p">Påmelding gjøres via web-skjema som kommer i Spond.</p>
+  <p class="leir-p">Transport: Egen transport.</p>
 
   <div class="leir-checklist">
     <div class="leir-checklist-title"><i class="fas fa-list-check"></i> Huskeliste</div>
