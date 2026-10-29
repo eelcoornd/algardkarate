@@ -21,7 +21,7 @@ params:
       stock: 2
     - id: "large"
       label: "Large"
-      stock: 0
+      stock: 2
 aliases:
   - "/algardkarate/shop/hansker-kamp/"
 ---
