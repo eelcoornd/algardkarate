@@ -42,10 +42,22 @@ function errorResponse(env: Env, message: string, status = 400): Response {
   return jsonResponse(env, { error: message }, status);
 }
 
-function genOrderId(): string {
-  // Vipps reference: 8-50 tegn, [a-zA-Z0-9-]. crypto.randomUUID gir 36 tegn UUID
-  // — vi prefikser "ak-" og fjerner bindestreker for litt kortere visning.
-  return "ak-" + crypto.randomUUID().replace(/-/g, "").slice(0, 24);
+function genOrderId(customerName: string): string {
+  // Vipps reference: 8-50 tegn, [a-zA-Z0-9-]. Format: ak-<navn>-<6 tilfeldige tegn>,
+  // f.eks. ak-eelco-ornd-3f9a2c. Navnet gjøres om til ASCII (æ→ae, ø→o, å→a).
+  const slug = customerName
+    .toLowerCase()
+    .replace(/æ/g, "ae")
+    .replace(/ø/g, "o")
+    .replace(/å/g, "a")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 24)
+    .replace(/-+$/g, "");
+  const rand = crypto.randomUUID().replace(/-/g, "").slice(0, 6);
+  return slug ? `ak-${slug}-${rand}` : `ak-${rand}${crypto.randomUUID().replace(/-/g, "").slice(6, 12)}`;
 }
 
 function validateCustomer(c: unknown): c is Customer {
@@ -161,7 +173,7 @@ async function handleCheckout(req: Request, env: Env): Promise<Response> {
     return errorResponse(env, "Totalbeløp må være større enn 0");
   }
 
-  const orderId = genOrderId();
+  const orderId = genOrderId(body.customer.name);
   const returnUrl = `${env.ALLOWED_ORIGIN}/ordre/?id=${orderId}`;
   const description = `${env.CLUB_NAME} – ordre ${orderId}`.slice(0, 100);
 
