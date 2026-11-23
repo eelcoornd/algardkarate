@@ -30,7 +30,7 @@ params:
       stock: 5
     - id: "s5-180"
       label: "S5 – 180cm"
-      stock: 3
+      stock: 2
     - id: "s6-190"
       label: "S6 – 190cm"
       stock: 0
