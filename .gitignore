@@ -5,3 +5,5 @@ client_secret.json
 tokens.json
 public/
 .hugo_build.lock
+
+.env.spond
