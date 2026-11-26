@@ -1,11 +1,1091 @@
 [
   {
-    "id": "D929B83478284A3698BEE66CFC10AD1E",
-    "title": "Sommerleir Moi",
-    "start": "2026-06-24T20:00:00",
-    "end": "2026-06-28T13:00:00",
-    "description": "\u00c5rets h\u00f8ydepunkt er her! NKKO inviterer alle klubber og karateut\u00f8vere \u2013 uansett stilart og organisasjon \u2013 til sommerleir p\u00e5 Moi. Leiren er \u00e5pen for barn, ungdom og voksne, og passer b\u00e5de for nybegynnere og erfarne ut\u00f8vere.\n\nSe vedlegg for mer informasjon\n ",
-    "location": "Lundheim Folkeh\u00f8gskole",
+    "id": "F84F56BF17434E55B00C62ED6B9B13F8",
+    "title": "Kamptrening graderte",
+    "start": "2026-11-26T19:00:00",
+    "end": "2026-11-26T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "4E5D0A64E7464074AAFDDF989D682E13",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2026-11-30T18:00:00",
+    "end": "2026-11-30T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "0EB518F79628489E9B6039836E69FF2A",
+    "title": "Karatetrening graderte",
+    "start": "2026-11-30T19:00:00",
+    "end": "2026-11-30T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "0E48279622D44104A360976451A61709",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2026-12-02T18:00:00",
+    "end": "2026-12-02T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "EA6CDDF6452B4AA4B44460285E87ECB8",
+    "title": "Karatetrening graderte",
+    "start": "2026-12-02T19:00:00",
+    "end": "2026-12-02T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "20E3465A10894489957DF1E6F6E07715",
+    "title": "Kamptrening graderte",
+    "start": "2026-12-03T19:00:00",
+    "end": "2026-12-03T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "4A30D2914A1542A9948A573BB65361CB",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2026-12-07T18:00:00",
+    "end": "2026-12-07T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "82B773E988834073A674938EBFFD0D5F",
+    "title": "Karatetrening graderte",
+    "start": "2026-12-07T19:00:00",
+    "end": "2026-12-07T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "15FA1F75B64B4DDDAD2D73A8A03EAC6E",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2026-12-09T18:00:00",
+    "end": "2026-12-09T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "9467F4AFBB864A179A24C5387FD75691",
+    "title": "Karatetrening graderte",
+    "start": "2026-12-09T19:00:00",
+    "end": "2026-12-09T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "716DA14CFD9E4C9EBCA1306B52D94469",
+    "title": "Kamptrening graderte",
+    "start": "2026-12-10T19:00:00",
+    "end": "2026-12-10T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "ECA69C08A4D4470FB2069FB4D4B0B1D7",
+    "title": "Nybegynner gradering",
+    "start": "2026-12-14T18:00:00",
+    "end": "2026-12-14T19:30:00",
+    "description": "Kl: 18:00 (oppm\u00f8te 17:30)\nSted: Gymsalen p\u00e5 B\u00e6rland skole\nPris:  Min f\u00f8rste gradering: 500Kr \ni pakken f\u00e5r du:\n- oransje belte.   (100 kr)\n- karatepass       (150 kr) \n- kostnader for gradering. (250kr)\nP\u00e5meldingsfrist: L\u00f8rdag kl 23:59\n\nPris gradering etter p\u00e5meldingsfrist:   \n       - Min f\u00f8rste gradering: 500Kr \n       - Gebyr - 100 Kr\n         \nOg husk \u00e5 ta med drikkeflaske med vann\n\nGraderingen starter 18:00, s\u00e5 alle ut\u00f8vere m\u00e5 ha varmet opp p\u00e5 forh\u00e5nd. M\u00f8t opp 17:30. \nSlutttid er sirka 19:30 siden det er mange ut\u00f8vere  som skal graderes\n\nDet stilles krav til utstyr; ren drakt og riktig knyttet belte. \n\nGradering er \u00e5 vise dine kunnskaper det du har l\u00e6rt gjennom trening og etter vel gjennomf\u00f8rt gradering blir du bel\u00f8nnet med en ny grad.\nP\u00e5 v\u00e5r webside finner du mer informasjon om hvilken belte som finnes https://www.algardkarate.net/info/belte/\nHer finner du ogs\u00e5 video om hvordan belte skal knyttes.\n\nP\u00e5 https://www.algardkarate.net/syllabus/10-kyu/ finner du det du skal vite om \u00e5 gjennomf\u00f8re gradering.\nAlt dette har vi g\u00e5tt gjennom p\u00e5 trening flere ganger.\n\nSyllabus som vi bruker kan lastes ned her https://drive.google.com/drive/folders/1KURHMkTBFPJP_HPl8ZeDddQX2BXp1GfI\n\nFor \u00e5 ikke forstyrre graderingen kan vi dessverre ikke ta imot tilskuere.\n\nLykke til og respekter alltid Senpai og alle andre.\n                            \n\t\t\t\t\t\t\tOSU",
+    "location": "B\u00e6rland skole, Barliveien 5, \u00c5lg\u00e5rd",
+    "cancelled": false
+  },
+  {
+    "id": "E07D62EB0F3E4B31943B17C9A4C0D256",
+    "title": "Gradering",
+    "start": "2026-12-14T18:00:00",
+    "end": "2026-12-14T20:00:00",
+    "description": "Kl: 18:00 (oppm\u00f8te 17:30)\nSted: Gymsalen p\u00e5 B\u00e6rland skole\nPris:  Gradering - 250 Kr, \nPass \u2013 100 kr.          (hvis du ikke har den mer)\n\nPris gradering etter p\u00e5meldingsfrist:   \n      Gradering - 250 Kr,\n       Gebyr - 100 Kr\nP\u00e5meldingsfrist: L\u00f8rdag kl 23:59\n                 \nHusk \u00e5 ta med \n- Karatepass\n- Drikkeflaske med vann\n- Leggbeskyttere\n- Handsker\n- Syllabus \n\nGraderingen starter 18:00, s\u00e5 alle ut\u00f8vere m\u00e5 ha varmet opp p\u00e5 forh\u00e5nd. M\u00f8t opp 17:30. \n\nDet stilles krav til utstyr; ren drakt og riktig knyttet belte. \n\nOransje belte og oppover > Ta med hansker, leggbeskyttere og syllabussen, test deg selv og andre. Det forventes at dere kan alt til det beltet dere skal opp til, og alle foreg\u00e5ende belter dere har tatt: Stillinger, slag, spark, blokkeringer og Kata, i tillegg til styrkekravene og Dojo Kun (budene p\u00e5 side 6 i syllabuss). \n\nSe p\u00e5 https://www.algardkarate.net/syllabus/ s\u00e5 finner du det du skal opp til \n\nHar du ikke syllabus eller mistet den, du kan kj\u00f8pe hos oss eller laste ned fra https://drive.google.com/drive/folders/1KURHMkTBFPJP_HPl8ZeDddQX2BXp1GfI\n\n\n\nLykke til!     Respekter alltid en Sihan!                                        \n\nOsu!",
+    "location": "B\u00e6rland skole, Barliveien 5, \u00c5lg\u00e5rd",
+    "cancelled": false
+  },
+  {
+    "id": "5EC3A92564B146D7AA4099A91B39C211",
+    "title": "Gradering + ny belte",
+    "start": "2026-12-14T18:00:00",
+    "end": "2026-12-14T20:00:00",
+    "description": "Kl: 18:00 (oppm\u00f8te 17:30)\nSted: Gymsalen p\u00e5 B\u00e6rland skole\nPris:  Gradering - 250 Kr, \nNy belte \u2013 150 kr\n\nPris gradering etter p\u00e5meldingsfrist:   \n      Gradering - 250 Kr,\nNy belte \u2013 150 kr\n       Gebyr - 100 Kr\nP\u00e5meldingsfrist: L\u00f8rdag kl 23:59\n                 \nHusk \u00e5 ta med \n- Karatepass\n- Drikkeflaske med vann\n- Leggbeskyttere\n- Handsker\n- Syllabus \n\nGraderingen starter 18:00, s\u00e5 alle ut\u00f8vere m\u00e5 ha varmet opp p\u00e5 forh\u00e5nd. M\u00f8t opp 17:30. \n\nDet stilles krav til utstyr; ren drakt og riktig knyttet belte. \n\nOransje belte og oppover > Ta med hansker, leggbeskyttere og syllabussen, test deg selv og andre. Det forventes at dere kan alt til det beltet dere skal opp til, og alle foreg\u00e5ende belter dere har tatt: Stillinger, slag, spark, blokkeringer og Kata, i tillegg til styrkekravene og Dojo Kun (budene p\u00e5 side 6 i syllabuss). \n\nSe p\u00e5 https://www.algardkarate.net/syllabus/ s\u00e5 finner du det du skal opp til \n\nHar du ikke syllabus eller mistet den, du kan kj\u00f8pe hos oss eller laste ned fra https://drive.google.com/drive/folders/1KURHMkTBFPJP_HPl8ZeDddQX2BXp1GfI\n\n\n\nLykke til!     Respekter alltid en Sihan!                                        \n\nOsu!",
+    "location": "B\u00e6rland skole, Barliveien 5, \u00c5lg\u00e5rd",
+    "cancelled": false
+  },
+  {
+    "id": "46F44C36EBFD4143A5E825E7CF0C344B",
+    "title": "Sesongavslutning",
+    "start": "2026-12-17T18:00:00",
+    "end": "2026-12-17T20:00:00",
+    "description": "OBS!! p\u00e5meldingsfrist siden vi m\u00e5 vite hvor mange som kommer.\n\nSom sesongavslutning inviter vi til hyggelig kveld med pizza for alle medlemmer, trenere og styret. Det er fleksibel slutttid. De yngste kan hentes n\u00e5r det passer. De eldste g\u00e5r senest kl. 20:00. vel m\u00f8tt. Osu! \n\nDet koster ingenting \u00e5 v\u00e6re med.\n\nVi har glutenfri pizza, pizza med kun ost og saus og drikke (brus, saft, vann).",
+    "location": "Fritidsklubben B\u00e6rland skole Barliveien, \u00c5lg\u00e5rd",
+    "cancelled": false
+  },
+  {
+    "id": "F190974E65FC4906B4723F01CECB3254",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-01-11T18:00:00",
+    "end": "2027-01-11T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "8D0C56FBF25B4B1685D43511020743C0",
+    "title": "Karatetrening graderte",
+    "start": "2027-01-11T19:00:00",
+    "end": "2027-01-11T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "85598D3BF93E49028C352465103042B2",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-01-13T18:00:00",
+    "end": "2027-01-13T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "6B511E2837CC4E86BD1BD1EBF7E8CF35",
+    "title": "Karatetrening graderte",
+    "start": "2027-01-13T19:00:00",
+    "end": "2027-01-13T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "E1344F2CB127499B8A4B4389A819DA4D",
+    "title": "Kamptrening graderte",
+    "start": "2027-01-14T19:00:00",
+    "end": "2027-01-14T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "9CD366908FFB4B1D9C0969A55DFFFDA0",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-01-18T18:00:00",
+    "end": "2027-01-18T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "93877D85DBD44C6093AFD4B4F811A500",
+    "title": "Karatetrening graderte",
+    "start": "2027-01-18T19:00:00",
+    "end": "2027-01-18T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "957A9BFF35F743BA9FB93F336B913250",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-01-20T18:00:00",
+    "end": "2027-01-20T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "885ABBFF30FB49F18F8F771F26E12504",
+    "title": "Karatetrening graderte",
+    "start": "2027-01-20T19:00:00",
+    "end": "2027-01-20T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "6CB62D7B10B84275838A3B1B71E3E6F7",
+    "title": "Kamptrening graderte",
+    "start": "2027-01-21T19:00:00",
+    "end": "2027-01-21T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "CC037652F32645D386E970707DBCDFDE",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-01-25T18:00:00",
+    "end": "2027-01-25T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "3DD6A352371D4DF5B6F0CF3A4CAE6C44",
+    "title": "Karatetrening graderte",
+    "start": "2027-01-25T19:00:00",
+    "end": "2027-01-25T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "840E4D8F343C45BCB4C51DD0699F4C93",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-01-27T18:00:00",
+    "end": "2027-01-27T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "14D0DFE13FCD476F935179F50FD1FA25",
+    "title": "Karatetrening graderte",
+    "start": "2027-01-27T19:00:00",
+    "end": "2027-01-27T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "E333CB5E7AB0426FABA3252459534C2F",
+    "title": "Kamptrening graderte",
+    "start": "2027-01-28T19:00:00",
+    "end": "2027-01-28T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "58FB4C8E21FF432B8640893F3C091A93",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-02-01T18:00:00",
+    "end": "2027-02-01T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "1F2190193ABC4D32A9445127BAB3AE4E",
+    "title": "Karatetrening graderte",
+    "start": "2027-02-01T19:00:00",
+    "end": "2027-02-01T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "1D02F31B1AA74314BACE48C9A4F963FB",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-02-03T18:00:00",
+    "end": "2027-02-03T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "A9AA3D23DBDE480FAD5DE4A7C88EECB3",
+    "title": "Karatetrening graderte",
+    "start": "2027-02-03T19:00:00",
+    "end": "2027-02-03T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "DBE3827912174E90AD037420D1631844",
+    "title": "Kamptrening graderte",
+    "start": "2027-02-04T19:00:00",
+    "end": "2027-02-04T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "4D5094E252324DD190A6E5D926D4953F",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-02-08T18:00:00",
+    "end": "2027-02-08T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "45DEB95C32124F3B8B4778E51831C7CB",
+    "title": "Karatetrening graderte",
+    "start": "2027-02-08T19:00:00",
+    "end": "2027-02-08T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "62931AA99D4741F7A06F3D4F0E42DBCB",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-02-10T18:00:00",
+    "end": "2027-02-10T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "9CFAE4AB284045A5AE656F08E10421EE",
+    "title": "Karatetrening graderte",
+    "start": "2027-02-10T19:00:00",
+    "end": "2027-02-10T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "8584A3B5986845AF91426451498138F7",
+    "title": "Kamptrening graderte",
+    "start": "2027-02-11T19:00:00",
+    "end": "2027-02-11T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "D727026B00224B18B1A5B55C1F3B4B91",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-02-15T18:00:00",
+    "end": "2027-02-15T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "607B0C52FEF840E280F995B10D0E441A",
+    "title": "Karatetrening graderte",
+    "start": "2027-02-15T19:00:00",
+    "end": "2027-02-15T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "62B6098BF8E84E109B9D453A8D3DE6D2",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-02-17T18:00:00",
+    "end": "2027-02-17T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "C2FA51EB02264C1EBC75148B402A67C3",
+    "title": "Karatetrening graderte",
+    "start": "2027-02-17T19:00:00",
+    "end": "2027-02-17T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "E4DD43275BFE4D04A98479E662B248BC",
+    "title": "Kamptrening graderte",
+    "start": "2027-02-18T19:00:00",
+    "end": "2027-02-18T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "D5ABC6CA418140A8AB2A7896B8D14C46",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-02-22T18:00:00",
+    "end": "2027-02-22T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "3EF35A2B40BC451285D883AD787B60C5",
+    "title": "Karatetrening graderte",
+    "start": "2027-02-22T19:00:00",
+    "end": "2027-02-22T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "4CA015B789FF4746A3D56D982F6D0ECA",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-02-24T18:00:00",
+    "end": "2027-02-24T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "EB014BAD19784C8C9F28CBA9C5D7E96A",
+    "title": "Karatetrening graderte",
+    "start": "2027-02-24T19:00:00",
+    "end": "2027-02-24T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "ED566A3EAC9046948B13C92702FEB2AE",
+    "title": "Kamptrening graderte",
+    "start": "2027-02-25T19:00:00",
+    "end": "2027-02-25T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "0EFA89A37BA64E16BF7F14439071DBA5",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-03-01T18:00:00",
+    "end": "2027-03-01T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "57DF233B426B4CB988388C8EF6200AEE",
+    "title": "Karatetrening graderte",
+    "start": "2027-03-01T19:00:00",
+    "end": "2027-03-01T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "94CD36CF3584493FBD657E6E982EF841",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-03-03T18:00:00",
+    "end": "2027-03-03T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "71C17ADA44204BCD87EEB9ED2CF50ABB",
+    "title": "Karatetrening graderte",
+    "start": "2027-03-03T19:00:00",
+    "end": "2027-03-03T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "D9D75F6C6ABD437587D589A6849F0C59",
+    "title": "Kamptrening graderte",
+    "start": "2027-03-04T19:00:00",
+    "end": "2027-03-04T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "535D966349CF404183775C0CDED3A07A",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-03-08T18:00:00",
+    "end": "2027-03-08T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "9D1BB80BA9B647F390160F7A41FEE70B",
+    "title": "Karatetrening graderte",
+    "start": "2027-03-08T19:00:00",
+    "end": "2027-03-08T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "7BD2CABDFA18488AB1C120C3DF2AB5F3",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-03-10T18:00:00",
+    "end": "2027-03-10T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "E63F8F0F2D39432A8D426534F91E0965",
+    "title": "Karatetrening graderte",
+    "start": "2027-03-10T19:00:00",
+    "end": "2027-03-10T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "5FBFBEACD79E4AE1B4C6DA5EB1854F08",
+    "title": "Kamptrening graderte",
+    "start": "2027-03-11T19:00:00",
+    "end": "2027-03-11T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "7B2F3B60B3A7426FBD9236F79E282A6B",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-03-15T18:00:00",
+    "end": "2027-03-15T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "449A2A1A42464B03B35C5C5AC4A824EB",
+    "title": "Karatetrening graderte",
+    "start": "2027-03-15T19:00:00",
+    "end": "2027-03-15T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "E8D233DAAB274D95AF746C71E6521D9B",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-03-17T18:00:00",
+    "end": "2027-03-17T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "1F57B17304E0407D9A167C683F2C9948",
+    "title": "Karatetrening graderte",
+    "start": "2027-03-17T19:00:00",
+    "end": "2027-03-17T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "CB5D661E89E0404D8AFD9E2709BE6F2E",
+    "title": "Kamptrening graderte",
+    "start": "2027-03-18T19:00:00",
+    "end": "2027-03-18T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "0A76EFA6FCA941ECB92D41F0D22F7928",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-03-29T18:00:00",
+    "end": "2027-03-29T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "0FF2D07478D64F1CA2FD27E842313AF8",
+    "title": "Karatetrening graderte",
+    "start": "2027-03-29T19:00:00",
+    "end": "2027-03-29T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "76C46B08FA0D490F96F592ACC7AAC70F",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-03-31T18:00:00",
+    "end": "2027-03-31T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "20301D6099AA4A309061F53D8F42DE13",
+    "title": "Karatetrening graderte",
+    "start": "2027-03-31T19:00:00",
+    "end": "2027-03-31T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "58B2A94E2896442B8597444A4923807C",
+    "title": "Kamptrening graderte",
+    "start": "2027-04-01T19:00:00",
+    "end": "2027-04-01T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "9A41B25261CB4614B19B317FD57A3635",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-04-05T18:00:00",
+    "end": "2027-04-05T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "DBF785157F5845D99FD17155C33142EF",
+    "title": "Karatetrening graderte",
+    "start": "2027-04-05T19:00:00",
+    "end": "2027-04-05T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "A622C22F46A54C29921212B9B20AE02B",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-04-07T18:00:00",
+    "end": "2027-04-07T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "73E8829B43764CD89E92D206068DABF7",
+    "title": "Karatetrening graderte",
+    "start": "2027-04-07T19:00:00",
+    "end": "2027-04-07T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "B2F606D6B108472A8E29CB3306F493A3",
+    "title": "Kamptrening graderte",
+    "start": "2027-04-08T19:00:00",
+    "end": "2027-04-08T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "E32BBC17D39D4F089D35C8FA6129D1CB",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-04-12T18:00:00",
+    "end": "2027-04-12T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "59339D956AF34CDBB77AB5F70B211828",
+    "title": "Karatetrening graderte",
+    "start": "2027-04-12T19:00:00",
+    "end": "2027-04-12T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "772F6BB57E0A4FFDB579B7DFFC6FD501",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-04-14T18:00:00",
+    "end": "2027-04-14T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "118AE2AA3DBE4152BBD9B0CC4FAC349A",
+    "title": "Karatetrening graderte",
+    "start": "2027-04-14T19:00:00",
+    "end": "2027-04-14T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "725BE5CEFA8941DCB49DCC0A201D827B",
+    "title": "Kamptrening graderte",
+    "start": "2027-04-15T19:00:00",
+    "end": "2027-04-15T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "12F72C850E284EFAB4B1CBDB0E5620E2",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-04-19T18:00:00",
+    "end": "2027-04-19T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "72C8755191844DD0932A8BF4F8AC3139",
+    "title": "Karatetrening graderte",
+    "start": "2027-04-19T19:00:00",
+    "end": "2027-04-19T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "C400526A248040D6993E977B84357466",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-04-21T18:00:00",
+    "end": "2027-04-21T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "DDE8C4BC718F4AEFB414A0D78BEDF72A",
+    "title": "Karatetrening graderte",
+    "start": "2027-04-21T19:00:00",
+    "end": "2027-04-21T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "26ED2A61A73F4E92A13BA47996C418BF",
+    "title": "Kamptrening graderte",
+    "start": "2027-04-22T19:00:00",
+    "end": "2027-04-22T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "AC774A2FC4FB47B3ABB6FDF4393DB684",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-04-26T18:00:00",
+    "end": "2027-04-26T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "C23511F3F1AB49C2B43F1C06CD669916",
+    "title": "Karatetrening graderte",
+    "start": "2027-04-26T19:00:00",
+    "end": "2027-04-26T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "6E700984F65D4129BAD8D91711430585",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-04-28T18:00:00",
+    "end": "2027-04-28T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "309C46E3A1A84C9498A9462C6C5B6FEF",
+    "title": "Karatetrening graderte",
+    "start": "2027-04-28T19:00:00",
+    "end": "2027-04-28T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "C9DCEE86D7DE4F24916302F719E35056",
+    "title": "Kamptrening graderte",
+    "start": "2027-04-29T19:00:00",
+    "end": "2027-04-29T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "A21880ACE6CC448894109CBCC744B659",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-05-03T18:00:00",
+    "end": "2027-05-03T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "434464B841724804807F9FCEB2A92A49",
+    "title": "Karatetrening graderte",
+    "start": "2027-05-03T19:00:00",
+    "end": "2027-05-03T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "155D380D4D19404EA8C4200381D75D0A",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-05-05T18:00:00",
+    "end": "2027-05-05T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "493007C67B01441487979694A1E80114",
+    "title": "Karatetrening graderte",
+    "start": "2027-05-05T19:00:00",
+    "end": "2027-05-05T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "E99A5C06BF4D4956887BA8C012D6C2A9",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-05-10T18:00:00",
+    "end": "2027-05-10T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "334F0C9C3F8F416AAC391BBC0C5D2202",
+    "title": "Karatetrening graderte",
+    "start": "2027-05-10T19:00:00",
+    "end": "2027-05-10T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "CEF3522AA20C4CAB95B18C008245C12F",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-05-12T18:00:00",
+    "end": "2027-05-12T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "2DDC2A8CA8D446DD89DE59CB89299B4C",
+    "title": "Karatetrening graderte",
+    "start": "2027-05-12T19:00:00",
+    "end": "2027-05-12T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "0C3DE6CC9CB94404B94E5ACF24DC241E",
+    "title": "Kamptrening graderte",
+    "start": "2027-05-13T19:00:00",
+    "end": "2027-05-13T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "6BD898AE9DDF49BF9FE8CFCC4BD3E133",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-05-19T18:00:00",
+    "end": "2027-05-19T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "D3C109A80C5B4A8EB0A18270CB776D2C",
+    "title": "Karatetrening graderte",
+    "start": "2027-05-19T19:00:00",
+    "end": "2027-05-19T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "D28A4399704B489EBBC5F67BE9A9A5FB",
+    "title": "Kamptrening graderte",
+    "start": "2027-05-20T19:00:00",
+    "end": "2027-05-20T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "8050408D5D524B718BE367EDADBF5BFD",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-05-24T18:00:00",
+    "end": "2027-05-24T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "1EC6FF629D56494986838820C3462AD8",
+    "title": "Karatetrening graderte",
+    "start": "2027-05-24T19:00:00",
+    "end": "2027-05-24T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "54AC5B75F4394BC680FB2FD55E26E115",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-05-26T18:00:00",
+    "end": "2027-05-26T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "4731904A85BF42C59484662AE91E1687",
+    "title": "Karatetrening graderte",
+    "start": "2027-05-26T19:00:00",
+    "end": "2027-05-26T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "22BAFFD3F14B4510B9C038A37393D7D0",
+    "title": "Kamptrening graderte",
+    "start": "2027-05-27T19:00:00",
+    "end": "2027-05-27T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "69661A674FDB44C98BFFE03139B2F63B",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-05-31T18:00:00",
+    "end": "2027-05-31T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "BEA5F9ADE60D42FE8F9AA81D926973AB",
+    "title": "Karatetrening graderte",
+    "start": "2027-05-31T19:00:00",
+    "end": "2027-05-31T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "EE69F64218A44996807C66F9AE0B9C02",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-06-02T18:00:00",
+    "end": "2027-06-02T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "7D29B97D4EBE4D479B6CE01E3F767E41",
+    "title": "Karatetrening graderte",
+    "start": "2027-06-02T19:00:00",
+    "end": "2027-06-02T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "3071C76020CB4BE681B3FB5B5018F0BB",
+    "title": "Kamptrening graderte",
+    "start": "2027-06-03T19:00:00",
+    "end": "2027-06-03T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "8451EF2E20AD408699806082BBF527B5",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-06-07T18:00:00",
+    "end": "2027-06-07T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "2C45B8AAF8554E56A80EEDA808CBCC5A",
+    "title": "Karatetrening graderte",
+    "start": "2027-06-07T19:00:00",
+    "end": "2027-06-07T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "AA7B1CC8A9904D128451F9629EE9F283",
+    "title": "Karatetrening Nybegynnere + Oransje belte",
+    "start": "2027-06-09T18:00:00",
+    "end": "2027-06-09T19:00:00",
+    "description": "Velkommen til karatetrening for nybegynnere og oransje belte\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet.\n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering gjerne registrer i spond om du kommer.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- F\u00f8rste treningene kan gj\u00f8res i vanlig treningskl\u00e6r, vi trener uten sokker og sko.\n   Har du karatedrakt m\u00e5 du ta den p\u00e5.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "405879441AC34C3DAB47595D81461D08",
+    "title": "Karatetrening graderte",
+    "start": "2027-06-09T19:00:00",
+    "end": "2027-06-09T20:30:00",
+    "description": "Velkommen til karatetrening\n\nVi skal trene inne i gymsalen men hvis det er fint v\u00e6r kan det hende vi trener ute.\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med drikkeflaske med vann.\n- Det blir oppm\u00f8teregistrering i tilfelle det trengs smittesporing.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi trener i karatedrakt (Gi)\n- Sett mobil i flymodus eller skru den av.\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "ACE622E6C42943178A0FAAA79351BE3F",
+    "title": "Kamptrening graderte",
+    "start": "2027-06-10T19:00:00",
+    "end": "2027-06-10T20:30:00",
+    "description": "Velkommen til kamptrening\nOBS!!  P\u00e5melding plikt trykk p\u00e5 delta eller avsl\u00e5 i Spond\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n- Ta med leggbeskyttelse og handsker hvis du har.\n- Ta med drikkeflaske med vann.\n- Toalett kan brukes men helst g\u00e5 p\u00e5 do f\u00f8r du kommer p\u00e5 trening.\n- Vi skal rett inn og ut av gymsal og ikke ha un\u00f8dvendig opphold i bygget.\n- Vi trener i REN! karatedrakt  :-)\n- Sett mobil i flymodus eller skru den av.\n- Er du syk, har du mistet smak og luktesans, har du feber, eller lignede hold deg hjemme, ellers velkommen.\n\n\u00c5lg\u00e5rd Karateklubb f\u00f8lger retningslinjene til Norges idrettsforbund og Kampsportforbundet. \n\n\nOsu!",
+    "location": "Gymsalen B\u00e6rland skole",
+    "cancelled": false
+  },
+  {
+    "id": "F520BCBB3744455D9B41A1ED77021DB0",
+    "title": "Nybegynner gradering",
+    "start": "2027-06-14T18:00:00",
+    "end": "2027-06-14T19:30:00",
+    "description": "Kl: 18:00 (oppm\u00f8te 17:30)\nSted: Gymsalen p\u00e5 B\u00e6rland skole\nPris:  Min f\u00f8rste gradering: 400Kr \ni pakken f\u00e5r du:\n- oransje belte.   (100 kr)\n- karatepass       (100 kr) \n- kostnader for gradering. (200kr)\nP\u00e5meldingsfrist: L\u00f8rdag kl 23:59\n\nPris gradering etter p\u00e5meldingsfrist:   \n       - Min f\u00f8rste gradering: 400Kr \n       - Gebyr - 100 Kr\n         \nOg husk \u00e5 ta med drikkeflaske med vann\n\nGraderingen starter 18:00, s\u00e5 alle ut\u00f8vere m\u00e5 ha varmet opp p\u00e5 forh\u00e5nd. M\u00f8t opp 17:30. \nSlutttid er sirka 19:30 siden det er mange ut\u00f8vere  som skal graderes\n\nDet stilles krav til utstyr; ren drakt og riktig knyttet belte. \n\nGradering er \u00e5 vise dine kunnskaper det du har l\u00e6rt gjennom trening og etter vel gjennomf\u00f8rt gradering blir du bel\u00f8nnet med en ny grad.\nP\u00e5 v\u00e5r webside finner du mer informasjon om hvilken belte som finnes https://www.algardkarate.net/algardkarate/belte/\nHer finner du ogs\u00e5 video om hvordan belte skal knyttes.\n\nP\u00e5 https://www.algardkarate.net/algardkarate/10-kyu-oransje-belte/  finner du det du skal vite om \u00e5 gjennomf\u00f8re gradering.\nAlt dette har vi g\u00e5tt gjennom p\u00e5 trening flere ganger.\n\nSyllabus som vi bruker kan lastes ned her https://www.algardkarate.net/algardkarate/downloads/\nMappe: Syllabus\nDokument: KWO_Syllabus_2010 full_v-2-1.pdf\n\nhttps://drive.google.com/drive/folders/1KURHMkTBFPJP_HPl8ZeDddQX2BXp1GfI\n\n\nFor \u00e5 ikke forstyrre graderingen kan vi dessverre ikke ta imot tilskuere.\n\nLykke til og respekter alltid en Senpai!\n                            \n\t\t\t\t\t\t\tOSU!",
+    "location": "B\u00e6rland skole, Barliveien 5, \u00c5lg\u00e5rd",
+    "cancelled": false
+  },
+  {
+    "id": "DD117F0847934146BF9E29F1F8BD44D0",
+    "title": "Gradering + ny belte",
+    "start": "2027-06-14T18:00:00",
+    "end": "2027-06-14T20:00:00",
+    "description": "Kl: 18:00 (oppm\u00f8te 17:30)\nSted: Gymsalen p\u00e5 B\u00e6rland skole\nPris:  Gradering - 200 Kr, \nNy belte \u2013 150 kr\nPass \u2013 100 kr.          (hvis du ikke har den mer)\n\nPris gradering etter p\u00e5meldingsfrist:   \n      Gradering - 200 Kr,\nNy belte \u2013 150 kr\n       Gebyr - 100 Kr\nP\u00e5meldingsfrist: L\u00f8rdag kl 23:59\n                 \nHusk \u00e5 ta med \n- Karatepass\n- Drikkeflaske med vann\n- Leggbeskyttere\n- Handsker\n- Syllabus \n\nGraderingen starter 18:00, s\u00e5 alle ut\u00f8vere m\u00e5 ha varmet opp p\u00e5 forh\u00e5nd. M\u00f8t opp 17:30. \n\nDet stilles krav til utstyr; ren drakt og riktig knyttet belte. \n\nOransje belte og oppover > Ta med hansker, leggbeskyttere og syllabussen, test deg selv og andre. Det forventes at dere kan alt til det beltet dere skal opp til, og alle foreg\u00e5ende belter dere har tatt: Stillinger, slag, spark, blokkeringer og Kata, i tillegg til styrkekravene og Dojo Kun (budene p\u00e5 side 6 i syllabuss). \n\nSe p\u00e5 algardkarate.net/algardkarate/category/syllabus s\u00e5 finner du det du skal opp til \n\nHar du ikke syllabus eller mistet den, du kan kj\u00f8pe hos oss eller laste ned fra algardkarate.net/algardkarate/downloads/ KWO Syllabus 2010 full v 2.1.pdf\n\n\n\nLykke til!     Respekter alltid en Sihan!                                        \n\nOsu!",
+    "location": "B\u00e6rland skole, Barliveien 5, \u00c5lg\u00e5rd",
+    "cancelled": false
+  },
+  {
+    "id": "D6A316EC334748E4938CBCFF248B41E0",
+    "title": "Gradering",
+    "start": "2027-06-14T18:00:00",
+    "end": "2027-06-14T20:00:00",
+    "description": "Kl: 18:00 (oppm\u00f8te 17:30)\nSted: Gymsalen p\u00e5 B\u00e6rland skole\nPris:  Gradering - 200 Kr, \nPass \u2013 100 kr.          (hvis du ikke har den mer)\n\nPris gradering etter p\u00e5meldingsfrist:   \n      Gradering - 200 Kr,\n       Gebyr - 100 Kr\nP\u00e5meldingsfrist: L\u00f8rdag kl 23:59\n                 \nHusk \u00e5 ta med \n- Karatepass\n- Drikkeflaske med vann\n- Leggbeskyttere\n- Handsker\n- Syllabus \n\nGraderingen starter 18:00, s\u00e5 alle ut\u00f8vere m\u00e5 ha varmet opp p\u00e5 forh\u00e5nd. M\u00f8t opp 17:30. \n\nDet stilles krav til utstyr; ren drakt og riktig knyttet belte. \n\nOransje belte og oppover > Ta med hansker, leggbeskyttere og syllabussen, test deg selv og andre. Det forventes at dere kan alt til det beltet dere skal opp til, og alle foreg\u00e5ende belter dere har tatt: Stillinger, slag, spark, blokkeringer og Kata, i tillegg til styrkekravene og Dojo Kun (budene p\u00e5 side 6 i syllabuss). \n\nSe p\u00e5 algardkarate.net/algardkarate/category/syllabus s\u00e5 finner du det du skal opp til \n\nHar du ikke syllabus eller mistet den, du kan kj\u00f8pe hos oss eller laste ned fra algardkarate.net/algardkarate/downloads/ KWO Syllabus 2010 full v 2.1.pdf\n\n\n\nLykke til!     Respekter alltid en Sihan!                                        \n\nOsu!",
+    "location": "B\u00e6rland skole, Barliveien 5, \u00c5lg\u00e5rd",
+    "cancelled": false
+  },
+  {
+    "id": "D8BFEBFE1D0E433FA3595D3123479586",
+    "title": "Sesongavslutning",
+    "start": "2027-06-16T18:00:00",
+    "end": "2027-06-16T20:00:00",
+    "description": "OBS!! p\u00e5meldingsfrist siden vi m\u00e5 vite hvor mange som kommer.\n\nSom sesongavslutning inviter vi til hyggelig kveld med pizza for alle medlemmer, trenere og styret. Det er fleksibel slutttid. De yngste kan hentes n\u00e5r det passer. De eldste g\u00e5r senest kl. 20:00. vel m\u00f8tt. Osu! \n\nDet koster ingenting \u00e5 v\u00e6re med.\n\nVi har glutenfri pizza, pizza med kun ost og saus og drikke (brus, saft, vann).",
+    "location": "Fritidsklubben B\u00e6rland skole Barliveien, \u00c5lg\u00e5rd",
     "cancelled": false
   }
 ]
