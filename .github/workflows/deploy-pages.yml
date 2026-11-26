@@ -33,13 +33,6 @@ jobs:
       - name: Install Python dependencies
         run: pip install spond requests
 
-      - name: Fetch Spond events
-        env:
-          SPOND_USERNAME: ${{ secrets.SPOND_USERNAME }}
-          SPOND_PASSWORD: ${{ secrets.SPOND_PASSWORD }}
-        run: python scripts/fetch_spond_events.py
-        continue-on-error: true
-
       - name: Fetch kampsport.no Fullkontakt events
         run: python scripts/fetch_kampsport_events.py
         continue-on-error: true
